@@ -1,6 +1,6 @@
 # Download Files with Directory Structure Script
 
-This repository contains a Bash script that automates the process of downloading files from a list of URLs. The script creates a local directory structure based on the URL's path starting after the domain, then downloads each file into its respective folder. If a URL does not include any directories after the domain, the file is downloaded directly into the current directory.
+This repository contains a Bash script that automates the process of downloading files from a list of URLs. The script creates a local directory structure based on the URL's path starting after the domain, then downloads each file into its respective folder. **If a file already exists locally, the script will skip downloading it.**
 
 ## How It Works
 
@@ -18,13 +18,16 @@ This repository contains a Bash script that automates the process of downloading
 4. **Creating Directories:**  
    If the URL includes directories (e.g., `swiper/`), the script automatically creates those directories using `mkdir -p`.
 
-5. **Downloading Files:**  
-   Finally, the script uses `curl` to download the file into the correct directory. The `-L` flag is used to follow any redirects.
+5. **Skipping Existing Files:**  
+   Before downloading, the script checks if the file already exists locally. If it does, the file is skipped.
+
+6. **Downloading Files:**  
+   If the file does not exist, the script uses `curl` with the `-L` flag (to follow redirects) to download it into the correct directory.
 
 ## Requirements
 
-- **Bash:** The script is written in Bash and should work on any Unix-like system.
-- **curl:** Make sure that `curl` is installed on your system.
+- **Bash:** The script is written in Bash and works on any Unix-like system.
+- **curl:** Ensure that `curl` is installed on your system.
 
 ## Usage
 
