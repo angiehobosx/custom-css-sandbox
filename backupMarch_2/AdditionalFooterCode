@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Footer Component</title>
+    z
+    <!-- Load Common Ninja SDK -->
+    <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+    <!-- This script loads the Common Ninja SDK for integrating Common Ninja components. -->
+
+    <!-- Twemoji Library for rendering emojis -->
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include jQuery UI for accordion functionality -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    
+    <!-- (Optional) Additional CSS/JS for your project can go here -->
+  </head>
+  <body>
+    <!-- Common Ninja Component -->
+    <div class="commonninja_component pid-678beaf3-a8df-48bb-9242-fd4035491feb"></div>
+    <!-- The above div is where the Common Ninja component will be rendered. -->
+
+    <!-- Footer Content -->
+    <!-- Your footer-specific content goes here -->
+
+    <!-- Emoji Parsing and Fallback Script -->
+    <script>
+      // Wait for the DOM to fully load before parsing emojis
+      document.addEventListener("DOMContentLoaded", function () {
+        // Parse emojis using Twemoji with SVG support
+        twemoji.parse(document.body, { folder: "svg", ext: ".svg" });
+      });
+
+      // Function to check if the browser supports native emoji rendering
+      function supportsEmoji() {
+        const canvas = document.createElement("canvas");
+        if (!canvas.getContext) return false; // Canvas not supported
+        const ctx = canvas.getContext("2d");
+        ctx.font = "32px Arial";
+        ctx.fillText("?", 0, 32);
+        return ctx.getImageData(0, 0, 32, 32).data.some(channel => channel !== 0);
+      }
+
+      // Apply a fallback font if native emoji rendering is not supported
+      if (!supportsEmoji()) {
+        document.body.style.fontFamily = '"Noto Color Emoji", "Twemoji", sans-serif';
+      }
+    </script>
+
+    <!-- Accordion Initialization Script -->
+    <script>
+      // Initialize the accordion (ensure an element with ID "accordion" exists)
+      $(function() {
+        $("#accordion").accordion();
+      });
+    </script>
+
+    <!-- FAQ Toggle Script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Get all FAQ question elements
+        const faqQuestions = document.querySelectorAll('.faq-question');
+
+        // Add a click event listener to each FAQ question
+        faqQuestions.forEach(question => {
+          question.addEventListener('click', function() {
+            const currentActive = document.querySelector('.faq-item.active');
+            // Toggle the 'active' class on the parent .faq-item of the clicked question
+            this.parentNode.classList.toggle('active');
+
+            // Close any previously active FAQ item except the current one
+            if (currentActive && currentActive !== this.parentNode) {
+              currentActive.classList.remove('active');
+            }
+
+            // Toggle the arrow direction and visibility of the answer
+            const answer = this.nextElementSibling;
+            if (this.parentNode.classList.contains('active')) {
+              answer.style.maxHeight = answer.scrollHeight + 'px';
+              this.querySelector('.faq-arrow').style.transform = 'rotate(180deg)';
+            } else {
+              answer.style.maxHeight = '0';
+              this.querySelector('.faq-arrow').style.transform = 'rotate(0deg)';
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
