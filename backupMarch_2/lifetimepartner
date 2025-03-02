@@ -1,0 +1,271 @@
+<section id="LegacyVSOs" class="py-20 bg-white">
+	<div class="container mx-auto px-4" id="el-c2sfddxn">
+
+		<h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-[#010839] animate__animated animate__fadeIn" id="el-bztvfn0f" style="visibility: visible;">Major Legacy Veteran Service Organizations (VSOs)</h2>
+		<div class="w-24 h-1 bg-[#ffa500] mx-auto mb-12" id="el-9404avhi">
+			<br>
+		</div>
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="el-qmk2vsfs">
+			<!-- VFW Card -->
+			<div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 card-expand animate__animated animate__fadeInUp" id="el-bdo4d0yz" style="visibility: visible;">
+				<div class="p-6" id="el-ymkyl3oh">
+					<div class="bg-[#010839] rounded-lg p-4 mb-4" id="el-6fduj3gf">
+
+						<h3 class="text-white text-xl font-bold text-center" id="el-q24fk3n6">Veterans of Foreign Wars (VFW)</h3>
+					</div>
+
+					<p class="text-gray-500 text-sm mb-4" id="el-gz820zyw">Founded: 1899</p>
+
+					<p class="text-gray-700 mb-4" id="el-kf6w42vp">America&#39;s largest and oldest war veterans organization, advocating for veterans&#39; rights and providing community service.</p>
+					<div class="hidden card-details" id="el-7j26dzsn">
+						<div class="border-t pt-4 mt-4" id="el-99nxb0tg">
+
+							<p class="text-[#bb0000] font-semibold" id="el-1tao5157">Impact Highlights:</p>
+
+							<ul class="list-disc list-inside text-gray-700 mt-2" id="el-5qbe239o">
+								<li id="el-c48urfsy">$90M+ in VA benefits claims annually</li>
+								<li id="el-4zqn0577">1.6M+ members worldwide</li>
+								<li id="el-kec0rwvv">6,000+ posts nationally</li>
+							</ul><a href="#" class="mt-4 inline-block bg-[#010839] text-white px-4 py-2 rounded hover:bg-[#bb0000] transition-colors" id="el-aw59esui">Learn More</a></div></div></div></div>
+			<!-- American Legion Card -->
+			<div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 card-expand animate__animated animate__fadeInUp" style="animation-delay: 0.2s; visibility: visible;" id="el-ly8f5obt">
+				<div class="p-6" id="el-y2csmjgq">
+					<div class="bg-[#010839] rounded-lg p-4 mb-4" id="el-qhswd4td">
+
+						<h3 class="text-white text-xl font-bold text-center" id="el-6bdy207b">The American Legion</h3>
+					</div>
+
+					<p class="text-gray-500 text-sm mb-4" id="el-pk129g0b">Founded: 1919</p>
+
+					<p class="text-gray-700 mb-4" id="el-0yrtybqk">The nation&#39;s largest wartime veterans service organization, committed to mentoring youth and sponsoring community programs.</p>
+					<div class="hidden card-details" id="el-b1bhyy71">
+						<div class="border-t pt-4 mt-4" id="el-8ekh5vyf">
+
+							<p class="text-[#bb0000] font-semibold" id="el-sydr0u8o">Impact Highlights:</p>
+
+							<ul class="list-disc list-inside text-gray-700 mt-2" id="el-9zgb5sto">
+								<li id="el-20sl3wuy">2M+ members strong</li>
+								<li id="el-9vxx3p3b">12,000+ posts worldwide</li>
+								<li id="el-mk9avrz0">$4M+ in scholarships annually</li>
+							</ul><a href="#" class="mt-4 inline-block bg-[#010839] text-white px-4 py-2 rounded hover:bg-[#bb0000] transition-colors" id="el-o57u0qrm">Learn More</a></div></div></div></div>
+			<!-- DAV Card -->
+			<div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 card-expand animate__animated animate__fadeInUp" style="animation-delay: 0.4s; visibility: visible;" id="el-2hzzrx86">
+				<div class="p-6" id="el-jhu4xlqb">
+					<div class="bg-[#010839] rounded-lg p-4 mb-4" id="el-k75fpopx">
+
+						<h3 class="text-white text-xl font-bold text-center" id="el-1m9vzr1z">Disabled American Veterans (DAV)</h3>
+					</div>
+
+					<p class="text-gray-500 text-sm mb-4" id="el-lb1wu6ws">Founded: 1920</p>
+
+					<p class="text-gray-700 mb-4" id="el-78s6bwe5">Empowering veterans to lead high-quality lives with respect and dignity, specializing in benefit assistance.</p>
+					<div class="hidden card-details" id="el-xfl4z3sb">
+						<div class="border-t pt-4 mt-4" id="el-sckmf2r8">
+
+							<p class="text-[#bb0000] font-semibold" id="el-zs8vfqdj">Impact Highlights:</p>
+
+							<ul class="list-disc list-inside text-gray-700 mt-2" id="el-4m694a6v">
+								<li id="el-vz5xjdvx">1M+ members nationwide</li>
+								<li id="el-2ehcdl5e">$24B+ in benefits secured</li>
+								<li id="el-u4i92zn3">600,000+ claims handled annually</li>
+							</ul><a href="#" class="mt-4 inline-block bg-[#010839] text-white px-4 py-2 rounded hover:bg-[#bb0000] transition-colors" id="el-l0v1siez">Learn More</a></div></div></div></div></div></div>
+</section>
+<section id="NonprofitPartners" class="py-20 bg-neutral-900">
+	<div class="container mx-auto px-4" id="el-se11jm3f">
+
+		<h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-white animate__animated animate__fadeIn" id="el-rel2dex4" style="visibility: visible;">Nonprofits with Decades of Impact</h2>
+		<div class="w-24 h-1 bg-[#ffa500] mx-auto mb-12" id="el-zvjsa9xs">
+			<br>
+		</div>
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="el-cwq6dul5">
+			<!-- USO Card -->
+			<div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 card-expand animate__animated animate__fadeInUp" id="el-tujsdyi0" style="visibility: visible;">
+				<div class="p-6" id="el-bsbdt25a">
+					<div class="bg-[#010839] rounded-lg p-4 mb-4" id="el-xi6rlo10">
+
+						<h3 class="text-white text-xl font-bold text-center" id="el-3oahi6em">United Service Organizations (USO)</h3>
+					</div>
+
+					<p class="text-gray-500 text-sm mb-4" id="el-0ydf16yi">Founded: 1941</p>
+
+					<p class="text-gray-700 mb-4" id="el-j8tv1lgv">Strengthening America&#39;s military service members by keeping them connected to family, home, and country.</p>
+					<div class="hidden card-details" id="el-av8ou5am">
+						<div class="border-t pt-4 mt-4" id="el-r59u09bd">
+
+							<p class="text-[#bb0000] font-semibold" id="el-t2xekqts">Impact Highlights:</p>
+
+							<ul class="list-disc list-inside text-gray-700 mt-2" id="el-eg7uhz9k">
+								<li id="el-sxvd7n8l">12.5M+ service connections annually</li>
+								<li id="el-r34gney1">230+ locations worldwide</li>
+								<li id="el-mx3fehg3">30,000+ volunteers globally</li>
+							</ul><a href="#" class="mt-4 inline-block bg-[#010839] text-white px-4 py-2 rounded hover:bg-[#bb0000] transition-colors" id="el-dcm064tw">Learn More</a></div></div></div></div>
+			<!-- Wounded Warrior Project Card -->
+			<div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 card-expand animate__animated animate__fadeInUp" style="animation-delay: 0.2s; visibility: visible;" id="el-jn3tagaq">
+				<div class="p-6" id="el-684o0eiy">
+					<div class="bg-[#010839] rounded-lg p-4 mb-4" id="el-nrufmi70">
+
+						<h3 class="text-white text-xl font-bold text-center" id="el-buulpa3x">Wounded Warrior Project</h3>
+					</div>
+
+					<p class="text-gray-500 text-sm mb-4" id="el-ajv9089y">Founded: 2003</p>
+
+					<p class="text-gray-700 mb-4" id="el-y8liph37">Honoring and empowering wounded warriors who incurred physical or mental injuries after September 11, 2001.</p>
+					<div class="hidden card-details" id="el-knaxxwlx">
+						<div class="border-t pt-4 mt-4" id="el-9b3afurx">
+
+							<p class="text-[#bb0000] font-semibold" id="el-ij8460w9">Impact Highlights:</p>
+
+							<ul class="list-disc list-inside text-gray-700 mt-2" id="el-uhv0lf74">
+								<li id="el-1v3lqzgf">150,000+ warriors served</li>
+								<li id="el-lr4byyjx">$200M+ invested in programs</li>
+								<li id="el-d9vy3kfj">40,000+ caregivers supported</li>
+							</ul><a href="#" class="mt-4 inline-block bg-[#010839] text-white px-4 py-2 rounded hover:bg-[#bb0000] transition-colors" id="el-3ddnzlrn">Learn More</a></div></div></div></div>
+			<!-- Fisher House Foundation Card -->
+			<div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 card-expand animate__animated animate__fadeInUp" style="animation-delay: 0.4s; visibility: visible;" id="el-5ts7isya">
+				<div class="p-6" id="el-g8efwa0r">
+					<div class="bg-[#010839] rounded-lg p-4 mb-4" id="el-kcybjc78">
+
+						<h3 class="text-white text-xl font-bold text-center" id="el-zow5dzd7">Fisher House Foundation</h3>
+					</div>
+
+					<p class="text-gray-500 text-sm mb-4" id="el-6x3665v9">Founded: 1990</p>
+
+					<p class="text-gray-700 mb-4" id="el-18q1br4k">Providing comfort homes for military and veteran families during medical treatment.</p>
+					<div class="hidden card-details" id="el-fdghvduh">
+						<div class="border-t pt-4 mt-4" id="el-8kuoxebt">
+
+							<p class="text-[#bb0000] font-semibold" id="el-r8dsrnj2">Impact Highlights:</p>
+
+							<ul class="list-disc list-inside text-gray-700 mt-2" id="el-ydlhfqov">
+								<li id="el-ixj0qz9i">92 houses worldwide</li>
+								<li id="el-s5ydh07h">413,000+ families served</li>
+								<li id="el-9ar9qfz3">$500M+ in savings to families</li>
+							</ul><a href="#" class="mt-4 inline-block bg-[#010839] text-white px-4 py-2 rounded hover:bg-[#bb0000] transition-colors" id="el-jg6f2jgj">Learn More</a></div></div></div></div></div></div>
+</section>
+<section id="OrganizationSpotlight" class="py-20 bg-white">
+	<div class="container mx-auto px-4" id="el-jv3e2b0z">
+
+		<h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-[#010839] animate__animated animate__fadeIn" id="el-esz5ha6t" style="visibility: visible;">Organization Spotlight</h2>
+		<div class="w-24 h-1 bg-[#ffa500] mx-auto mb-12" id="el-6hbuf6b2">
+			<br>
+		</div>
+		<div class="spotlight-carousel relative" id="el-b363vv2b">
+			<div class="overflow-hidden" id="el-2ga64tk4">
+				<div class="carousel-container flex transition-transform duration-500" id="el-h1zdi84z" style="transform: translateX(-100%);">
+					<!-- Spotlight Card 1 -->
+					<div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-4" id="el-e1006kdr">
+						<div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-[#bb0000]" id="el-lsgvs42h">
+
+							<h3 class="text-2xl font-bold text-[#010839] mb-3" id="el-6w1cx683">Gary Sinise Foundation</h3>
+
+							<p class="text-gray-600 mb-4" id="el-sjc9kh5n">Serving Our Nation by Honoring Our Defenders</p>
+							<div class="bg-neutral-100 p-4 rounded-lg mb-4" id="el-0keb0i2v">
+
+								<p class="text-[#1f7b19] font-bold mb-2" id="el-pxvkytzj">Recent Achievement</p>
+
+								<p class="text-gray-700" id="el-umftqvtf">Built 70+ specially adapted smart homes for severely wounded veterans</p>
+							</div>
+							<button class="w-full bg-[#010839] text-white py-2 rounded hover:bg-[#bb0000] transition-colors" id="el-lkniumlz">Read Full Story</button>
+						</div></div>
+					<!-- Spotlight Card 2 -->
+					<div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-4" id="el-ervpapq9">
+						<div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-[#ffa500]" id="el-sonzq2s5">
+
+							<h3 class="text-2xl font-bold text-[#010839] mb-3" id="el-esjg6sae">Semper Fi &amp; America&#39;s Fund</h3>
+
+							<p class="text-gray-600 mb-4" id="el-iwhvxhjg">Immediate Financial Assistance &amp; Lifetime Support</p>
+							<div class="bg-neutral-100 p-4 rounded-lg mb-4" id="el-cs1qlvb2">
+
+								<p class="text-[#1f7b19] font-bold mb-2" id="el-m5hhcwd8">Latest Impact</p>
+
+								<p class="text-gray-700" id="el-3sp06kiu">$25M+ distributed in 2022 to support combat wounded veterans</p>
+							</div>
+							<button class="w-full bg-[#010839] text-white py-2 rounded hover:bg-[#bb0000] transition-colors" id="el-wns9d4vj">Read Full Story</button>
+						</div></div>
+					<!-- Spotlight Card 3 -->
+					<div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-4" id="el-ggjnn9k3">
+						<div class="bg-white rounded-lg shadow-xl p-6 border-t-4 border-[#6cd4ff]" id="el-av5uc2ww">
+
+							<h3 class="text-2xl font-bold text-[#010839] mb-3" id="el-xxnlvwc5">Fisher House Foundation</h3>
+
+							<p class="text-gray-600 mb-4" id="el-r3gord8n">A Home Away from Home</p>
+							<div class="bg-neutral-100 p-4 rounded-lg mb-4" id="el-r5cs0kdf">
+
+								<p class="text-[#1f7b19] font-bold mb-2" id="el-9o86ljoe">Current Initiative</p>
+
+								<p class="text-gray-700" id="el-i4moj5sh">Opening 5 new Fisher Houses in 2023 to serve more military families</p>
+							</div>
+							<button class="w-full bg-[#010839] text-white py-2 rounded hover:bg-[#bb0000] transition-colors" id="el-lu0flze4">Read Full Story</button>
+						</div></div></div></div>
+			<!-- Navigation Buttons -->
+			<button class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-[#010839] text-white p-2 rounded-full hover:bg-[#bb0000] transition-colors carousel-prev" id="el-f57vul7q">&nbsp;</button>
+			<button class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#010839] text-white p-2 rounded-full hover:bg-[#bb0000] transition-colors carousel-next" id="el-dugh718w">&nbsp;</button>
+		</div></div>
+</section>
+<section id="Impact" class="py-20 bg-neutral-900 text-white">
+	<div class="container mx-auto px-4" id="el-czladpnq">
+
+		<h2 class="text-3xl md:text-4xl font-bold text-center mb-4 animate__animated animate__fadeIn" id="el-xvrw3oas" style="visibility: visible;">Collective Impact</h2>
+		<div class="w-24 h-1 bg-[#ffa500] mx-auto mb-12" id="el-mj4v2hfz">
+			<br>
+		</div>
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8" id="el-eh8i5c0w">
+			<!-- Impact Stat 1 -->
+			<div class="text-center p-6 bg-neutral-800 rounded-lg transform hover:scale-105 transition-transform duration-300 animate__animated animate__fadeInUp" id="el-dx4iu5v4" style="visibility: visible;">
+				<div class="text-[#ffa500] text-4xl font-bold mb-2 counter" data-target="10" id="el-s56jyfmj">10</div>
+				<div class="text-xl font-semibold mb-2" id="el-f6v6q427">Million+</div>
+
+				<p class="text-gray-300" id="el-9erukpkt">Veterans Supported Annually</p>
+			</div>
+			<!-- Impact Stat 2 -->
+			<div class="text-center p-6 bg-neutral-800 rounded-lg transform hover:scale-105 transition-transform duration-300 animate__animated animate__fadeInUp" style="animation-delay: 0.2s; visibility: visible;" id="el-ph5p5osq">
+				<div class="text-[#6cd4ff] text-4xl font-bold mb-2 counter" data-target="5" id="el-6jznbn5a">5</div>
+				<div class="text-xl font-semibold mb-2" id="el-mvbx4pva">Billion+</div>
+
+				<p class="text-gray-300" id="el-cgzx2u59">Benefits Secured</p>
+			</div>
+			<!-- Impact Stat 3 -->
+			<div class="text-center p-6 bg-neutral-800 rounded-lg transform hover:scale-105 transition-transform duration-300 animate__animated animate__fadeInUp" style="animation-delay: 0.4s; visibility: visible;" id="el-c0nld0q0">
+				<div class="text-[#1f7b19] text-4xl font-bold mb-2 counter" data-target="500" id="el-98dsihi3">500</div>
+				<div class="text-xl font-semibold mb-2" id="el-7li40iqw">Thousand+</div>
+
+				<p class="text-gray-300" id="el-wb5xjmrh">Families Housed</p>
+			</div>
+			<!-- Impact Stat 4 -->
+			<div class="text-center p-6 bg-neutral-800 rounded-lg transform hover:scale-105 transition-transform duration-300 animate__animated animate__fadeInUp" style="animation-delay: 0.6s; visibility: visible;" id="el-zno2eskf">
+				<div class="text-[#bb0000] text-4xl font-bold mb-2 counter" data-target="250" id="el-r04ejpzk">250</div>
+				<div class="text-xl font-semibold mb-2" id="el-pg1risri">Thousand+</div>
+
+				<p class="text-gray-300" id="el-2ne6x4n3">Jobs Secured</p>
+			</div></div>
+		<!-- Annual Growth -->
+		<div class="mt-16 bg-neutral-800 rounded-lg p-8 animate__animated animate__fadeIn" id="el-wemtco4z" style="visibility: visible;">
+
+			<h3 class="text-2xl font-bold mb-6 text-center" id="el-mz2ltntp">Year-Over-Year Growth in Support</h3>
+			<div class="space-y-6" id="el-9bi0tean">
+				<div class="relative pt-1" id="el-ewbe97wt">
+					<div class="flex mb-2 items-center justify-between" id="el-43h5m2uf">
+						<div class="text-[#ffa500]" id="el-49ihvmrz">Veteran Support</div>
+						<div class="text-[#ffa500] font-semibold" id="el-2wlg3xkd">85%</div></div>
+					<div class="bg-neutral-700 rounded-full" id="el-y8521sfb">
+						<div class="bg-[#ffa500] h-2 rounded-full" style="width: 85%;" id="el-warv27tq">
+							<br>
+						</div></div></div>
+				<div class="relative pt-1" id="el-twkjelnk">
+					<div class="flex mb-2 items-center justify-between" id="el-k02ihuob">
+						<div class="text-[#6cd4ff]" id="el-1h1cl84b">Resource Distribution</div>
+						<div class="text-[#6cd4ff] font-semibold" id="el-uc0ui9ky">92%</div></div>
+					<div class="bg-neutral-700 rounded-full" id="el-daw9pvvy">
+						<div class="bg-[#6cd4ff] h-2 rounded-full" style="width: 92%;" id="el-srj1bduh">
+							<br>
+						</div></div></div>
+				<div class="relative pt-1" id="el-5agqjuls">
+					<div class="flex mb-2 items-center justify-between" id="el-exmcyi79">
+						<div class="text-[#1f7b19]" id="el-3xhtajm8">Community Engagement</div>
+						<div class="text-[#1f7b19] font-semibold" id="el-zvn0xrjz">78%</div></div>
+					<div class="bg-neutral-700 rounded-full" id="el-xup6mgbb">
+						<div class="bg-[#1f7b19] h-2 rounded-full" style="width: 78%;" id="el-b2bqami9">
+							<br>
+						</div></div></div></div></div></div>
+</section>
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Affiliate tracker script: tracks affiliate data asynchronously -->
+    <script
+      src="https://pushlapgrowth.com/affiliate-tracker.js"
+      data-affiliate
+      data-program-id="c13c73fe-e93d-4d25-9291-8d2cf7b3f307"
+      async>
+    </script>
+   
+    
+  </head>
+  <body>
+    <!-- Your main body content goes here -->
+
+    <script>
+      // Function to check if the browser supports rendering emojis
+      function supportsEmoji() {
+        // Create a canvas element to test emoji rendering
+        const testCanvas = document.createElement("canvas");
+        if (!testCanvas.getContext) return false; // If canvas is not supported, assume no emoji support
+        const ctx = testCanvas.getContext("2d");
+        ctx.font = "32px Arial";
+        // Draw a test character (emoji or placeholder) on the canvas
+        ctx.fillText("?", 0, 32);
+        // Get the pixel data from the drawn area
+        const pixelData = ctx.getImageData(0, 0, 32, 32).data;
+        // Check if any pixel channel has a non-zero value, indicating the character rendered properly
+        return [...pixelData].some(channel => channel !== 0);
+      }
+      
+      // After the DOM content is fully loaded, check for emoji support
+      document.addEventListener("DOMContentLoaded", function () {
+        if (!supportsEmoji()) {
+          // If emojis are not supported, use fallback fonts that support emoji rendering
+          document.body.style.fontFamily = '"Noto Color Emoji", "Twemoji", sans-serif';
+        }
+      });
+    </script>
+  </body>
+</html>

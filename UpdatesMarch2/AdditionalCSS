@@ -1,0 +1,187 @@
+/* 
+   Styles for Select2 plugin chosen values. 
+   Sets font size and padding for better spacing.
+*/
+span#select2-chosen-1,
+span#select2-chosen-2 {
+    font-size: 13px !important;
+    padding-top: 12px !important;
+}
+
+/* 
+   Hides social media link icons, typically in a footer or sidebar.
+*/
+.list-social-links {
+    display: none;
+}
+
+/*
+   Styles the Google Maps box for consistent font size and padding.
+   Uses box-sizing to maintain expected dimensions.
+*/
+#location_google_maps_homepage {
+    font-size: 13px !important;
+    padding: 12px 10px !important; /* Combined padding for brevity */
+    box-sizing: border-box;
+}
+
+/* 
+   Base styling for the page. Sets font, color, and line height for readability.
+*/
+body {
+    font-family: 'Lato', sans-serif !important;
+    color: #333 !important;
+    line-height: 1.6 !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+   Hover effect for Select2 chosen values. 
+   Changes text color for a subtle interactive cue.
+*/
+span#select2-chosen-1:hover,
+span#select2-chosen-2:hover {
+    color: #555 !important;
+}
+
+/* 
+   Responsive adjustments for smaller screens.
+   Increases font size for better legibility.
+*/
+@media (max-width: 768px) {
+    body {
+        font-size: 14px !important;
+    }
+    .popular-categories {
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+        justify-content: flex-start !important;
+    }
+    .popular-categories > div {
+        flex: 0 0 auto !important;
+    }
+}
+
+/* 
+   Ensures navbar visibility, potentially conflicting with Tailwind CSS.
+*/
+.navbar-collapse {
+    visibility: visible !important;
+}
+
+/* 
+   Ensures form text areas display properly.
+*/
+textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.form-container select {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+select {
+    width: auto;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Container styling for a professional look */
+.form-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* General input, textarea, and select styling */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Focus state for inputs */
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container input[type="password"]:focus,
+.form-container select:focus,
+.form-container textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Responsive dropdowns to show all options */
+.form-container select {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+}
+
+/* Fix the header at the top */
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Fix the footer at the bottom */
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Add padding to the body to prevent content overlap */
+body {
+    padding-top: 60px; /* Adjust based on header height */
+    padding-bottom: 40px; /* Adjust based on footer height */
+}
+
+/* FAQ answer animation */
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.faq-item.active .faq-answer {
+    padding: 15px;
+    transition: max-height 0.5s ease-in;
+}

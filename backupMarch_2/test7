@@ -1,0 +1,785 @@
+<p>
+	<br>
+</p>
+<div id="root">
+	<section id="header" class="bg-neutral-900 text-white relative">
+		<div id="mobileMenu" class="fixed inset-0 bg-neutral-900 bg-opacity-95 z-50 transform translate-x-full transition-transform duration-300 ease-in-out lg:hidden">
+			<div class="flex justify-end p-4" id="el-nao14cfe">
+				<br>
+			</div></div>
+	</section>
+</div>
+<!-- Wave separator -->
+<div class="absolute bottom-0 left-0 w-full overflow-hidden" id="el-j4t7q9b5">
+	<br>
+</div>
+<div id="eda3202d-fd16-447d-841c-9956111d3a95" data-section_id="eda3202d-fd16-447d-841c-9956111d3a95" class="page_sectionHighlight__ahPeD sectionCode">
+	<div id="root">
+		<section id="program-overview" class="py-20 bg-[#f5f5f5]">
+			<div class="container mx-auto px-4" id="el-5des1tdl">
+				<div class="text-center mb-16" id="el-yzni300k">
+
+					<h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#010839] font-['Montserrat',_sans-serif]" id="el-b6jkx8tm">Program Overview</h2>
+					<div class="w-24 h-1 bg-[#ffa500] mx-auto mb-6" id="el-0iql4r0e">
+						<br>
+					</div>
+
+					<p class="text-xl text-[#3a3a3a] max-w-3xl mx-auto font-['Montserrat',_sans-serif]" id="el-eoun2cb6">The Military Allies Affiliate Program is a performance-based revenue-sharing model that rewards you for every sale you generate.</p>
+				</div>
+				<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center" id="el-lemwg8yi">
+					<div class="animate__animated animate__fadeInLeft" id="el-coyr3bbv">
+
+						<h3 class="text-3xl font-bold mb-6 text-[#6f0992] font-['Montserrat',_sans-serif]" id="el-losjry38">Strategic Overview</h3>
+
+						<p class="text-lg text-[#3a3a3a] mb-6 leading-relaxed" id="el-2w1kulx7">Our Pay-Per-Sale (PPS) model empowers brand advocates, businesses, and influencers to monetize their audience while expanding our market reach. Affiliates earn commissions on every sale generated through their unique referral link.</p>
+						<div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-[#bb0000] mb-8 hover:shadow-xl transition-shadow duration-300" id="el-i2au6avf">
+
+							<h4 class="text-xl font-bold mb-3 text-[#010839]" id="el-qj74o6ff">Key Benefits</h4>
+
+							<ul class="space-y-3" id="el-xkwsnw4d">
+								<li class="flex items-start" id="el-maim7zy7">
+									<div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#010839] flex items-center justify-center text-white mr-3 mt-0.5" id="el-e26ubsth"><i class="fas fa-dollar-sign text-sm" id="el-3cvcv3mf"></i></div><span class="text-[#3a3a3a]" id="el-rs569za8">Earn up to 50% commission on each sale</span></li>
+								<li class="flex items-start" id="el-k5e475yr">
+									<div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#010839] flex items-center justify-center text-white mr-3 mt-0.5" id="el-3r1g1z3y"><i class="fas fa-calendar-alt text-sm" id="el-i1bxk9to"></i></div><span class="text-[#3a3a3a]" id="el-ried5wru">Monthly payouts with low $20 minimum threshold</span></li>
+								<li class="flex items-start" id="el-ej03ilh9">
+									<div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#010839] flex items-center justify-center text-white mr-3 mt-0.5" id="el-5f6pm0dy"><i class="fas fa-tools text-sm" id="el-ynh00br6"></i></div><span class="text-[#3a3a3a]" id="el-8hp7mvss">Access to marketing tools and resources</span></li>
+								<li class="flex items-start" id="el-u0rc01dw">
+									<div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#010839] flex items-center justify-center text-white mr-3 mt-0.5" id="el-3jdx6xef"><i class="fas fa-chart-line text-sm" id="el-aiggi8qr"></i></div><span class="text-[#3a3a3a]" id="el-45k62soz">Tiered commission structure that rewards growth</span></li>
+							</ul>
+						</div>
+						<div class="bg-gradient-to-r from-[#010839] to-[#6f0992] text-white p-6 rounded-lg shadow-lg" id="el-pb1jh4oz">
+
+							<h4 class="text-xl font-bold mb-4" id="el-8nof3rlj">Payment Methods</h4>
+							<div class="grid grid-cols-3 gap-4 text-center" id="el-y2gn1uyc">
+								<div class="bg-white bg-opacity-10 p-4 rounded-lg backdrop-filter backdrop-blur-sm" id="el-bgifpd75"><i class="fab fa-paypal text-2xl mb-2" id="el-r92v2xp3"></i>
+
+									<p id="el-578i71w9">PayPal</p>
+								</div>
+								<div class="bg-white bg-opacity-10 p-4 rounded-lg backdrop-filter backdrop-blur-sm" id="el-cmodd0xh"><i class="fas fa-university text-2xl mb-2" id="el-ejgddaik"></i>
+
+									<p id="el-yc7p60lm">Wise</p>
+								</div>
+								<div class="bg-white bg-opacity-10 p-4 rounded-lg backdrop-filter backdrop-blur-sm" id="el-21pjgsmt"><i class="fas fa-money-check text-2xl mb-2" id="el-99kyr454"></i>
+
+									<p id="el-ldq53k3m">Bank Transfer</p>
+								</div></div>
+
+							<p class="mt-4 text-sm italic text-center" id="el-fujdi5fy">Note: We do not use Cashapp, Venmo, or Zelle for payouts.</p>
+						</div></div>
+					<div class="animate__animated animate__fadeInRight" id="el-3g264omm">
+						<div class="bg-white rounded-lg shadow-xl overflow-hidden border border-[#e5e5e5]" id="el-w5x3h1i8">
+							<div class="bg-[#010839] text-white p-6" id="el-pqerth2z">
+
+								<h3 class="text-2xl font-bold mb-2 font-['Montserrat',_sans-serif]" id="el-orrwicq4">Two Distinct Pathways</h3>
+
+								<p class="text-[#e5e5e5]" id="el-n3i4cxpk">Choose the program that fits your profile and marketing approach</p>
+							</div>
+							<div class="p-6 border-b border-[#e5e5e5]" id="el-vb2jmnzw">
+								<div class="flex items-start" id="el-1o9brrat">
+									<div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#bb0000] flex items-center justify-center text-white mr-4" id="el-258hgugr"><i class="fas fa-users text-xl" id="el-irxixfr3"></i></div>
+									<div id="el-6juk2plc">
+
+										<h4 class="text-xl font-bold mb-2 text-[#010839]" id="el-1gwuo454">Standard Affiliate Program</h4>
+
+										<p class="text-[#3a3a3a] mb-4" id="el-kxchq5ci">Designed for networked professionals, veterans, military spouses, and community members who leverage personal connections and direct referrals.</p>
+										<div class="flex flex-wrap gap-2 mb-3" id="el-2v61ifc7"><span class="px-3 py-1 bg-[#e5e5e5] rounded-full text-sm font-semibold text-[#3a3a3a]" id="el-fk3kaqyn">Veterans</span> <span class="px-3 py-1 bg-[#e5e5e5] rounded-full text-sm font-semibold text-[#3a3a3a]" id="el-gxrg3xh3">Military Spouses</span> <span class="px-3 py-1 bg-[#e5e5e5] rounded-full text-sm font-semibold text-[#3a3a3a]" id="el-43oww7ye">Community Members</span></div>
+										<div class="bg-[#f5f5f5] p-3 rounded-lg" id="el-9w3rk00p">
+
+											<p class="font-bold" id="el-d8mcp02x">Four-tier commission structure: 20% &rarr; 40%</p>
+										</div></div></div></div>
+							<div class="p-6" id="el-e63qqb6p">
+								<div class="flex items-start" id="el-9v9jsrag">
+									<div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#6f0992] flex items-center justify-center text-white mr-4" id="el-y7pc6hm9"><i class="fas fa-star text-xl" id="el-jd9rgvd6"></i></div>
+									<div id="el-amu8g2mz">
+										<div class="flex items-center" id="el-37xc7vev">
+
+											<h4 class="text-xl font-bold mb-2 text-[#010839]" id="el-qk6f8zam">Ambassador Program</h4><span class="ml-2 px-3 py-1 bg-[#ffa500] text-white rounded-md text-xs font-bold" id="el-v4oru246">INVITE ONLY</span></div>
+
+										<p class="text-[#3a3a3a] mb-4" id="el-snnkxkiw">Tailored for high-profile influencers, bloggers, and content creators with a strong social media presence. Use content-driven marketing to maximize reach and engagement.</p>
+										<div class="flex flex-wrap gap-2 mb-3" id="el-jqhyoe08"><span class="px-3 py-1 bg-[#e5e5e5] rounded-full text-sm font-semibold text-[#3a3a3a]" id="el-dpu2vso4">Influencers</span> <span class="px-3 py-1 bg-[#e5e5e5] rounded-full text-sm font-semibold text-[#3a3a3a]" id="el-xq8n39lx">Bloggers</span> <span class="px-3 py-1 bg-[#e5e5e5] rounded-full text-sm font-semibold text-[#3a3a3a]" id="el-0axa2tie">Content Creators</span></div>
+										<div class="bg-[#f5f5f5] p-3 rounded-lg" id="el-qkjooapq">
+
+											<p class="font-bold" id="el-cj0oncbw">Four-tier commission structure: 30% &rarr; 50%</p>
+										</div>
+
+										<p class="mt-4 text-sm italic" id="el-do60bga2">Interested and have a substantial following? <a href="mailto:affiliates@militaryallies.com" class="text-[#6f0992] hover:text-[#6cd4ff] transition-colors" id="el-u96moew1">Contact us</a> to learn more.</p>
+									</div></div></div></div>
+						<div class="mt-8 bg-[#1f7b19] text-white p-5 rounded-lg flex items-center" id="el-ztrx5pf5"><i class="fas fa-info-circle text-3xl mr-4" id="el-84ag27v5"></i>
+
+							<p id="el-cu9yg0go">The use of promotional coupons and membership sales may affect your commission earnings, as they alter the total sale value on which your commission is calculated.</p>
+						</div></div></div></div>
+			<div class="container mx-auto px-4 sm:px-6 lg:px-8" id="el-128ix4rn">
+				<div class="text-center mb-12" id="el-jaete0r8">
+
+					<h2 class="text-3xl md:text-4xl font-bold mb-3 text-[#010839] font-['Montserrat']">
+						<br>
+					</h2>
+					<br>
+
+					<h2 class="text-3xl md:text-4xl font-bold mb-3 text-[#010839] font-['Montserrat']" id="el-o9nq2u9g">Eligibility Requirements</h2>
+
+					<p class="text-lg text-[#3a3a3a] max-w-2xl mx-auto font-['Montserrat']" id="el-0jggw0xk">Find out if you qualify to join the Military Allies Affiliate Program</p>
+				</div>
+				<div class="bg-white rounded-xl shadow-lg overflow-hidden max-w-5xl mx-auto animate__animated animate__fadeIn" id="el-4wxsdk5l">
+					<div class="bg-gradient-to-r from-[#010839] to-[#6f0992] p-8 text-white" id="el-vjmwjjjc">
+						<div class="flex flex-col md:flex-row items-center justify-between" id="el-4hkbxpxv">
+							<div id="el-k8hk506m">
+
+								<h3 class="text-2xl font-bold font-['Montserrat'] mb-2" id="el-zcfb0uxn">Who Can Join Our Program?</h3>
+
+								<p class="text-[#e5e5e5] max-w-2xl" id="el-vmqiu8c8">The Military Allies Affiliate Program is designed for individuals who are passionate about supporting the military community and have the network to promote our services effectively.</p>
+							</div>
+							<div class="mt-6 md:mt-0" id="el-b6x0f5l1">
+								<div class="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/30" id="el-02dp7sjg">
+									<br>
+								</div></div></div></div>
+					<div class="p-8" id="el-q70exkdu">
+						<div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="el-yu6furap">
+							<div class="space-y-6" id="el-30w0mw0q">
+								<div class="bg-[#f5f5f5] p-6 rounded-lg border-l-4 border-[#bb0000] hover:shadow-md transition-all duration-300" id="el-k2tp247g">
+
+									<h4 class="text-xl font-semibold text-[#010839] mb-3 font-['Montserrat']" id="el-nuw7wsmy">Basic Requirements</h4>
+
+									<ul class="space-y-3 text-[#3a3a3a]" id="el-ciuqivsr">
+										<li class="flex items-start" id="el-l4ejzg6d"><span id="el-m4g24wlb">Must be at least 18 years old</span></li>
+										<li class="flex items-start" id="el-0po1v52m"><span id="el-1xhz3fs5">Must agree to the Military Allies Affiliate Program Terms &amp; Conditions</span></li>
+										<li class="flex items-start" id="el-1necdztd"><span id="el-iebpuu76">Possess a valid Social Security Number (SSN), Employer Identification Number (EIN), or equivalent tax ID</span></li>
+									</ul>
+								</div>
+								<div class="bg-[#f5f5f5] p-6 rounded-lg border-l-4 border-[#6f0992] hover:shadow-md transition-all duration-300" id="el-8h24oc2j">
+
+									<h4 class="text-xl font-semibold text-[#010839] mb-3 font-['Montserrat']" id="el-wsz8qlv9">Legal &amp; Tax Requirements</h4>
+
+									<ul class="space-y-3 text-[#3a3a3a]" id="el-2pvgtj2i">
+										<li class="flex items-start" id="el-1m7soobx"><span id="el-sqya8h4h">Comply with FTC disclosure regulations and maintain ethical marketing practices</span></li>
+										<li class="flex items-start" id="el-4qdz1wfj"><span id="el-9j4unhya">Provide accurate tax and payment information (including your legal name and address) before commissions are issued</span></li>
+										<li class="flex items-start" id="el-n1fjn9em"><span id="el-4jwue950">No history of affiliate fraud, policy violations, or unethical promotions</span></li>
+									</ul>
+								</div></div>
+							<div class="space-y-6" id="el-vpftd165">
+								<div class="bg-[#f5f5f5] p-6 rounded-lg border-l-4 border-[#1f7b19] hover:shadow-md transition-all duration-300" id="el-7k259num">
+
+									<h4 class="text-xl font-semibold text-[#010839] mb-3 font-['Montserrat']" id="el-gvrw4x4a">Target Audience</h4>
+
+									<p class="mb-4 text-[#3a3a3a]" id="el-72c42jd5">Our program is particularly well-suited for:</p>
+
+									<ul class="space-y-3 text-[#3a3a3a]" id="el-6nufgu9b">
+										<li class="flex items-start" id="el-qr2av5qy"><span id="el-p3ok3jy1">Veterans and active duty military personnel</span></li>
+										<li class="flex items-start" id="el-xr829pfs"><span id="el-9hirth9g">Military spouses and family members</span></li>
+										<li class="flex items-start" id="el-3jv4557p"><span id="el-ys4nariy">Businesses that serve the military community</span></li>
+										<li class="flex items-start" id="el-6xh1t85t"><span id="el-2kmyxv3n">Content creators focused on military topics</span></li>
+										<li class="flex items-start" id="el-3xt3maky"><span id="el-0yetqekc">Community organizations that support veterans</span></li>
+									</ul>
+								</div>
+								<div class="bg-[#f5f5f5] p-6 rounded-lg border-l-4 border-[#ffa500] hover:shadow-md transition-all duration-300" id="el-oj4qvfnc">
+
+									<h4 class="text-xl font-semibold text-[#010839] mb-3 font-['Montserrat']" id="el-muu9z7lf">Ambassador Program <span class="text-sm font-normal bg-[#ffa500] text-white px-2 py-1 rounded-full ml-2" id="el-r3bvts8v">INVITE ONLY</span></h4>
+
+									<p class="mb-4 text-[#3a3a3a]" id="el-2usiy3f8">For our exclusive Ambassador Program, we&#39;re looking for:</p>
+
+									<ul class="space-y-3 text-[#3a3a3a]" id="el-urighs0l">
+										<li class="flex items-start" id="el-gg5hpmml"><span id="el-a40km5ng">Influencers with a significant social media following</span></li>
+										<li class="flex items-start" id="el-m45o26o0"><span id="el-9t4qdon5">Bloggers with consistent engagement in the military niche</span></li>
+										<li class="flex items-start" id="el-l9vyxjdl"><span id="el-91tb7pha">Content creators with a track record of successful promotions</span></li>
+									</ul>
+									<div class="mt-4 text-sm text-[#6f0992] italic" id="el-zzhlp4xf">
+
+										<p id="el-188vtido">If you meet these criteria and are interested in higher exposure and additional benefits, please contact us at <a href="mailto:affiliates@militaryallies.com" class="underline hover:text-[#bb0000] transition-colors duration-300" id="el-98q9awjn">affiliates@militaryallies.com</a></p>
+									</div></div></div></div>
+						<!-- Note Section -->
+						<div class="mt-8 p-6 bg-[#010839]/5 border border-[#010839]/10 rounded-lg" id="el-qxntrw9q">
+							<div class="flex items-start" id="el-mk8ejdno">
+								<div class="flex-shrink-0 mr-4" id="el-szzmsk9t">
+									<br>
+								</div>
+								<div id="el-ffayener">
+
+									<h4 class="text-lg font-semibold text-[#010839] mb-2 font-['Montserrat']" id="el-klgix99n">Please Note:</h4>
+
+									<p class="text-[#3a3a3a] font-['Montserrat']" id="el-2h7kzkd4">Military Allies reserves the right to approve or decline applications based on the criteria above and other factors related to brand alignment. We carefully review each application to ensure our affiliates represent our values and mission to serve the military community.</p>
+								</div></div></div></div></div>
+				<!-- CTA Section -->
+				<div class="mt-12 text-center animate__animated animate__fadeInUp" id="el-7r8d3pjm">
+
+					<h3 class="text-2xl font-bold text-[#010839] mb-6 font-['Montserrat']" id="el-ig7jtnbh">Ready to Join the Military Allies Affiliate Program?</h3>
+					<div class="flex flex-col sm:flex-row gap-4 justify-center" id="el-64axjra3"><a href="https://www.militaryallies.com/affiliateapplication" class="inline-flex items-center justify-center px-6 py-3 rounded-md bg-[#bb0000] hover:bg-[#ffa500] text-white font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-lg shadow-md" id="el-eb3ub0ym">&nbsp;<span id="el-78vr1bol">Apply Now</span>&nbsp;</a> <a href="#faq" class="inline-flex items-center justify-center px-6 py-3 rounded-md bg-[#1f7b19] hover:bg-[#6cd4ff] text-white font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-lg shadow-md" id="el-ebj4ib0a">&nbsp;<span id="el-qd19lljh">View FAQs</span>&nbsp;</a></div></div></div>
+		</section>
+
+		<h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#010839] font-['Montserrat',_sans-serif]" id="el-r7pp2pw7">Program Benefits</h2>
+		<div class="w-24 h-1 bg-[#ffa500] mx-auto mb-6" id="el-dfkqaqzi">
+			<br>
+		</div>
+
+		<p class="text-xl text-[#3a3a3a] max-w-3xl mx-auto font-['Montserrat',_sans-serif]" id="el-blonwgxp">Join our affiliate program and unlock these exclusive advantages that reward your success and support your growth.</p>
+	</div>
+	<!-- Benefits Cards -->
+	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16" id="el-o3gsxiag">
+		<!-- Benefit 1 -->
+		<div class="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 animate__animated animate__fadeIn" id="el-dl54poe1">
+			<div class="h-3 bg-gradient-to-r from-[#bb0000] to-[#ffa500]" id="el-o6qf92al">
+				<br>
+			</div>
+			<div class="p-6" id="el-uq870nqr">
+				<div class="w-16 h-16 bg-[#010839] text-white rounded-full flex items-center justify-center mb-4 shadow-lg" id="el-ey5k9920"><i class="fas fa-hand-holding-usd text-2xl" id="el-0jbd69ux"></i></div>
+
+				<h3 class="text-2xl font-bold mb-3 text-[#010839]" id="el-u7b03f4r">Competitive Commissions</h3>
+
+				<p class="text-[#3a3a3a] mb-4" id="el-j0yiacvb">Earn substantial commissions that grow as you succeed, with rates up to 40% for Standard Affiliates and 50% for Ambassadors.</p>
+				<div class="bg-[#f5f5f5] p-3 rounded-lg" id="el-t72ep4dt">
+
+					<p class="font-bold text-[#6f0992]" id="el-3pwcsdgm">Up to $49.50 per $99 sale</p>
+				</div></div></div>
+		<!-- Benefit 2 -->
+		<div class="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 animate__animated animate__fadeIn" style="animation-delay: 0.1s;" id="el-ay33ys67">
+			<div class="h-3 bg-gradient-to-r from-[#6f0992] to-[#6cd4ff]" id="el-gitxpjdz">
+				<br>
+			</div>
+			<div class="p-6" id="el-rh920hwf">
+				<div class="w-16 h-16 bg-[#010839] text-white rounded-full flex items-center justify-center mb-4 shadow-lg" id="el-aljxixa2"><i class="fas fa-money-bill-wave text-2xl" id="el-2zuzdw88"></i></div>
+
+				<h3 class="text-2xl font-bold mb-3 text-[#010839]" id="el-nnynj3dp">Reliable Payments</h3>
+
+				<p class="text-[#3a3a3a] mb-4" id="el-nlj4ekkw">Enjoy monthly payouts with a low minimum threshold of just $20, with payments processed on the 15th of each month.</p>
+				<div class="bg-[#f5f5f5] p-3 rounded-lg" id="el-gkzxqtg4">
+
+					<p class="font-bold text-[#6f0992]" id="el-vzg5cdaw">Multiple payment methods available</p>
+				</div></div></div>
+		<!-- Benefit 3 -->
+		<div class="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 animate__animated animate__fadeIn" style="animation-delay: 0.2s;" id="el-k846q7jk">
+			<div class="h-3 bg-gradient-to-r from-[#1f7b19] to-[#6cd4ff]" id="el-601r9c6v">
+				<br>
+			</div>
+			<div class="p-6" id="el-bescumtc">
+				<div class="w-16 h-16 bg-[#010839] text-white rounded-full flex items-center justify-center mb-4 shadow-lg" id="el-qtgezl60"><i class="fas fa-chart-line text-2xl" id="el-o5340s0w"></i></div>
+
+				<h3 class="text-2xl font-bold mb-3 text-[#010839]" id="el-54yzf0qj">Growth Incentives</h3>
+
+				<p class="text-[#3a3a3a] mb-4" id="el-3u4yu3on">Our tiered commission structure rewards your success, offering higher rates as your sales volume increases.</p>
+				<div class="bg-[#f5f5f5] p-3 rounded-lg" id="el-mf39vfs1">
+
+					<p class="font-bold text-[#6f0992]" id="el-ovkdwz09">Earn more as you grow</p>
+				</div></div></div>
+		<!-- Benefit 4 -->
+		<div class="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 animate__animated animate__fadeIn" style="animation-delay: 0.3s;" id="el-3eg30ziw">
+			<div class="h-3 bg-gradient-to-r from-[#010839] to-[#6f0992]" id="el-d1t6ixul">
+				<br>
+			</div>
+			<div class="p-6" id="el-d2n666x3">
+				<div class="w-16 h-16 bg-[#010839] text-white rounded-full flex items-center justify-center mb-4 shadow-lg" id="el-w9r7y8jl"><i class="fas fa-tools text-2xl" id="el-gmsatp8m"></i></div>
+
+				<h3 class="text-2xl font-bold mb-3 text-[#010839]" id="el-cfngpckz">Marketing Resources</h3>
+
+				<p class="text-[#3a3a3a] mb-4" id="el-dvf6h8b8">Access promotional materials, banners, unique tracking links, and other tools to maximize your marketing effectiveness.</p>
+				<div class="bg-[#f5f5f5] p-3 rounded-lg" id="el-wk9335cf">
+
+					<p class="font-bold text-[#6f0992]" id="el-t9emuzml">Complete marketing toolkit</p>
+				</div></div></div>
+		<!-- Benefit 5 -->
+		<div class="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 animate__animated animate__fadeIn" style="animation-delay: 0.4s;" id="el-xbv6ndjb">
+			<div class="h-3 bg-gradient-to-r from-[#bb0000] to-[#6f0992]" id="el-b2zehunz">
+				<br>
+			</div>
+			<div class="p-6" id="el-00cdtwsi">
+				<div class="w-16 h-16 bg-[#010839] text-white rounded-full flex items-center justify-center mb-4 shadow-lg" id="el-r2yety40"><i class="fas fa-shield-alt text-2xl" id="el-h94lnyoz"></i></div>
+
+				<h3 class="text-2xl font-bold mb-3 text-[#010839]" id="el-287ahfiu">Military Community Impact</h3>
+
+				<p class="text-[#3a3a3a] mb-4" id="el-qvhpgnka">Make a difference while earning income by supporting a platform that serves the military and veteran community.</p>
+				<div class="bg-[#f5f5f5] p-3 rounded-lg" id="el-tpusbcxb">
+
+					<p class="font-bold text-[#6f0992]" id="el-phkhemvh">Support those who serve</p>
+				</div></div></div>
+		<!-- Benefit 6 -->
+		<div class="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 animate__animated animate__fadeIn" style="animation-delay: 0.5s;" id="el-ocyrfzxk">
+			<div class="h-3 bg-gradient-to-r from-[#ffa500] to-[#1f7b19]" id="el-c82l4ktj">
+				<br>
+			</div>
+			<div class="p-6" id="el-qwy2e1ej">
+				<div class="w-16 h-16 bg-[#010839] text-white rounded-full flex items-center justify-center mb-4 shadow-lg" id="el-9fdit3f4"><i class="fas fa-headset text-2xl" id="el-jv5kuml8"></i></div>
+
+				<h3 class="text-2xl font-bold mb-3 text-[#010839]" id="el-r1jvh9mo">Dedicated Support</h3>
+
+				<p class="text-[#3a3a3a] mb-4" id="el-dp95fs3c">Receive personalized assistance and guidance from our affiliate management team whenever you need help.</p>
+				<div class="bg-[#f5f5f5] p-3 rounded-lg" id="el-96jnxznd">
+
+					<p class="font-bold text-[#6f0992]" id="el-ajxpnbbo">Direct access to our team</p>
+				</div></div></div></div>
+	<!-- Special Ambassador Benefits -->
+	<div class="bg-gradient-to-r from-[#010839] to-[#6f0992] rounded-xl p-8 shadow-2xl mb-16" id="el-n7mdzm0d">
+		<div class="flex flex-col md:flex-row items-start md:items-center mb-8" id="el-yia93r91">
+			<div class="w-16 h-16 bg-[#ffa500] text-[#010839] rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6 flex-shrink-0 shadow-lg" id="el-przcfrkx"><i class="fas fa-star text-2xl" id="el-6uhxswu3"></i></div>
+			<div id="el-r5zl0bdw">
+
+				<h3 class="text-2xl md:text-3xl font-bold text-white font-['Playfair_Display',_serif] mb-2" id="el-c25jcd01">Exclusive Ambassador Benefits</h3>
+
+				<p class="text-[#e5e5e5]" id="el-oy46mq72">Our invite-only Ambassador Program offers additional perks for influencers and content creators.</p>
+			</div></div>
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="el-90z1y9o2">
+			<div class="bg-white bg-opacity-10 p-5 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10 hover:bg-opacity-20 transition-all duration-300" id="el-87k3ducj">
+
+				<h4 class="text-xl font-bold mb-3 text-[#6cd4ff]" id="el-n9zbobvn">Higher Commission Rates</h4>
+
+				<p class="text-white" id="el-1hsjqwmr">Start at 30% commission and earn up to 50% on each sale</p>
+			</div>
+			<div class="bg-white bg-opacity-10 p-5 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10 hover:bg-opacity-20 transition-all duration-300" id="el-s4i4hheb">
+
+				<h4 class="text-xl font-bold mb-3 text-[#6cd4ff]" id="el-3tcdj1v7">Premium Marketing Materials</h4>
+
+				<p class="text-white" id="el-9me5g89s">Access exclusive, customized promotional assets tailored for your audience</p>
+			</div>
+			<div class="bg-white bg-opacity-10 p-5 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10 hover:bg-opacity-20 transition-all duration-300" id="el-0pnc5t6l">
+
+				<h4 class="text-xl font-bold mb-3 text-[#6cd4ff]" id="el-y02f6wrr">Priority Support</h4>
+
+				<p class="text-white" id="el-h2uvnysy">Receive dedicated account management and expedited assistance</p>
+			</div>
+			<div class="bg-white bg-opacity-10 p-5 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10 hover:bg-opacity-20 transition-all duration-300" id="el-jckbl7cx">
+
+				<h4 class="text-xl font-bold mb-3 text-[#6cd4ff]" id="el-ozyc502f">Strategic Partnerships</h4>
+
+				<p class="text-white" id="el-c6n79kha">Opportunities for deeper collaboration and co-marketing initiatives</p>
+			</div>
+			<div class="bg-white bg-opacity-10 p-5 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10 hover:bg-opacity-20 transition-all duration-300" id="el-r3tmthx8">
+
+				<h4 class="text-xl font-bold mb-3 text-[#6cd4ff]" id="el-zb7kne79">Advanced Reporting</h4>
+
+				<p class="text-white" id="el-7lxq15c3">Gain insights with detailed performance analytics and conversion data</p>
+			</div>
+			<div class="bg-white bg-opacity-10 p-5 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10 hover:bg-opacity-20 transition-all duration-300" id="el-llesmo7d">
+
+				<h4 class="text-xl font-bold mb-3 text-[#6cd4ff]" id="el-5xhaydwz">Early Access</h4>
+
+				<p class="text-white" id="el-5z07sthk">Preview new features and products before they&#39;re publicly available</p>
+			</div></div>
+		<div class="mt-8 text-center" id="el-jdpid8tz"><a href="mailto:affiliates@militaryallies.com" class="inline-block px-8 py-3 bg-[#ffa500] hover:bg-[#ffb733] text-[#010839] font-bold rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1" id="el-83l3jfym">&nbsp;<i class="fas fa-envelope mr-2" id="el-ms2ixm1m"></i> Contact Us About Ambassador Program&nbsp;</a></div></div>
+	<!-- Testimonial/Success Stories -->
+	<!-- Call to action -->
+	<div class="mt-16 text-center" id="el-pnn6uyv8"><a href="#cta" class="inline-block px-10 py-5 bg-gradient-to-r from-[#bb0000] to-[#ffa500] rounded-lg text-white font-bold text-xl shadow-lg hover:shadow-[0_0_25px_rgba(255,165,0,0.5)] transition-all duration-300 transform hover:-translate-y-1 animate__animated animate__pulse animate__infinite animate__slow" id="el-xnrswz11">&nbsp;<i class="fas fa-rocket mr-2" id="el-3dwf8imi"></i> Start Earning Today&nbsp;</a></div></div>
+<div id="ca126552-c3de-4a1e-b130-084aed841854" data-section_id="ca126552-c3de-4a1e-b130-084aed841854" class="page_sectionHighlight__ahPeD sectionCode">
+	<div id="root">
+		<section id="eligibility" class="py-20 bg-[#f5f5f5]">
+			<div class="container mx-auto px-4" id="el-bzxpdg7i">
+				<div class="text-center mb-16" id="el-el9nw89r">
+
+					<h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#010839] font-['Montserrat',_sans-serif]" id="el-3ev5tv6m">
+						<br>
+						<!-- Application Process -->
+						<div class="mt-20" id="el-73tc89hg">
+
+							<h3 class="text-3xl font-bold mb-10 text-center text-[#010839] font-['Montserrat',_sans-serif]" id="el-y99gltb3">Application Process</h3>
+							<div class="grid grid-cols-1 md:grid-cols-4 gap-6" id="el-w3c1ewqr">
+								<!-- Step 1 -->
+								<div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105" id="el-8j4ss1pv">
+									<div class="h-2 bg-[#bb0000]" id="el-vcol8e2z">
+										<br>
+									</div>
+									<div class="p-6" id="el-396f9w7v">
+										<div class="w-14 h-14 rounded-full bg-[#010839] text-white flex items-center justify-center text-xl font-bold mb-4" id="el-bcsf9buu">1</div>
+
+										<h4 class="text-xl font-bold mb-3 text-[#010839]" id="el-p7jfrnln">Online Application</h4>
+
+										<p class="text-[#3a3a3a]" id="el-hpml5tfi">Submit your application through our website with your personal and promotional details.</p>
+										<div class="mt-4 text-center" id="el-ysnfa37r"><a href="https://www.militaryallies.com/affiliateapplication" class="text-[#6f0992] hover:text-[#6cd4ff] transition-colors duration-300 font-semibold" id="el-cwt66u7h">&nbsp;Go to Application Form <i class="fas fa-arrow-right ml-1" id="el-vyw15faz"></i>&nbsp;</a></div></div></div>
+								<!-- Step 2 -->
+								<div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105" id="el-t0hlngyd">
+									<div class="h-2 bg-[#ffa500]" id="el-kanjd5ih">
+										<br>
+									</div>
+									<div class="p-6" id="el-cocqgv5r">
+										<div class="w-14 h-14 rounded-full bg-[#010839] text-white flex items-center justify-center text-xl font-bold mb-4" id="el-7vtuo540">2</div>
+
+										<h4 class="text-xl font-bold mb-3 text-[#010839]" id="el-twhn2tzj">Application Review</h4>
+
+										<p class="text-[#3a3a3a]" id="el-c7g2wb0m">Our team reviews your eligibility within 3-5 business days based on our requirements.</p>
+										<div class="mt-4 flex items-center justify-center text-[#3a3a3a]" id="el-4pzleli9"><i class="fas fa-hourglass-half text-[#ffa500] mr-2" id="el-bhiwahtw"></i> <span id="el-9qwf5vd8">3-5 Business Days</span></div></div></div>
+								<!-- Step 3 -->
+								<div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105" id="el-punavptr">
+									<div class="h-2 bg-[#6f0992]" id="el-lcemhaja">
+										<br>
+									</div>
+									<div class="p-6" id="el-vg1n555e">
+										<div class="w-14 h-14 rounded-full bg-[#010839] text-white flex items-center justify-center text-xl font-bold mb-4" id="el-4ezigo92">3</div>
+
+										<h4 class="text-xl font-bold mb-3 text-[#010839]" id="el-1er2569a">Approval &amp; Onboarding</h4>
+
+										<p class="text-[#3a3a3a]" id="el-15ktzzlr">Successful applicants receive access to the affiliate portal and marketing resources.</p>
+										<div class="mt-4 flex items-center justify-center text-[#1f7b19] font-semibold" id="el-px4mq582"><i class="fas fa-check-circle mr-2" id="el-tb7tbdae"></i> <span id="el-hfx79mrx">Welcome Email with Access Details</span></div></div></div>
+								<!-- Step 4 -->
+								<div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105" id="el-vb6sbzuv">
+									<div class="h-2 bg-[#6cd4ff]" id="el-xnmt51my">
+										<br>
+									</div>
+									<div class="p-6" id="el-32tf9mrl">
+										<div class="w-14 h-14 rounded-full bg-[#010839] text-white flex items-center justify-center text-xl font-bold mb-4" id="el-ttbs6lgt">4</div>
+
+										<h4 class="text-xl font-bold mb-3 text-[#010839]" id="el-mubxwit3">Start Promoting</h4>
+
+										<p class="text-[#3a3a3a]" id="el-olyf73if">Begin promoting Military Allies immediately using your unique tracking link and marketing materials.</p>
+										<div class="mt-4 flex items-center justify-center text-[#bb0000] font-semibold" id="el-ja2og9i6"><i class="fas fa-rocket mr-2" id="el-d956y6bl"></i> <span id="el-pzx0qs54">Launch Your Promotions</span></div></div></div></div></div>
+						<!-- FAQ -->
+						<!-- CTA -->
+						<div class="mt-16 text-center" id="el-vu49og9l">
+
+							<h3 class="text-2xl font-bold mb-6 text-[#010839] font-['Montserrat',_sans-serif]" id="el-pct79u66">Ready to Join Our Mission?</h3><a href="https://www.militaryallies.com/affiliateapplication" class="inline-block px-10 py-5 bg-gradient-to-r from-[#bb0000] to-[#ffa500] rounded-lg text-white font-bold text-xl shadow-lg hover:shadow-[0_0_25px_rgba(255,165,0,0.5)] transition-all duration-300 transform hover:-translate-y-1 animate__animated animate__pulse animate__infinite animate__slow" id="el-46hou46t">&nbsp;<i class="fas fa-flag mr-2" id="el-o2bhbpiw"></i> Apply to the Affiliate Program&nbsp;</a>
+
+							<p class="mt-4 text-[#3a3a3a]" id="el-svqriowz">Questions about eligibility? Contact us at <a href="mailto:affiliates@militaryallies.com" class="text-[#6f0992] hover:text-[#6cd4ff] transition-colors duration-300" id="el-d25ihcor">affiliates@militaryallies.com</a></p>
+						</div>
+					</h2>
+				</div>
+				<section id="payout-information" class="py-16 bg-[#f5f5f5]">
+					<div class="container mx-auto px-4 sm:px-6 lg:px-8" id="el-0cnu8bsf">
+						<div class="text-center mb-12" id="el-4vpcchs8">
+
+							<h2 class="text-3xl md:text-4xl font-bold mb-3 text-[#010839] font-['Montserrat']">
+								<br>
+							</h2>
+
+							<h2 class="text-3xl md:text-4xl font-bold mb-3 text-[#010839] font-['Montserrat']" id="el-vwrgxjni">Payout Information</h2>
+
+							<p class="text-lg text-[#3a3a3a] max-w-2xl mx-auto font-['Montserrat']" id="el-gfmk50se">Learn about our compensation model, payment schedule, and reporting requirements</p>
+						</div>
+						<div class="max-w-6xl mx-auto" id="el-jsj8awq6">
+							<!-- Main Payment Info Card -->
+							<div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 animate__animated animate__fadeIn" id="el-fgv4aunr">
+								<div class="bg-gradient-to-r from-[#010839] to-[#6f0992] p-6 md:p-8" id="el-tpylty71">
+
+									<h3 class="text-2xl font-bold text-white font-['Montserrat'] mb-2" id="el-awizk3sx">Compensation and Payment</h3>
+
+									<p class="text-[#e5e5e5]" id="el-kaa6hig6">Our Pay-Per-Sale model ensures you earn a commission on every successful referral</p>
+								</div>
+								<div class="p-6 md:p-8" id="el-9z8ifdw0">
+									<div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="el-smi7jj0v">
+										<!-- Left Column -->
+										<div id="el-a6tlqy5k">
+											<div class="mb-8" id="el-jb4chhzd">
+
+												<h4 class="text-xl font-semibold text-[#010839] mb-4 font-['Montserrat']" id="el-nt9bymf4">Payment Schedule</h4>
+												<div class="space-y-4" id="el-1pqkofxa">
+													<div class="flex items-start" id="el-oqxtipm0">
+														<div class="w-10 h-10 rounded-full bg-[#bb0000] flex-shrink-0 flex items-center justify-center mr-4 shadow-md" id="el-6n2eczcn">
+															<br>
+														</div>
+														<div id="el-73m1dsfb">
+
+															<h5 class="text-lg font-medium text-[#010839] mb-1" id="el-svfttegl">Monthly Payouts</h5>
+
+															<p class="text-[#3a3a3a]" id="el-ld78g0hc">Payments are processed on the 15th of each month. Ensure your payout details are up to date to avoid delays.</p>
+														</div></div>
+													<div class="flex items-start" id="el-6r1a5b8v">
+														<div class="w-10 h-10 rounded-full bg-[#ffa500] flex-shrink-0 flex items-center justify-center mr-4 shadow-md" id="el-yuwtf62x">
+															<br>
+														</div>
+														<div id="el-dlhyd5i6">
+
+															<h5 class="text-lg font-medium text-[#010839] mb-1" id="el-p4rj0vff">Minimum Payout Threshold</h5>
+
+															<p class="text-[#3a3a3a]" id="el-zvnzat8x">A minimum balance of $20 is required before a payout is issued. Amounts below this threshold will roll over to the next payment cycle.</p>
+														</div></div>
+													<div class="flex items-start" id="el-np4tmnd2">
+														<div class="w-10 h-10 rounded-full bg-[#6f0992] flex-shrink-0 flex items-center justify-center mr-4 shadow-md" id="el-e1ystrgk">
+															<br>
+														</div>
+														<div id="el-07tz48r4">
+
+															<h5 class="text-lg font-medium text-[#010839] mb-1" id="el-roifrf5o">15-Day Hold Period</h5>
+
+															<p class="text-[#3a3a3a]" id="el-lteaplm8">A hold is applied for 15 days before payouts to safeguard against fraud and account for cancellations or refunds. This is standard industry practice to ensure transaction validity.</p>
+														</div></div></div></div>
+											<div id="el-hykcj080">
+
+												<h4 class="text-xl font-semibold text-[#010839] mb-4 font-['Montserrat']" id="el-hsfwo7i0">Tax Reporting</h4>
+												<div class="bg-[#010839]/5 p-5 rounded-lg border border-[#010839]/10" id="el-u82cmhgc">
+													<div class="flex items-start" id="el-ta187egv">
+														<div id="el-gnttzjt2">
+
+															<h5 class="text-lg font-medium text-[#010839] mb-2" id="el-ig79fp5q">Legal Requirements</h5>
+
+															<p class="text-[#3a3a3a] mb-3" id="el-vhazf13p">Military Allies is required to report affiliate payouts to the IRS. For this reason, you must provide your legal name and address as part of your invoice information.</p>
+
+															<p class="text-[#3a3a3a]" id="el-z7lasz3b">Affiliates are responsible for paying their own taxes on all earned commissions. Please consult with your tax professional regarding your specific tax obligations.</p>
+														</div></div></div></div></div>
+										<!-- Right Column -->
+										<div id="el-0z5c060a">
+											<div class="mb-8" id="el-f7qlrb7t">
+
+												<h4 class="text-xl font-semibold text-[#010839] mb-4 font-['Montserrat']" id="el-2tb1dqsz">Payout Methods</h4>
+												<div class="grid grid-cols-1 sm:grid-cols-3 gap-4" id="el-4j524w64">
+													<div class="bg-white p-4 rounded-lg border border-[#e5e5e5] shadow-sm hover:shadow-md transition-all duration-300 flex flex-col items-center text-center" id="el-4c70jq66">
+														<div class="w-14 h-14 rounded-full bg-[#010839]/10 flex items-center justify-center mb-3" id="el-40fmr0lz">
+															<br>
+														</div>
+
+														<h5 class="font-bold text-[#010839] mb-1" id="el-ed2ugaos">PayPal</h5>
+
+														<p class="text-sm text-[#3a3a3a]" id="el-4j0sen6q">Fast and widely used payment method</p>
+													</div>
+													<div class="bg-white p-4 rounded-lg border border-[#e5e5e5] shadow-sm hover:shadow-md transition-all duration-300 flex flex-col items-center text-center" id="el-7bis33so">
+														<div class="w-14 h-14 rounded-full bg-[#010839]/10 flex items-center justify-center mb-3" id="el-dr1a3l82">
+															<br>
+														</div>
+
+														<h5 class="font-bold text-[#010839] mb-1" id="el-5h8d3x6u">Wise</h5>
+
+														<p class="text-sm text-[#3a3a3a]" id="el-fthf8j72">Great for international transfers</p>
+													</div>
+													<div class="bg-white p-4 rounded-lg border border-[#e5e5e5] shadow-sm hover:shadow-md transition-all duration-300 flex flex-col items-center text-center" id="el-dsz6vxxu">
+														<div class="w-14 h-14 rounded-full bg-[#010839]/10 flex items-center justify-center mb-3" id="el-dqdlxqcg">
+															<br>
+														</div>
+
+														<h5 class="font-bold text-[#010839] mb-1" id="el-mwxmbl68">Direct Bank Transfer</h5>
+
+														<p class="text-sm text-[#3a3a3a]" id="el-wzdnlt33">Secure deposit to your account</p>
+													</div></div>
+												<div class="mt-4 p-4 bg-[#e5e5e5]/50 rounded-lg" id="el-yurgvep0">
+													<div class="flex items-start" id="el-b67d6es6">
+
+														<p class="text-[#3a3a3a] text-sm" id="el-72ly53yf"><span class="font-semibold" id="el-eiiankn5">Note:</span> We do not use Cashapp, Venmo, or Zelle for payouts at this time.</p>
+													</div></div></div>
+											<div id="el-bamuskr2">
+
+												<h4 class="text-xl font-semibold text-[#010839] mb-4 font-['Montserrat']" id="el-wrgcm6t5">Impact of Promotions</h4>
+												<div class="bg-gradient-to-r from-[#010839]/10 to-[#6f0992]/10 p-5 rounded-lg border border-[#6f0992]/20" id="el-wgf8e2rs">
+													<div class="flex items-start" id="el-pnt8pfrx">
+														<div id="el-ldbin90r">
+
+															<h5 class="text-lg font-medium text-[#010839] mb-2" id="el-6yiows3u">Promotional Coupons and Membership Sales</h5>
+
+															<p class="text-[#3a3a3a] mb-3" id="el-v0sicb18">Please note that the use of promotional coupons and membership sales will naturally affect your commission earnings.</p>
+
+															<p class="text-[#3a3a3a]" id="el-9atzz0lj">Discounts or special pricing offered through coupons, as well as the structure of membership sales, may alter the total sale value on which your commission is calculated.</p>
+														</div></div></div></div></div></div></div></div>
+							<!-- Example Earnings Calculation -->
+							<div class="bg-white rounded-xl shadow-lg overflow-hidden animate__animated animate__fadeInUp" id="el-usk7gvoh">
+								<div class="bg-gradient-to-r from-[#bb0000] to-[#ffa500] p-6 md:p-8 text-white" id="el-srex4v7h">
+
+									<h3 class="text-2xl font-bold font-['Montserrat'] mb-2" id="el-3tgxwv1s">Example Earnings Calculation</h3>
+
+									<p id="el-dmhwim23">See how your earnings can grow as you progress through our tiered commission structure</p>
+								</div>
+								<div class="p-6 md:p-8" id="el-dyswzbbm">
+									<div class="overflow-x-auto" id="el-xsctdf0h">
+
+										<table class="w-full border-collapse" id="el-j5zst0ea">
+											<thead id="el-oc9zg1z0">
+												<tr id="el-k045chfk">
+													<th class="px-4 py-3 bg-[#010839]/5 text-left text-[#010839] font-bold border-b-2 border-[#010839]/20" id="el-ivoynmog">Program</th>
+													<th class="px-4 py-3 bg-[#010839]/5 text-left text-[#010839] font-bold border-b-2 border-[#010839]/20" id="el-x5vtwubc">Tier</th>
+													<th class="px-4 py-3 bg-[#010839]/5 text-left text-[#010839] font-bold border-b-2 border-[#010839]/20" id="el-ae9wptjv">Commission Rate</th>
+													<th class="px-4 py-3 bg-[#010839]/5 text-left text-[#010839] font-bold border-b-2 border-[#010839]/20" id="el-0zej2umk">Example Sale</th>
+													<th class="px-4 py-3 bg-[#010839]/5 text-left text-[#010839] font-bold border-b-2 border-[#010839]/20" id="el-h5y442fj">Your Commission</th>
+												</tr>
+											</thead>
+											<tbody id="el-1c0h9vi6">
+												<!-- Standard Program -->
+												<tr class="border-b border-[#e5e5e5]" id="el-fzkhbsnv">
+													<td class="px-4 py-3 text-[#010839] font-semibold" rowspan="4" id="el-jpuqszi0">Standard Affiliate</td>
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-w35ec2uu">Tier 1</td>
+													<td class="px-4 py-3 text-[#bb0000] font-bold" id="el-b0ebgeod">20%</td>
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-szdztuzo">$99</td>
+													<td class="px-4 py-3 text-[#010839] font-semibold" id="el-sc9jlw8t">$19.80</td>
+												</tr>
+												<tr class="border-b border-[#e5e5e5]" id="el-igdvgd7c">
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-d3dn8vmg">Tier 2</td>
+													<td class="px-4 py-3 text-[#bb0000] font-bold" id="el-p9ip5m2l">25%</td>
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-nito31pz">$99</td>
+													<td class="px-4 py-3 text-[#010839] font-semibold" id="el-r7g798tl">$24.75</td>
+												</tr>
+												<tr class="border-b border-[#e5e5e5]" id="el-h9od5899">
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-u3dfvtdq">Tier 3</td>
+													<td class="px-4 py-3 text-[#bb0000] font-bold" id="el-r1jaqd76">30%</td>
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-a8kqmq0x">$99</td>
+													<td class="px-4 py-3 text-[#010839] font-semibold" id="el-dsedl196">$29.70</td>
+												</tr>
+												<tr class="border-b border-[#e5e5e5] bg-[#e5e5e5]/30" id="el-txng8cxf">
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-n58gz7hv">Tier 4</td>
+													<td class="px-4 py-3 text-[#bb0000] font-bold" id="el-2lai8s9i">40%</td>
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-b2ey62ub">$99</td>
+													<td class="px-4 py-3 text-[#010839] font-bold" id="el-4cbuk8zt">$39.60</td>
+												</tr>
+												<!-- Ambassador Program -->
+												<tr class="border-b border-[#e5e5e5]" id="el-o87exb14">
+													<td class="px-4 py-3 text-[#010839] font-semibold" rowspan="4" id="el-med0imhw">Ambassador</td>
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-yhz6zllv">Tier 1</td>
+													<td class="px-4 py-3 text-[#bb0000] font-bold" id="el-b4lx7kx3">30%</td>
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-vkssypgr">$99</td>
+													<td class="px-4 py-3 text-[#010839] font-semibold" id="el-vlnvm6zv">$29.70</td>
+												</tr>
+												<tr class="border-b border-[#e5e5e5]" id="el-775419gs">
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-xw9uxoyr">Tier 2</td>
+													<td class="px-4 py-3 text-[#bb0000] font-bold" id="el-jiyrsvl2">35%</td>
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-fszxqa4q">$99</td>
+													<td class="px-4 py-3 text-[#010839] font-semibold" id="el-6dejaly1">$34.65</td>
+												</tr>
+												<tr class="border-b border-[#e5e5e5]" id="el-65yrjo8e">
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-59b9yakf">Tier 3</td>
+													<td class="px-4 py-3 text-[#bb0000] font-bold" id="el-b4be7e3z">40%</td>
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-5bqbx69d">$99</td>
+													<td class="px-4 py-3 text-[#010839] font-semibold" id="el-ykegp9bl">$39.60</td>
+												</tr>
+												<tr class="bg-[#e5e5e5]/30" id="el-k5uhgr8c">
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-yy6279xr">Tier 4</td>
+													<td class="px-4 py-3 text-[#bb0000] font-bold" id="el-5ex1kwgn">50%</td>
+													<td class="px-4 py-3 text-[#3a3a3a]" id="el-yn5d83bj">$99</td>
+													<td class="px-4 py-3 text-[#010839] font-bold" id="el-lgezip0v">$49.50</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6" id="el-6phtng7m">
+										<div class="p-5 bg-[#010839]/5 rounded-lg border border-[#010839]/10" id="el-qzbelwi1">
+
+											<h4 class="text-lg font-semibold text-[#010839] mb-3 font-['Montserrat']" id="el-nx4ms5dy">Standard Affiliates Projection</h4>
+
+											<p class="text-[#3a3a3a] mb-3" id="el-rtfdkruw">Projections are based on an average of 20 sales per week. As you progress through the tiers, your increased commission percentage translates directly into higher overall earnings.</p>
+
+											<p class="text-[#3a3a3a]" id="el-opb8vt0w">Moving from Tier 1 at approximately $19.80 per sale to Tier 4 at about $39.60 per sale can nearly double your revenue per sale.</p>
+										</div>
+										<div class="p-5 bg-[#010839]/5 rounded-lg border border-[#010839]/10" id="el-whx5tfe2">
+
+											<h4 class="text-lg font-semibold text-[#010839] mb-3 font-['Montserrat']" id="el-wbt8b8vo">Ambassadors Projection</h4>
+
+											<p class="text-[#3a3a3a] mb-3" id="el-op4dsfrn">With a higher volume expectation of around 100 sales per week, the tiered structure rewards your digital influence.</p>
+
+											<p class="text-[#3a3a3a]" id="el-emzky8qk">As your commission increases from approximately $29.70 per sale at Tier 1 to $49.50 per sale at Tier 4, your earnings can multiply significantly over time.</p>
+										</div></div></div></div></div>
+						<!-- CTA -->
+						<div class="mt-12 text-center" id="el-foeqhewu">
+
+							<h3 class="text-2xl font-bold text-[#010839] mb-6 font-['Montserrat']" id="el-ygxhhq0k">Ready to Start Earning?</h3>
+							<div class="flex flex-col sm:flex-row gap-4 justify-center" id="el-wmtg5jxu"><a href="https://www.militaryallies.com/affiliateapplication" class="inline-flex items-center justify-center px-6 py-3 rounded-md bg-[#bb0000] hover:bg-[#ffa500] text-white font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-lg shadow-md" id="el-72qmeah6">&nbsp;<span id="el-8lgzceae">Apply Now</span>&nbsp;</a> <a href="mailto:affiliates@militaryallies.com" class="inline-flex items-center justify-center px-6 py-3 rounded-md bg-[#1f7b19] hover:bg-[#6cd4ff] text-white font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-lg shadow-md" id="el-4qdzregi">&nbsp;<span id="el-y8qcwx3u">Contact Support</span>&nbsp;</a></div></div></div>
+				</section>
+
+				<p>
+					<br>
+				</p>
+				<section id="faq" class="py-16 bg-[#f5f5f5]">
+					<div class="container mx-auto px-4 sm:px-6 lg:px-8" id="el-qo4e40ww">
+						<div class="text-center mb-12" id="el-6cczt20i">
+
+							<h2 class="text-3xl md:text-4xl font-bold mb-3 text-[#010839] font-['Montserrat']" id="el-61srwrhl">Frequently Asked Questions</h2>
+
+							<p class="text-lg text-[#3a3a3a] max-w-2xl mx-auto font-['Montserrat']" id="el-569bbdhi">Find answers to common questions about the Military Allies Affiliate Program</p>
+						</div>
+						<div class="max-w-4xl mx-auto" id="el-i87rdw6p">
+							<div class="space-y-4" id="el-0gvvm0rt">
+								<!-- FAQ Item 1 -->
+								<div class="faq-item border border-[#e5e5e5] rounded-lg overflow-hidden bg-white shadow-sm transition-all duration-300 hover:shadow-md" id="el-c2rqa8a2">
+									<button class="faq-question w-full flex justify-between items-center p-5 text-left focus:outline-none focus:ring-2 focus:ring-[#6cd4ff] focus:ring-opacity-50" aria-expanded="false" id="el-zrur0wal">
+
+										<h3 class="text-xl font-semibold text-[#010839] pr-8 font-['Montserrat']" id="el-hym9y34l">What is the Military Allies Affiliate Program?</h3>
+									</button>
+									<div class="faq-answer hidden px-5 pb-5 animate__animated animate__fadeIn" id="el-2rsgl028">
+
+										<p class="text-[#3a3a3a] font-['Montserrat']" id="el-c6qey9l3">It is a performance-based, Pay-Per-Sale (PPS) program where you earn commissions on sales generated through your referral links.</p>
+									</div></div>
+								<!-- FAQ Item 2 -->
+								<div class="faq-item border border-[#e5e5e5] rounded-lg overflow-hidden bg-white shadow-sm transition-all duration-300 hover:shadow-md" id="el-fez8nrp1">
+									<button class="faq-question w-full flex justify-between items-center p-5 text-left focus:outline-none focus:ring-2 focus:ring-[#6cd4ff] focus:ring-opacity-50" aria-expanded="false" id="el-w7aexvmj">
+
+										<h3 class="text-xl font-semibold text-[#010839] pr-8 font-['Montserrat']" id="el-uwkijf6j">How often are payouts made?</h3>
+									</button>
+									<div class="faq-answer hidden px-5 pb-5 animate__animated animate__fadeIn" id="el-9sv6eksr">
+
+										<p class="text-[#3a3a3a] font-['Montserrat']" id="el-hq147txm">Payouts are processed monthly on the 15th, after a 15-day hold period to manage fraud, cancellations, and refunds.</p>
+									</div></div>
+								<!-- FAQ Item 3 -->
+								<div class="faq-item border border-[#e5e5e5] rounded-lg overflow-hidden bg-white shadow-sm transition-all duration-300 hover:shadow-md" id="el-42mjk3mo">
+									<button class="faq-question w-full flex justify-between items-center p-5 text-left focus:outline-none focus:ring-2 focus:ring-[#6cd4ff] focus:ring-opacity-50" aria-expanded="false" id="el-osd45pwt">
+
+										<h3 class="text-xl font-semibold text-[#010839] pr-8 font-['Montserrat']" id="el-wkrt4t10">What is the minimum payout threshold?</h3>
+									</button>
+									<div class="faq-answer hidden px-5 pb-5 animate__animated animate__fadeIn" id="el-qlfe0ecw">
+
+										<p class="text-[#3a3a3a] font-['Montserrat']" id="el-njte2156">You must earn at least $20 before a payout is issued.</p>
+									</div></div>
+								<!-- FAQ Item 4 -->
+								<div class="faq-item border border-[#e5e5e5] rounded-lg overflow-hidden bg-white shadow-sm transition-all duration-300 hover:shadow-md" id="el-vpr0xcdo">
+									<button class="faq-question w-full flex justify-between items-center p-5 text-left focus:outline-none focus:ring-2 focus:ring-[#6cd4ff] focus:ring-opacity-50" aria-expanded="false" id="el-dw6wkme6">
+
+										<h3 class="text-xl font-semibold text-[#010839] pr-8 font-['Montserrat']" id="el-4rea9gb7">How are payouts made?</h3>
+									</button>
+									<div class="faq-answer hidden px-5 pb-5 animate__animated animate__fadeIn" id="el-c3ku0a3p">
+
+										<p class="text-[#3a3a3a] font-['Montserrat']" id="el-iufesbg8">Payouts are issued via PayPal, Wise, or Direct Bank Transfer. We do not use Cashapp, Venmo, or Zelle.</p>
+									</div></div>
+								<!-- FAQ Item 5 -->
+								<div class="faq-item border border-[#e5e5e5] rounded-lg overflow-hidden bg-white shadow-sm transition-all duration-300 hover:shadow-md" id="el-uh8i9np0">
+									<button class="faq-question w-full flex justify-between items-center p-5 text-left focus:outline-none focus:ring-2 focus:ring-[#6cd4ff] focus:ring-opacity-50" aria-expanded="false" id="el-vzxy6bnt">
+
+										<h3 class="text-xl font-semibold text-[#010839] pr-8 font-['Montserrat']" id="el-pyt2c52i">How does the tiered commission structure work?</h3>
+									</button>
+									<div class="faq-answer hidden px-5 pb-5 animate__animated animate__fadeIn" id="el-s37kebt5">
+
+										<p class="text-[#3a3a3a] font-['Montserrat']" id="el-wjgccjkx">Both the Standard and Ambassador Programs have four tiers. As your total sales increase, your commission percentage&mdash;and consequently your per-sale dollar earnings&mdash;increase. For example, in the Standard Program, you start at 20% (approximately $19.80 per $99 sale) and can progress up to 40% (approximately $39.60 per $99 sale).</p>
+									</div></div>
+								<!-- FAQ Item 6 -->
+								<div class="faq-item border border-[#e5e5e5] rounded-lg overflow-hidden bg-white shadow-sm transition-all duration-300 hover:shadow-md" id="el-kvmievhz">
+									<button class="faq-question w-full flex justify-between items-center p-5 text-left focus:outline-none focus:ring-2 focus:ring-[#6cd4ff] focus:ring-opacity-50" aria-expanded="false" id="el-ulmzfgj7">
+
+										<h3 class="text-xl font-semibold text-[#010839] pr-8 font-['Montserrat']" id="el-rl6cv19b">How do promotional coupons and membership sales affect my commission?</h3>
+									</button>
+									<div class="faq-answer hidden px-5 pb-5 animate__animated animate__fadeIn" id="el-lcsuyrx6">
+
+										<p class="text-[#3a3a3a] font-['Montserrat']" id="el-hqpnex9l">Discounts or special pricing offered through coupons and the structure of membership sales may alter the total sale value on which your commission is calculated, thereby affecting your earnings.</p>
+									</div></div>
+								<!-- FAQ Item 7 -->
+								<div class="faq-item border border-[#e5e5e5] rounded-lg overflow-hidden bg-white shadow-sm transition-all duration-300 hover:shadow-md" id="el-dlbn5y6x">
+									<button class="faq-question w-full flex justify-between items-center p-5 text-left focus:outline-none focus:ring-2 focus:ring-[#6cd4ff] focus:ring-opacity-50" aria-expanded="false" id="el-ke75b714">
+
+										<h3 class="text-xl font-semibold text-[#010839] pr-8 font-['Montserrat']" id="el-yp2g7c3i">What is the difference between the Standard Affiliate and Ambassador Programs?</h3>
+									</button>
+									<div class="faq-answer hidden px-5 pb-5 animate__animated animate__fadeIn" id="el-q49sio7p">
+
+										<p class="text-[#3a3a3a] font-['Montserrat']" id="el-fdd7d78f">The Standard Affiliate Program is open to anyone leveraging personal referrals and community networks, with a commission range of 20% to 40%. The Ambassador Program is invite-only, targeting influencers and content creators with a strong social media presence, offering a commission range of 30% to 50% along with additional perks.</p>
+									</div></div>
+								<!-- FAQ Item 8 -->
+								<div class="faq-item border border-[#e5e5e5] rounded-lg overflow-hidden bg-white shadow-sm transition-all duration-300 hover:shadow-md" id="el-3u7rlglx">
+									<button class="faq-question w-full flex justify-between items-center p-5 text-left focus:outline-none focus:ring-2 focus:ring-[#6cd4ff] focus:ring-opacity-50" aria-expanded="false" id="el-quy5kn88">
+
+										<h3 class="text-xl font-semibold text-[#010839] pr-8 font-['Montserrat']" id="el-6uxuvj9i">Who is eligible to join the program?</h3>
+									</button>
+									<div class="faq-answer hidden px-5 pb-5 animate__animated animate__fadeIn" id="el-ojpsvglw">
+
+										<p class="text-[#3a3a3a] font-['Montserrat']" id="el-onkv615d">The program is open to veterans, military spouses, service members, and individuals connected to the military community. For the Ambassador Program, a significant social media following and high engagement are required.</p>
+									</div></div>
+								<!-- FAQ Item 9 -->
+								<div class="faq-item border border-[#e5e5e5] rounded-lg overflow-hidden bg-white shadow-sm transition-all duration-300 hover:shadow-md" id="el-rwfirezh">
+									<button class="faq-question w-full flex justify-between items-center p-5 text-left focus:outline-none focus:ring-2 focus:ring-[#6cd4ff] focus:ring-opacity-50" aria-expanded="false" id="el-a2v9uo2j">
+
+										<h3 class="text-xl font-semibold text-[#010839] pr-8 font-['Montserrat']" id="el-dn6wd491">How do I get started?</h3>
+									</button>
+									<div class="faq-answer hidden px-5 pb-5 animate__animated animate__fadeIn" id="el-o0s5gdl1">
+
+										<p class="text-[#3a3a3a] font-['Montserrat'] mb-3" id="el-efs9w0ht">Apply online through our website. Eligible applicants will receive an onboarding email with access to our affiliate portal and marketing tools.</p><a href="https://www.militaryallies.com/affiliateapplication" class="inline-flex items-center text-[#bb0000] hover:text-[#ffa500] font-medium transition-colors duration-300" id="el-m8x7sn8z">&nbsp;Apply Now&nbsp;</a></div></div>
+								<!-- FAQ Item 10 -->
+								<div class="faq-item border border-[#e5e5e5] rounded-lg overflow-hidden bg-white shadow-sm transition-all duration-300 hover:shadow-md" id="el-r02xs59t">
+									<button class="faq-question w-full flex justify-between items-center p-5 text-left focus:outline-none focus:ring-2 focus:ring-[#6cd4ff] focus:ring-opacity-50" aria-expanded="false" id="el-u5mk3ksi">
+
+										<h3 class="text-xl font-semibold text-[#010839] pr-8 font-['Montserrat']" id="el-486tnzoi">What measures are in place to manage fraud and cancellations?</h3>
+									</button>
+									<div class="faq-answer hidden px-5 pb-5 animate__animated animate__fadeIn" id="el-wmskqeax">
+
+										<p class="text-[#3a3a3a] font-['Montserrat']" id="el-vqz35ysp">We apply a 15-day hold period on all payouts to protect against fraud and to accommodate cancellations or refunds.</p>
+									</div></div>
+								<!-- FAQ Item 11 -->
+								<div class="faq-item border border-[#e5e5e5] rounded-lg overflow-hidden bg-white shadow-sm transition-all duration-300 hover:shadow-md" id="el-vuusz40k">
+									<button class="faq-question w-full flex justify-between items-center p-5 text-left focus:outline-none focus:ring-2 focus:ring-[#6cd4ff] focus:ring-opacity-50" aria-expanded="false" id="el-wadwh19s">
+
+										<h3 class="text-xl font-semibold text-[#010839] pr-8 font-['Montserrat']" id="el-ksgx6car">Why is my legal name and address required?</h3>
+									</button>
+									<div class="faq-answer hidden px-5 pb-5 animate__animated animate__fadeIn" id="el-1eual151">
+
+										<p class="text-[#3a3a3a] font-['Montserrat']" id="el-6dyrv3em">Military Allies must report affiliate payouts to the IRS. Therefore, your legal name and address are required for invoice purposes. Affiliates are responsible for paying their own taxes on earned commissions.</p>
+									</div></div></div></div>
+						<section id="faq">
+							<div class="text-center mt-12" id="el-mxsedrrs">
+
+								<p class="text-lg mb-6 text-[#3a3a3a] font-['Montserrat']" id="el-do1u1569">Still have questions about our affiliate program?</p><a href="mailto:affiliates@militaryallies.com" class="inline-flex items-center px-6 py-3 rounded-md bg-[#1f7b19] hover:bg-[#6cd4ff] text-white font-bold transition-all duration-300 shadow-md hover:shadow-lg" id="el-9vuguqyd">&nbsp;<span id="el-pq4c90lf">Contact Support</span>&nbsp;</a></div>
+						</section>
+					</div>
+				</section>
+			</div>
+		</section>
+	</div></div>
+

@@ -1,0 +1,140 @@
+<hr style="border: 1px solid #010839;">
+
+<h2 style="text-align: center; color: #010839; font-weight: bold;"><span style="font-family: 'Montserrat';">Membership Details</span></h2>
+<hr style="border: 1px solid #010839;">
+
+<table class="froala-table" style="width: 100%; border-collapse: collapse;">
+	<tbody>
+		<tr>
+			<td class="fpad-lg" style="width: 31%; vertical-align: middle; text-align: center; background-color: #010839; color: white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+				<h2 style="font-size: 40px; font-weight: bold;">Founding Ally</h2>
+
+				<p style="font-size: 24px; font-family: 'Quicksand', sans-serif;"><span style="font-family: 'Montserrat';">$99/Year</span></p><span style="font-family: 'Montserrat';"><a class="btn-lg btn btn-primary" href="/checkout/3" target="_blank" style="padding: 10px 20px; border-radius: 10px; color: #fff; text-decoration: none; font-weight: bold;">Join Now!</a></span></td>
+			<td style="width: 69%; vertical-align: middle; padding: 20px;">
+
+				<h2><span style="color: rgb(187, 0, 0);"><strong><span style="font-family: Georgia;">Limited Time Deal!!!</span></strong></span></h2>
+
+				<h4 style="color: #010839; font-weight: bold;">
+					<br>
+				</h4>
+
+				<h4 style="color: #010839; font-weight: bold;">Lock in this lifetime pricing - $99/year and $5 posts!</h4>
+
+				<p>
+					<br>
+				</p>
+
+				<h4 style="color: #010839; font-weight: bold;"><span style="font-family: 'Montserrat';">What You Get:</span></h4>
+
+				<ul style="color: #010839; font-size: 16px;">
+					<li style="font-family: Montserrat;"><strong>Unbeatable Value:</strong> Only $99/year vs. $500+/month elsewhere</li>
+					<li style="font-family: Montserrat;"><strong>8 Annual Post Credits:</strong> Covering ads for veteran holidays</li>
+					<li style="font-family: Montserrat;"><strong>Affordable Posts:</strong> Just $5/post to keep quality high</li>
+					<li style="font-family: Montserrat;"><strong>No Hidden Fees:</strong> What you see is what you get</li>
+					<li style="font-family: Montserrat;"><strong>All Premium Features:</strong> Access all current and future platform features</li>
+					<li style="font-family: Montserrat;"><strong>Monthly Newsletter:</strong> Stay informed, no inbox overload</li>
+					<li style="font-family: Montserrat;"><strong>Full Control:</strong> Manage your promotions and reviews easily</li>
+					<li style="font-family: Montserrat;"><strong>Build Your Brand:&nbsp;</strong>Direct connection with the military community</li>
+				</ul>
+				<hr style="border: 1px solid #010839;">
+
+				<h4 style="color: #010839; font-weight: bold;"><span style="font-family: 'Montserrat';">Key Features:</span></h4>
+				<div style="display: flex; gap: 40px;">
+
+					<ul style="color: #010839; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 1.5;">
+						<li style="font-family: Montserrat;">Local &amp; National Searches</li>
+						<li style="font-family: Montserrat;">List in Up to 10 Sub-Categories</li>
+						<li style="font-family: Montserrat;">Direct Inquiries&mdash;No Lead Fees</li>
+						<li style="font-family: Montserrat;">Display Social Media Links</li>
+						<li style="font-family: Montserrat;">Display Website</li>
+						<li style="font-family: Montserrat;">Display Booking Links</li>
+						<li style="font-family: Montserrat;">Display Phone Number</li>
+						<li style="font-family: Montserrat;">Display &quot;Click-to-Call&quot; Button</li>
+						<li style="font-family: Montserrat;" id="isPasted">Post Ads: Jobs, Events, Deals, Properties, etc</li>
+					</ul>
+
+					<p><span style="font-family: 'Montserrat';"><br></span></p>
+				</div>
+
+				<h4 style="color: #010839; font-weight: bold;"><span style="font-family: 'Montserrat';">How It Works:</span></h4>
+
+				<ol style="color: #010839; font-size: 16px; line-height: 1.5;">
+					<li style="font-family: Montserrat;"><strong>Sign Up:</strong> Complete our quick registration.</li>
+					<li style="font-family: Montserrat;"><strong>Get Listed:</strong> Appear in the directory instantly.</li>
+					<li style="font-family: Montserrat;"><strong>Promote:</strong> Post updates, jobs, deals, and more for $5/post.</li>
+					<li style="font-family: Montserrat;"><strong>Engage:</strong> Watch your audience grow with targeted exposure.</li>
+				</ol><span style="font-family: 'Montserrat';"><strong><span style="color: rgb(187, 0, 0); font-size: 17px;">Don&rsquo;t wait&mdash;lock in your rate now and secure ongoing savings for years to come!</span></strong></span></td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+<p style="text-align: center; margin-bottom: 40px;"><span style="color: rgb(1, 8, 57); font-family: Montserrat;">&nbsp;<strong>&nbsp;<span style="font-size: 35px;">Frequently Asked Questions</span>&nbsp;</strong>&nbsp;</span></p>
+<div class="container my-5 p-4" style="background: linear-gradient(135deg, #f8f9fa, #e3e6ee); border-radius: 15px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);">
+	<div class="accordion" id="faqAccordion" style="border: none;">
+		<!-- FAQ Item 1 -->
+		<div class="accordion-item" style="background: linear-gradient(135deg, #010839, #2e4a7d); color: white; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden;">
+
+			<h2 class="accordion-header" id="headingOne"><span style="font-family: 'Montserrat';"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="font-size: 20px; color: white; font-weight: bold; background: none; box-shadow: none; border: none; padding: 20px;">&nbsp;What information can be displayed on member profiles?&nbsp;</button></span></h2>
+			<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+				<div class="accordion-body" style="font-size: 18px; padding: 20px; color: white; background: linear-gradient(135deg, #010839, #2e4a7d);"><span style="font-family: 'Montserrat';">Member profiles can display website links, social media links, phone numbers, street addresses, specialties tabs, &quot;Click-to-Call&quot; buttons, and options for sending messages.</span></div></div></div>
+		<!-- FAQ Item 2 -->
+		<div class="accordion-item" style="background: linear-gradient(135deg, #010839, #2e4a7d); color: white; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden;">
+
+			<h2 class="accordion-header" id="headingTwo"><span style="font-family: 'Montserrat';"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-size: 20px; color: white; font-weight: bold; background: none; box-shadow: none; border: none; padding: 20px;">&nbsp;Can members receive reviews on their profiles?&nbsp;</button></span></h2>
+			<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+				<div class="accordion-body" style="font-size: 18px; padding: 20px; color: white; background: linear-gradient(135deg, #010839, #2e4a7d);"><span style="font-family: 'Montserrat';">Yes, members can receive reviews on their profiles. Admin approval for reviews is not required, and members can reply to reviews they receive.</span></div></div></div>
+		<!-- FAQ Item 3 -->
+		<div class="accordion-item" style="background: linear-gradient(135deg, #010839, #2e4a7d); color: white; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden;">
+
+			<h2 class="accordion-header" id="headingThree"><span style="font-family: 'Montserrat';"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 20px; color: white; font-weight: bold; background: none; box-shadow: none; border: none; padding: 20px;">&nbsp;What dashboard features are available to members?&nbsp;</button></span></h2>
+			<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+				<div class="accordion-body" style="font-size: 18px; padding: 20px; color: white; background: linear-gradient(135deg, #010839, #2e4a7d);"><span style="font-family: 'Montserrat';">Members can access features like a profile completeness checklist, quick links to publish content and manage listings, an account details snapshot, and the recent transactions module.</span></div></div></div>
+		<!-- FAQ Item 4 -->
+		<div class="accordion-item" style="background: linear-gradient(135deg, #010839, #2e4a7d); color: white; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden;">
+
+			<h2 class="accordion-header" id="headingFour"><span style="font-family: 'Montserrat';"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-size: 20px; color: white; font-weight: bold; background: none; box-shadow: none; border: none; padding: 20px;">&nbsp;Do you offer discounts for nonprofits?&nbsp;</button></span></h2>
+			<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+				<div class="accordion-body" style="font-size: 18px; padding: 20px; color: white; background: linear-gradient(135deg, #010839, #2e4a7d);"><span style="font-family: 'Montserrat';">Yes, we offer discounts for smaller nonprofits. To request a discount, please email us at <strong>support@militaryallies.com</strong> using your organization&rsquo;s email address. Include your organization&rsquo;s name and EIN, and we&rsquo;ll verify your details and provide a discount code as quickly as possible.</span></div></div></div>
+		<!-- FAQ Item 5 -->
+		<div class="accordion-item" style="background: linear-gradient(135deg, #010839, #2e4a7d); color: white; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden;">
+
+			<h2 class="accordion-header" id="headingFive"><span style="font-family: 'Montserrat';"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="font-size: 20px; color: white; font-weight: bold; background: none; box-shadow: none; border: none; padding: 20px;">&nbsp;Do you offer a refund?&nbsp;</button></span></h2>
+			<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+				<div class="accordion-body" style="font-size: 18px; padding: 20px; color: white; background: linear-gradient(135deg, #010839, #2e4a7d);"><span style="font-family: 'Montserrat';">No, we do not offer refunds. While we promote the directory to the military and veteran community, success depends on how much effort you put into your promotional posts.</span></div></div></div>
+		<!-- FAQ Item 6 -->
+		<div class="accordion-item" style="background: linear-gradient(135deg, #010839, #2e4a7d); color: white; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden;">
+
+			<h2 class="accordion-header" id="headingSix"><span style="font-family: 'Montserrat';"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" style="font-size: 20px; color: white; font-weight: bold; background: none; box-shadow: none; border: none; padding: 20px;">&nbsp;What is a post? Why would I want to post?&nbsp;</button></span></h2>
+			<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+				<div class="accordion-body" style="font-size: 18px; padding: 20px; color: white; background: linear-gradient(135deg, #010839, #2e4a7d);"><span style="font-family: 'Montserrat';">Posts are advertisements visible to our target audience&mdash;the military and veteran community.</span></div></div></div>
+		<!-- FAQ Item 7 -->
+		<div class="accordion-item" style="background: linear-gradient(135deg, #010839, #2e4a7d); color: white; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden;">
+
+			<h2 class="accordion-header" id="headingSeven"><span style="font-family: 'Montserrat';"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" style="font-size: 20px; color: white; font-weight: bold; background: none; box-shadow: none; border: none; padding: 20px;">&nbsp;Is there an onboarding fee?&nbsp;</button></span></h2>
+			<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+				<div class="accordion-body" style="font-size: 18px; padding: 20px; color: white; background: linear-gradient(135deg, #010839, #2e4a7d);"><span style="font-family: 'Montserrat';">Yes, there is a <strong><u>one-time</u></strong> fee of $25.</span></div></div></div>
+		<!-- FAQ Item 8 -->
+		<div class="accordion-item" style="background: linear-gradient(135deg, #010839, #2e4a7d); color: white; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden;">
+
+			<h2 class="accordion-header" id="headingEight"><span style="font-family: 'Montserrat';"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" style="font-size: 20px; color: white; font-weight: bold; background: none; box-shadow: none; border: none; padding: 20px;">&nbsp;Is there an option to upgrade?&nbsp;</button></span></h2>
+			<div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+				<div class="accordion-body" style="font-size: 18px; padding: 20px; color: white; background: linear-gradient(135deg, #010839, #2e4a7d);"><span style="font-family: 'Montserrat';">No, for our launch year we aim to provide equal opportunities for all organizations. However, as we grow with more features and opportunities, upgrades will be an option for future membership plans, but if you are a launch partner you will get all future premium features at your launch price.</span></div></div></div>
+		<!-- FAQ Item 9 -->
+		<div class="accordion-item" style="background: linear-gradient(135deg, #010839, #2e4a7d); color: white; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden;">
+
+			<h2 class="accordion-header" id="headingNine"><span style="font-family: 'Montserrat';"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" style="font-size: 20px; color: white; font-weight: bold; background: none; box-shadow: none; border: none; padding: 20px;">&nbsp;What happens if I cancel my Founding Ally membership?&nbsp;</button></span></h2>
+			<div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+				<div class="accordion-body" style="font-size: 18px; padding: 20px; color: white; background: linear-gradient(135deg, #010839, #2e4a7d);"><span style="font-family: 'Montserrat';">If you cancel or fail to renew, you&rsquo;ll <strong>lose your $99 launch partner pricing</strong> and will be subject to the current annual fee when you come back.</span></div></div></div>
+		<!-- FAQ Item 10 -->
+		<div class="accordion-item" style="background: linear-gradient(135deg, #010839, #2e4a7d); color: white; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden;">
+
+			<h2 class="accordion-header" id="headingTen"><span style="font-family: 'Montserrat';"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" style="font-size: 20px; color: white; font-weight: bold; background: none; box-shadow: none; border: none; padding: 20px;">&nbsp;When does the $99/year Founding Ally pricing end?&nbsp;</button></span></h2>
+			<div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+				<div class="accordion-body" style="font-size: 18px; padding: 20px; color: white; background: linear-gradient(135deg, #010839, #2e4a7d);"><span style="font-family: 'Montserrat';">The exclusive <strong>$99/year Launch Partner pricing</strong> is only available until <strong>December 31, 2025, at 11:59 PM</strong>. After this deadline, new members will pay the standard annual fee and updated post-ad rates.</span></div></div></div></div></div>
+
+<p><span style="font-family: 'Montserrat';"><link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet"></span></p>
+
+<p style="text-align: center;"><a href="/checkout/3" target="_blank" class="btn-lg btn btn-primary" rel="noopener noreferrer">Register Your Business Now!</a></p>
+

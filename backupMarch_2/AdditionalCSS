@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fixed Styles & Scripts</title>
+  <style>
+    /* 
+       Styles for Select2 chosen spans.
+       These elements display a chosen value with a 13px font and extra top padding.
+    */
+    span#select2-chosen-1,
+    span#select2-chosen-2 {
+      font-size: 13px !important;
+      padding-top: 12px !important;
+    }
+
+    /* 
+       Hides the social media link icons (e.g., email icon) typically in a footer/sidebar.
+    */
+    .list-social-links {
+      display: none;
+    }
+
+    /*
+       Styles the Google Maps box.
+       Sets a matching font size, vertical and horizontal padding, and ensures the
+       total width/height remains consistent with box-sizing.
+    */
+    #location_google_maps_homepage {
+      font-size: 13px !important;
+      padding: 12px 10px !important; /* 12px top & bottom, 10px left & right */
+      box-sizing: border-box;
+    }
+
+    /* 
+       Base styling for the entire page.
+       Uses a modern sans-serif font, a neutral text color, and comfortable line height.
+       Resets margin and padding and sets a consistent box model.
+    */
+    body {
+      font-family: 'Lato', sans-serif !important;
+      color: #333 !important;
+      line-height: 1.6 !important;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /*
+       Hover effect for the Select2 chosen spans.
+       Darkens the text color on hover to provide a subtle interactive cue.
+    */
+    span#select2-chosen-1:hover,
+    span#select2-chosen-2:hover {
+      color: #555 !important;
+    }
+
+    /* 
+       Responsive adjustments for devices with a viewport width of 768px or less.
+       Increases the base font size and adjusts the layout for popular categories.
+    */
+    @media (max-width: 768px) {
+      body {
+        font-size: 14px !important;
+      }
+      .popular-categories {
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+        justify-content: flex-start !important;
+      }
+      .popular-categories > div {
+        flex: 0 0 auto !important;
+      }
+    }
+
+    /* 
+       Fixes header issues by ensuring the navbar is visible.
+       (This is useful when Tailwind CSS inadvertently hides it.)
+    */
+    .navbar-collapse {
+      visibility: visible !important;
+    }
+  </style>
+</head>
+
+</html>
