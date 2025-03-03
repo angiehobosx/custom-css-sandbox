@@ -1,0 +1,181 @@
+/* Base Styling for the Page */
+body {
+    font-family: 'Lato', sans-serif !important;
+    color: #333 !important;
+    line-height: 1.6 !important;
+    margin: 0;
+    padding-top: 60px; /* Adjust based on header height */
+    padding-bottom: 40px; /* Adjust based on footer height */
+    box-sizing: border-box;
+}
+
+/* Ensure Tailwind Works Correctly */
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Prevent BD’s Header/Footer from Overlapping Content */
+#header, #footer {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#header {
+    top: 0;
+}
+
+#footer {
+    bottom: 0;
+}
+
+/* Preserve Tailwind Color Styles */
+.bg-neutral-900 { background-color: #1a1a1a !important; }
+.text-[#6f0992] { color: #6f0992 !important; }
+.text-[#ffa500] { color: #ffa500 !important; }
+.bg-[#bb0000] { background-color: #bb0000 !important; }
+.bg-[#010839] { background-color: #010839 !important; }
+
+/* Prevent Froala from Stripping Classes */
+.custom-section {
+    all: unset;
+    display: block;
+    width: 100%;
+}
+
+/* Fix Navbar Visibility */
+.navbar-collapse {
+    visibility: visible !important;
+}
+
+/* Styles for Select2 Plugin Chosen Values */
+span#select2-chosen-1,
+span#select2-chosen-2 {
+    font-size: 13px !important;
+    padding-top: 12px !important;
+}
+
+span#select2-chosen-1:hover,
+span#select2-chosen-2:hover {
+    color: #555 !important;
+}
+
+/* Hides Social Media Link Icons */
+.list-social-links {
+    display: none;
+}
+
+/* Styles the Google Maps Box */
+#location_google_maps_homepage {
+    font-size: 13px !important;
+    padding: 12px 10px !important;
+    box-sizing: border-box;
+}
+
+/* Responsive Adjustments for Smaller Screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px !important;
+    }
+    .popular-categories {
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+        justify-content: flex-start !important;
+    }
+    .popular-categories > div {
+        flex: 0 0 auto !important;
+    }
+}
+
+/* Ensures Form Text Areas Display Properly */
+textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.form-container select {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+select {
+    width: auto;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Container Styling for a Professional Look */
+.form-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label Styling */
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* General Input, Textarea, and Select Styling */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Focus State for Inputs */
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container input[type="password"]:focus,
+.form-container select:focus,
+.form-container textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Responsive Dropdowns to Show All Options */
+.form-container select {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+}
+
+/* FAQ Answer Animation */
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.faq-item.active .faq-answer {
+    padding: 15px;
+    transition: max-height 0.5s ease-in;
+}
