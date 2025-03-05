@@ -1,0 +1,3009 @@
+
+      <!DOCTYPE html>
+      <html style="margin:0; padding:0; height:100%;">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+          <style>
+            html, body {
+              margin: 0 !important;
+              padding: 0 !important;
+              height: 100% !important;
+              width: 100% !important;
+              overflow-x: hidden;
+            }
+            body {
+              display: flex;
+              flex-direction: column;
+              min-height: 100vh;
+              background: white;
+            } 
+            #root {
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+            }
+            * {
+              box-sizing: border-box;
+            }
+          </style>
+          <script src="https://cdn.tailwindcss.com"></script>
+        </head>
+        <body>
+          <div id="root">
+            <section id="section-19fa3bfe-8774-49c5-bebe-af4c0db744bd">
+<div id="root">
+  <section id="header" class="bg-neutral-900 text-white relative">
+    <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center">
+        <a href="#" class="flex items-center">
+          <img src="https://www.militaryallies.com/images/W---Full-Color-Logo-4.png" alt="Military Allies Logo" class="h-14 w-auto">
+        </a>
+      </div>
+      
+      <div class="hidden lg:flex space-x-6 items-center">
+        {{#each headerNav}}
+          <a href="{{this.link}}" class="text-white hover:text-[#6cd4ff] transition-colors duration-300 font-medium">{{this.label}}</a>
+        {{/each}}
+        <a href="#cta" class="ml-4 px-6 py-2 bg-[#bb0000] hover:bg-[#ffa500] rounded-md font-semibold transition-colors duration-300 animate__animated animate__pulse animate__infinite animate__slower">Apply Now</a>
+      </div>
+      
+      <button id="mobileMenuBtn" class="lg:hidden text-white focus:outline-none" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobileMenu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </nav>
+    
+    <div id="mobileMenu" class="fixed inset-0 bg-neutral-900 bg-opacity-95 z-50 transform translate-x-full transition-transform duration-300 ease-in-out lg:hidden">
+      <div class="flex justify-end p-4">
+        <button id="closeMenuBtn" class="text-white focus:outline-none" aria-label="Close mobile menu">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="flex flex-col items-center space-y-6 mt-10 px-4">
+        {{#each headerNav}}
+          <a href="{{this.link}}" class="text-white hover:text-[#6cd4ff] text-xl font-medium transition-colors duration-300">{{this.label}}</a>
+        {{/each}}
+        <a href="#cta" class="mt-6 px-8 py-3 bg-[#bb0000] hover:bg-[#ffa500] rounded-md font-bold text-xl transition-colors duration-300 animate__animated animate__pulse animate__infinite animate__slower">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="hero-section container mx-auto px-4 pb-24 pt-16 flex flex-col lg:flex-row items-center">
+      <div class="lg:w-1/2 lg:pr-12 animate__animated animate__fadeInLeft">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+          <span class="text-[#6f0992]">Military Allies</span>
+          <span class="block mt-2">Affiliate Program</span>
+        </h1>
+        <p class="text-xl mb-8">Join our mission to support the military community while earning competitive commissions up to <span class="text-[#ffa500] font-bold">50%</span> on every sale you generate.</p>
+        <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+          <a href="#program-overview" class="px-8 py-3 bg-[#bb0000] hover:bg-[#ffa500] rounded-md text-center font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl animate__animated animate__pulse animate__infinite animate__slow">Learn More</a>
+          <a href="#cta" class="px-8 py-3 bg-[#1f7b19] hover:bg-[#6cd4ff] rounded-md text-center font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl">Apply Now</a>
+        </div>
+      </div>
+      <div class="lg:w-1/2 mt-12 lg:mt-0 animate__animated animate__fadeInRight">
+        <div class="relative bg-[#010839] p-6 rounded-lg shadow-2xl border border-[#6f0992]">
+          <div class="absolute -top-5 -right-5 bg-[#bb0000] text-white px-4 py-2 rounded-md font-bold">
+            Earn up to 50%
+          </div>
+          <h2 class="text-2xl font-bold mb-4">Two Powerful Programs</h2>
+          <div class="mb-6 p-4 bg-neutral-800 rounded-md">
+            <h3 class="text-xl font-bold mb-2 text-[#6cd4ff]">Standard Affiliate</h3>
+            <p class="mb-2">For networked professionals and community members</p>
+            <p class="font-bold text-[#ffa500]">20%-40% Commission</p>
+          </div>
+          <div class="p-4 bg-neutral-800 rounded-md">
+            <h3 class="text-xl font-bold mb-2 text-[#6cd4ff]">Ambassador Program</h3>
+            <p class="mb-2">For influencers and content creators (invite-only)</p>
+            <p class="font-bold text-[#ffa500]">30%-50% Commission</p>
+          </div>
+          <div class="mt-6 text-center">
+            <span class="text-sm italic">*Monthly payouts with $20 minimum threshold</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="absolute bottom-0 left-0 w-full overflow-hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" class="w-full h-auto">
+        <path fill="#f5f5f5" fill-opacity="1" d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,80C672,64,768,64,864,64C960,64,1056,64,1152,53.3C1248,43,1344,21,1392,10.7L1440,0L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const closeMenuBtn = document.getElementById('closeMenuBtn');
+      const mobileMenu = document.getElementById('mobileMenu');
+      
+      mobileMenuBtn.addEventListener('click', function() {
+        mobileMenu.classList.remove('translate-x-full');
+        mobileMenuBtn.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+      });
+      
+      closeMenuBtn.addEventListener('click', function() {
+        mobileMenu.classList.add('translate-x-full');
+        mobileMenuBtn.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      });
+      
+      // Close menu when clicking on a mobile menu link
+      const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+      mobileMenuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          mobileMenu.classList.add('translate-x-full');
+          mobileMenuBtn.setAttribute('aria-expanded', 'false');
+          document.body.style.overflow = '';
+        });
+      });
+    });
+  </script>
+</div>
+</section>
+<section id="section-d5019289-9da7-40c2-92db-bbc61c609666">
+<div id="root">
+  <section id="hero" class="bg-gradient-to-br from-[#010839] to-[#6f0992] text-white py-20 relative overflow-hidden">
+    <!-- Decorative elements -->
+    <div class="absolute top-0 right-0 w-1/3 h-full bg-[#010839] opacity-30 transform rotate-45 translate-x-1/2"></div>
+    <div class="absolute bottom-0 left-0 w-1/4 h-1/3 bg-[#bb0000] opacity-20 rounded-full blur-3xl"></div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="animate__animated animate__fadeInLeft">
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-['Bebas_Neue',_sans-serif]">
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-white to-[#e5e5e5] drop-shadow-[0_2px_2px_rgba(255,165,0,0.3)]">MILITARY ALLIES</span>
+            <span class="block mt-2 text-[#ffa500]">AFFILIATE PROGRAM</span>
+          </h1>
+          
+          <p class="text-xl mb-8 font-['Montserrat',_sans-serif] leading-relaxed">
+            Earn substantial commissions while supporting the military community. Join our performance-based revenue sharing program with competitive rates up to <span class="text-[#ffa500] font-bold">50%</span> on every sale.
+          </p>
+          
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="#program-overview" class="px-8 py-4 bg-gradient-to-r from-[#bb0000] to-[#d10000] rounded-md text-white font-bold text-lg shadow-lg hover:shadow-[0_0_15px_rgba(255,165,0,0.5)] transition-all duration-300 text-center transform hover:-translate-y-1 hover:scale-105">
+              <i class="fas fa-flag mr-2"></i>
+              Discover Program
+            </a>
+            <a href="#cta" class="px-8 py-4 bg-[#1f7b19] hover:bg-[#6cd4ff] rounded-md text-white font-bold text-lg shadow-lg hover:shadow-[0_0_15px_rgba(108,212,255,0.5)] transition-all duration-300 text-center transform hover:-translate-y-1 hover:scale-105">
+              <i class="fas fa-user-plus mr-2"></i>
+              Apply Now
+            </a>
+          </div>
+          
+          <div class="mt-8 bg-white bg-opacity-10 p-4 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-20">
+            <p class="flex items-center text-lg">
+              <i class="fas fa-check-circle text-[#6cd4ff] mr-2"></i>
+              Monthly payouts processed on the 15th
+            </p>
+            <p class="flex items-center text-lg mt-2">
+              <i class="fas fa-check-circle text-[#6cd4ff] mr-2"></i>
+              Low $20 minimum payout threshold
+            </p>
+          </div>
+        </div>
+        
+        <div class="relative animate__animated animate__fadeInRight">
+          <div class="bg-[#010839] p-8 rounded-xl shadow-2xl border-2 border-[#6f0992] relative overflow-hidden">
+            <div class="absolute -top-6 -right-6 bg-[#bb0000] text-white px-4 py-2 rounded-md font-bold transform rotate-12 shadow-lg z-20">
+              EXCLUSIVE OPPORTUNITY
+            </div>
+            
+            <h2 class="text-3xl font-bold mb-6 text-center border-b border-[#6f0992] pb-4 font-['Playfair_Display',_serif]">Two Powerful Paths</h2>
+            
+            <div class="space-y-6">
+              <div class="bg-white bg-opacity-5 p-5 rounded-lg border-l-4 border-[#ffa500] hover:transform hover:scale-105 transition-transform duration-300">
+                <h3 class="text-2xl font-bold mb-2 text-[#6cd4ff] font-['Montserrat',_sans-serif]">Standard Affiliate</h3>
+                <p class="mb-3">For veterans, military spouses, and community members</p>
+                <div class="flex justify-between items-center">
+                  <span class="text-xl font-bold text-white">20% - 40%</span>
+                  <span class="bg-[#ffa500] text-[#010839] px-3 py-1 rounded font-bold">Commission</span>
+                </div>
+                <div class="mt-3 text-sm">
+                  <p><i class="fas fa-dollar-sign mr-1 text-[#ffa500]"></i> Example: Up to $39.60 per $99 sale</p>
+                </div>
+              </div>
+              
+              <div class="bg-white bg-opacity-5 p-5 rounded-lg border-l-4 border-[#6cd4ff] hover:transform hover:scale-105 transition-transform duration-300">
+                <h3 class="text-2xl font-bold mb-2 text-[#ffa500] font-['Montserrat',_sans-serif]">Ambassador Program</h3>
+                <p class="mb-3">For influencers and content creators (invite-only)</p>
+                <div class="flex justify-between items-center">
+                  <span class="text-xl font-bold text-white">30% - 50%</span>
+                  <span class="bg-[#6cd4ff] text-[#010839] px-3 py-1 rounded font-bold">Commission</span>
+                </div>
+                <div class="mt-3 text-sm">
+                  <p><i class="fas fa-dollar-sign mr-1 text-[#6cd4ff]"></i> Example: Up to $49.50 per $99 sale</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="mt-6 text-center">
+              <a href="#commission-structure" class="inline-block px-6 py-2 bg-transparent border border-[#ffa500] text-[#ffa500] rounded-md hover:bg-[#ffa500] hover:text-[#010839] transition-colors duration-300">
+                View Commission Structure
+                <i class="fas fa-arrow-right ml-2"></i>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Floating elements for visual interest -->
+          <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-[#bb0000] opacity-20 rounded-full blur-3xl animate-pulse"></div>
+          <div class="absolute -top-5 -left-5 w-20 h-20 bg-[#6cd4ff] opacity-20 rounded-full blur-xl animate-pulse"></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Wave separator -->
+    <div class="absolute bottom-0 left-0 w-full overflow-hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" class="w-full h-auto">
+        <path fill="#f5f5f5" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,53.3C384,53,480,43,576,42.7C672,43,768,53,864,58.7C960,64,1056,64,1152,58.7C1248,53,1344,43,1392,37.3L1440,32L1440,100L1392,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z"></path>
+      </svg>
+    </div>
+  </section>
+</div>
+</section>
+<section id="section-eda3202d-fd16-447d-841c-9956111d3a95">
+<div id="root">
+  <section id="program-overview" class="py-20 bg-[#f5f5f5]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#010839] font-['Montserrat',_sans-serif]">Program Overview</h2>
+        <div class="w-24 h-1 bg-[#ffa500] mx-auto mb-6"></div>
+        <p class="text-xl text-[#3a3a3a] max-w-3xl mx-auto font-['Montserrat',_sans-serif]">The Military Allies Affiliate Program is a performance-based revenue-sharing model that rewards you for every sale you generate.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div class="animate__animated animate__fadeInLeft">
+          <h3 class="text-3xl font-bold mb-6 text-[#6f0992] font-['Montserrat',_sans-serif]">Strategic Overview</h3>
+          <p class="text-lg text-[#3a3a3a] mb-6 leading-relaxed">
+            Our Pay-Per-Sale (PPS) model empowers brand advocates, businesses, and influencers to monetize their audience while expanding our market reach. Affiliates earn commissions on every sale generated through their unique referral link.
+          </p>
+          
+          <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-[#bb0000] mb-8 hover:shadow-xl transition-shadow duration-300">
+            <h4 class="text-xl font-bold mb-3 text-[#010839]">Key Benefits</h4>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#010839] flex items-center justify-center text-white mr-3 mt-0.5">
+                  <i class="fas fa-dollar-sign text-sm"></i>
+                </div>
+                <span class="text-[#3a3a3a]">Earn up to 50% commission on each sale</span>
+              </li>
+              <li class="flex items-start">
+                <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#010839] flex items-center justify-center text-white mr-3 mt-0.5">
+                  <i class="fas fa-calendar-alt text-sm"></i>
+                </div>
+                <span class="text-[#3a3a3a]">Monthly payouts with low $20 minimum threshold</span>
+              </li>
+              <li class="flex items-start">
+                <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#010839] flex items-center justify-center text-white mr-3 mt-0.5">
+                  <i class="fas fa-tools text-sm"></i>
+                </div>
+                <span class="text-[#3a3a3a]">Access to marketing tools and resources</span>
+              </li>
+              <li class="flex items-start">
+                <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#010839] flex items-center justify-center text-white mr-3 mt-0.5">
+                  <i class="fas fa-chart-line text-sm"></i>
+                </div>
+                <span class="text-[#3a3a3a]">Tiered commission structure that rewards growth</span>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="bg-gradient-to-r from-[#010839] to-[#6f0992] text-white p-6 rounded-lg shadow-lg">
+            <h4 class="text-xl font-bold mb-4">Payment Methods</h4>
+            <div class="grid grid-cols-3 gap-4 text-center">
+              <div class="bg-white bg-opacity-10 p-4 rounded-lg backdrop-filter backdrop-blur-sm">
+                <i class="fab fa-paypal text-2xl mb-2"></i>
+                <p>PayPal</p>
+              </div>
+              <div class="bg-white bg-opacity-10 p-4 rounded-lg backdrop-filter backdrop-blur-sm">
+                <i class="fas fa-university text-2xl mb-2"></i>
+                <p>Wise</p>
+              </div>
+              <div class="bg-white bg-opacity-10 p-4 rounded-lg backdrop-filter backdrop-blur-sm">
+                <i class="fas fa-money-check text-2xl mb-2"></i>
+                <p>Bank Transfer</p>
+              </div>
+            </div>
+            <p class="mt-4 text-sm italic text-center">Note: We do not use Cashapp, Venmo, or Zelle for payouts.</p>
+          </div>
+        </div>
+        
+        <div class="animate__animated animate__fadeInRight">
+          <div class="bg-white rounded-lg shadow-xl overflow-hidden border border-[#e5e5e5]">
+            <div class="bg-[#010839] text-white p-6">
+              <h3 class="text-2xl font-bold mb-2 font-['Montserrat',_sans-serif]">Two Distinct Pathways</h3>
+              <p class="text-[#e5e5e5]">Choose the program that fits your profile and marketing approach</p>
+            </div>
+            
+            <div class="p-6 border-b border-[#e5e5e5]">
+              <div class="flex items-start">
+                <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#bb0000] flex items-center justify-center text-white mr-4">
+                  <i class="fas fa-users text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="text-xl font-bold mb-2 text-[#010839]">Standard Affiliate Program</h4>
+                  <p class="text-[#3a3a3a] mb-4">Designed for networked professionals, veterans, military spouses, and community members who leverage personal connections and direct referrals.</p>
+                  <div class="flex flex-wrap gap-2 mb-3">
+                    <span class="px-3 py-1 bg-[#e5e5e5] rounded-full text-sm font-semibold text-[#3a3a3a]">Veterans</span>
+                    <span class="px-3 py-1 bg-[#e5e5e5] rounded-full text-sm font-semibold text-[#3a3a3a]">Military Spouses</span>
+                    <span class="px-3 py-1 bg-[#e5e5e5] rounded-full text-sm font-semibold text-[#3a3a3a]">Community Members</span>
+                  </div>
+                  <div class="bg-[#f5f5f5] p-3 rounded-lg">
+                    <p class="font-bold">Four-tier commission structure: 20% → 40%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="p-6">
+              <div class="flex items-start">
+                <div class="flex-shrink-0 w-12 h-12 rounded-full bg-[#6f0992] flex items-center justify-center text-white mr-4">
+                  <i class="fas fa-star text-xl"></i>
+                </div>
+                <div>
+                  <div class="flex items-center">
+                    <h4 class="text-xl font-bold mb-2 text-[#010839]">Ambassador Program</h4>
+                    <span class="ml-2 px-3 py-1 bg-[#ffa500] text-white rounded-md text-xs font-bold">INVITE ONLY</span>
+                  </div>
+                  <p class="text-[#3a3a3a] mb-4">Tailored for high-profile influencers, bloggers, and content creators with a strong social media presence. Use content-driven marketing to maximize reach and engagement.</p>
+                  <div class="flex flex-wrap gap-2 mb-3">
+                    <span class="px-3 py-1 bg-[#e5e5e5] rounded-full text-sm font-semibold text-[#3a3a3a]">Influencers</span>
+                    <span class="px-3 py-1 bg-[#e5e5e5] rounded-full text-sm font-semibold text-[#3a3a3a]">Bloggers</span>
+                    <span class="px-3 py-1 bg-[#e5e5e5] rounded-full text-sm font-semibold text-[#3a3a3a]">Content Creators</span>
+                  </div>
+                  <div class="bg-[#f5f5f5] p-3 rounded-lg">
+                    <p class="font-bold">Four-tier commission structure: 30% → 50%</p>
+                  </div>
+                  <p class="mt-4 text-sm italic">
+                    Interested and have a substantial following? 
+                    <a href="mailto:affiliates@militaryallies.com" class="text-[#6f0992] hover:text-[#6cd4ff] transition-colors">Contact us</a> to learn more.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-8 bg-[#1f7b19] text-white p-5 rounded-lg flex items-center">
+            <i class="fas fa-info-circle text-3xl mr-4"></i>
+            <p>The use of promotional coupons and membership sales may affect your commission earnings, as they alter the total sale value on which your commission is calculated.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</section>
+<section id="section-804a6570-17a6-493d-9634-7ff1a8251e8c">
+<div id="root">
+  <section id="commission-structure" class="py-20 bg-[#010839] text-white relative overflow-hidden">
+    <!-- Decorative elements -->
+    <div class="absolute top-0 right-0 w-64 h-64 bg-[#6f0992] opacity-20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-[#bb0000] opacity-10 rounded-full blur-3xl"></div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white font-['Montserrat',_sans-serif]">
+          Commission Structure
+        </h2>
+        <div class="w-24 h-1 bg-[#ffa500] mx-auto mb-6"></div>
+        <p class="text-xl text-[#e5e5e5] max-w-3xl mx-auto font-['Montserrat',_sans-serif]">
+          Our tiered commission model rewards your success. As your sales increase, your commission percentage grows—unlocking higher earnings with each tier.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <!-- Standard Affiliate Program -->
+        <div class="bg-white bg-opacity-5 p-8 rounded-xl border border-[#6f0992] backdrop-filter backdrop-blur-sm animate__animated animate__fadeInLeft">
+          <div class="flex justify-between items-center mb-6">
+            <h3 class="text-2xl md:text-3xl font-bold text-white font-['Montserrat',_sans-serif]">Standard Affiliate</h3>
+            <span class="px-4 py-1 bg-[#6f0992] text-white rounded-full text-sm font-bold">20% - 40%</span>
+          </div>
+          
+          <p class="mb-8 text-[#e5e5e5]">For networked professionals, veterans, military spouses, and community members. Commission increases as you achieve higher sales volumes.</p>
+          
+          <div class="space-y-6">
+            <!-- Tier 1 -->
+            <div class="bg-white bg-opacity-10 rounded-lg p-5 transition-transform hover:transform hover:scale-105 duration-300">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-bold text-white">Tier 1</h4>
+                <span class="text-2xl font-bold text-[#ffa500]">20%</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="bg-[#ffa500] bg-opacity-20 px-4 py-2 rounded-lg">
+                  <span class="text-[#ffa500] font-bold">$99 × 20% = $19.80</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-sm text-[#e5e5e5]">per sale</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Tier 2 -->
+            <div class="bg-white bg-opacity-10 rounded-lg p-5 transition-transform hover:transform hover:scale-105 duration-300">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-bold text-white">Tier 2</h4>
+                <span class="text-2xl font-bold text-[#ffa500]">25%</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="bg-[#ffa500] bg-opacity-20 px-4 py-2 rounded-lg">
+                  <span class="text-[#ffa500] font-bold">$99 × 25% = $24.75</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-sm text-[#e5e5e5]">per sale</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Tier 3 -->
+            <div class="bg-white bg-opacity-10 rounded-lg p-5 transition-transform hover:transform hover:scale-105 duration-300">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-bold text-white">Tier 3</h4>
+                <span class="text-2xl font-bold text-[#ffa500]">30%</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="bg-[#ffa500] bg-opacity-20 px-4 py-2 rounded-lg">
+                  <span class="text-[#ffa500] font-bold">$99 × 30% = $29.70</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-sm text-[#e5e5e5]">per sale</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Tier 4 -->
+            <div class="bg-white bg-opacity-10 rounded-lg p-5 border-2 border-[#ffa500] transition-transform hover:transform hover:scale-105 duration-300">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-bold text-white">Tier 4</h4>
+                <span class="text-2xl font-bold text-[#ffa500]">40%</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="bg-[#ffa500] bg-opacity-20 px-4 py-2 rounded-lg">
+                  <span class="text-[#ffa500] font-bold">$99 × 40% = $39.60</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-sm text-[#e5e5e5]">per sale</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-8 p-4 bg-[#bb0000] bg-opacity-20 rounded-lg">
+            <p class="text-sm">
+              <i class="fas fa-info-circle mr-2"></i>
+              Projections based on an average of 20 sales per week. Moving from Tier 1 to Tier 4 can nearly double your revenue per sale.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Ambassador Program -->
+        <div class="bg-white bg-opacity-5 p-8 rounded-xl border border-[#bb0000] backdrop-filter backdrop-blur-sm animate__animated animate__fadeInRight">
+          <div class="flex justify-between items-center mb-6">
+            <h3 class="text-2xl md:text-3xl font-bold text-white font-['Montserrat',_sans-serif]">Ambassador Program</h3>
+            <span class="px-4 py-1 bg-[#bb0000] text-white rounded-full text-sm font-bold">30% - 50%</span>
+          </div>
+          
+          <div class="flex items-center mb-2">
+            <span class="px-3 py-1 bg-[#ffa500] text-[#010839] rounded-md text-xs font-bold mr-2">INVITE ONLY</span>
+            <p class="text-[#e5e5e5] text-sm">For influencers and content creators</p>
+          </div>
+          
+          <p class="mb-8 text-[#e5e5e5]">Tailored for those with a strong social media presence. Use content-driven marketing to maximize reach and engagement.</p>
+          
+          <div class="space-y-6">
+            <!-- Tier 1 -->
+            <div class="bg-white bg-opacity-10 rounded-lg p-5 transition-transform hover:transform hover:scale-105 duration-300">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-bold text-white">Tier 1</h4>
+                <span class="text-2xl font-bold text-[#6cd4ff]">30%</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="bg-[#6cd4ff] bg-opacity-20 px-4 py-2 rounded-lg">
+                  <span class="text-[#6cd4ff] font-bold">$99 × 30% = $29.70</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-sm text-[#e5e5e5]">per sale</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Tier 2 -->
+            <div class="bg-white bg-opacity-10 rounded-lg p-5 transition-transform hover:transform hover:scale-105 duration-300">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-bold text-white">Tier 2</h4>
+                <span class="text-2xl font-bold text-[#6cd4ff]">35%</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="bg-[#6cd4ff] bg-opacity-20 px-4 py-2 rounded-lg">
+                  <span class="text-[#6cd4ff] font-bold">$99 × 35% = $34.65</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-sm text-[#e5e5e5]">per sale</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Tier 3 -->
+            <div class="bg-white bg-opacity-10 rounded-lg p-5 transition-transform hover:transform hover:scale-105 duration-300">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-bold text-white">Tier 3</h4>
+                <span class="text-2xl font-bold text-[#6cd4ff]">40%</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="bg-[#6cd4ff] bg-opacity-20 px-4 py-2 rounded-lg">
+                  <span class="text-[#6cd4ff] font-bold">$99 × 40% = $39.60</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-sm text-[#e5e5e5]">per sale</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Tier 4 -->
+            <div class="bg-white bg-opacity-10 rounded-lg p-5 border-2 border-[#6cd4ff] transition-transform hover:transform hover:scale-105 duration-300">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-bold text-white">Tier 4</h4>
+                <span class="text-2xl font-bold text-[#6cd4ff]">50%</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="bg-[#6cd4ff] bg-opacity-20 px-4 py-2 rounded-lg">
+                  <span class="text-[#6cd4ff] font-bold">$99 × 50% = $49.50</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-sm text-[#e5e5e5]">per sale</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-8 p-4 bg-[#6f0992] bg-opacity-20 rounded-lg">
+            <p class="text-sm">
+              <i class="fas fa-info-circle mr-2"></i>
+              With a higher volume expectation of around 100 sales per week, your earnings can multiply significantly as your commission increases from 30% to 50%.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Additional Information -->
+      <div class="mt-16 bg-white bg-opacity-5 p-8 rounded-xl backdrop-filter backdrop-blur-sm animate__animated animate__fadeInUp">
+        <h3 class="text-2xl font-bold mb-6 text-white font-['Montserrat',_sans-serif]">Important Payment Details</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Payment Schedule -->
+          <div class="bg-white bg-opacity-10 p-5 rounded-lg">
+            <div class="flex items-center mb-3">
+              <div class="w-12 h-12 bg-[#ffa500] rounded-full flex items-center justify-center mr-4">
+                <i class="fas fa-calendar-alt text-xl text-[#010839]"></i>
+              </div>
+              <h4 class="text-xl font-bold text-white">Payment Schedule</h4>
+            </div>
+            <ul class="space-y-2 text-[#e5e5e5] ml-4">
+              <li class="flex items-start">
+                <i class="fas fa-check text-[#6cd4ff] mt-1 mr-2"></i>
+                <span>Monthly payouts on the 15th</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-[#6cd4ff] mt-1 mr-2"></i>
+                <span>15-day hold period for fraud protection</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-[#6cd4ff] mt-1 mr-2"></i>
+                <span>$20 minimum payout threshold</span>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Payment Methods -->
+          <div class="bg-white bg-opacity-10 p-5 rounded-lg">
+            <div class="flex items-center mb-3">
+              <div class="w-12 h-12 bg-[#6cd4ff] rounded-full flex items-center justify-center mr-4">
+                <i class="fas fa-money-bill-wave text-xl text-[#010839]"></i>
+              </div>
+              <h4 class="text-xl font-bold text-white">Payment Methods</h4>
+            </div>
+            <ul class="space-y-2 text-[#e5e5e5] ml-4">
+              <li class="flex items-start">
+                <i class="fas fa-check text-[#ffa500] mt-1 mr-2"></i>
+                <span>PayPal</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-[#ffa500] mt-1 mr-2"></i>
+                <span>Wise</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-[#ffa500] mt-1 mr-2"></i>
+                <span>Direct Bank Transfer</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-times text-[#bb0000] mt-1 mr-2"></i>
+                <span class="text-[#bb0000]">We do not use Cashapp, Venmo, or Zelle</span>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Tax Requirements -->
+          <div class="bg-white bg-opacity-10 p-5 rounded-lg">
+            <div class="flex items-center mb-3">
+              <div class="w-12 h-12 bg-[#1f7b19] rounded-full flex items-center justify-center mr-4">
+                <i class="fas fa-file-invoice-dollar text-xl text-white"></i>
+              </div>
+              <h4 class="text-xl font-bold text-white">Tax Requirements</h4>
+            </div>
+            <ul class="space-y-2 text-[#e5e5e5] ml-4">
+              <li class="flex items-start">
+                <i class="fas fa-exclamation-circle text-[#bb0000] mt-1 mr-2"></i>
+                <span>Military Allies reports affiliate payouts to the IRS</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-exclamation-circle text-[#bb0000] mt-1 mr-2"></i>
+                <span>Legal name and address required for invoice information</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-exclamation-circle text-[#bb0000] mt-1 mr-2"></i>
+                <span>Affiliates are responsible for paying their own taxes on earned commissions</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="mt-8 bg-[#bb0000] bg-opacity-20 p-4 rounded-lg">
+          <p class="text-[#e5e5e5] flex items-start">
+            <i class="fas fa-info-circle text-xl text-[#ffa500] mr-3 mt-1"></i>
+            <span>The use of promotional coupons and membership sales will naturally affect your commission earnings. Discounts or special pricing offered through coupons, as well as the structure of membership sales, may alter the total sale value on which your commission is calculated.</span>
+          </p>
+        </div>
+      </div>
+      
+      <div class="mt-12 text-center">
+        <a href="#cta" class="inline-block px-8 py-4 bg-gradient-to-r from-[#bb0000] to-[#ffa500] rounded-lg text-white font-bold text-lg shadow-lg hover:shadow-[0_0_20px_rgba(255,165,0,0.5)] transition-all duration-300 transform hover:-translate-y-1">
+          <i class="fas fa-user-plus mr-2"></i>
+          Apply to Become an Affiliate
+        </a>
+      </div>
+    </div>
+    
+    <!-- Wave separator -->
+    <div class="absolute bottom-0 left-0 w-full overflow-hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" class="w-full h-auto">
+        <path fill="#f5f5f5" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,53.3C384,53,480,43,576,42.7C672,43,768,53,864,58.7C960,64,1056,64,1152,58.7C1248,53,1344,43,1392,37.3L1440,32L1440,100L1392,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z"></path>
+      </svg>
+    </div>
+  </section>
+</div>
+</section>
+<section id="section-642525bf-c312-4e77-b02c-d505314d28e5">
+<div id="root">
+  <section id="benefits" class="py-20 bg-[#f5f5f5]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#010839] font-['Montserrat',_sans-serif]">Program Benefits</h2>
+        <div class="w-24 h-1 bg-[#ffa500] mx-auto mb-6"></div>
+        <p class="text-xl text-[#3a3a3a] max-w-3xl mx-auto font-['Montserrat',_sans-serif]">Join our affiliate program and unlock these exclusive advantages that reward your success and support your growth.</p>
+      </div>
+
+      <!-- Benefits Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <!-- Benefit 1 -->
+        <div class="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 animate__animated animate__fadeIn">
+          <div class="h-3 bg-gradient-to-r from-[#bb0000] to-[#ffa500]"></div>
+          <div class="p-6">
+            <div class="w-16 h-16 bg-[#010839] text-white rounded-full flex items-center justify-center mb-4 shadow-lg">
+              <i class="fas fa-hand-holding-usd text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3 text-[#010839]">Competitive Commissions</h3>
+            <p class="text-[#3a3a3a] mb-4">Earn substantial commissions that grow as you succeed, with rates up to 40% for Standard Affiliates and 50% for Ambassadors.</p>
+            <div class="bg-[#f5f5f5] p-3 rounded-lg">
+              <p class="font-bold text-[#6f0992]">Up to $49.50 per $99 sale</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Benefit 2 -->
+        <div class="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 animate__animated animate__fadeIn" style="animation-delay: 0.1s;">
+          <div class="h-3 bg-gradient-to-r from-[#6f0992] to-[#6cd4ff]"></div>
+          <div class="p-6">
+            <div class="w-16 h-16 bg-[#010839] text-white rounded-full flex items-center justify-center mb-4 shadow-lg">
+              <i class="fas fa-money-bill-wave text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3 text-[#010839]">Reliable Payments</h3>
+            <p class="text-[#3a3a3a] mb-4">Enjoy monthly payouts with a low minimum threshold of just $20, with payments processed on the 15th of each month.</p>
+            <div class="bg-[#f5f5f5] p-3 rounded-lg">
+              <p class="font-bold text-[#6f0992]">Multiple payment methods available</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Benefit 3 -->
+        <div class="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 animate__animated animate__fadeIn" style="animation-delay: 0.2s;">
+          <div class="h-3 bg-gradient-to-r from-[#1f7b19] to-[#6cd4ff]"></div>
+          <div class="p-6">
+            <div class="w-16 h-16 bg-[#010839] text-white rounded-full flex items-center justify-center mb-4 shadow-lg">
+              <i class="fas fa-chart-line text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3 text-[#010839]">Growth Incentives</h3>
+            <p class="text-[#3a3a3a] mb-4">Our tiered commission structure rewards your success, offering higher rates as your sales volume increases.</p>
+            <div class="bg-[#f5f5f5] p-3 rounded-lg">
+              <p class="font-bold text-[#6f0992]">Earn more as you grow</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Benefit 4 -->
+        <div class="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 animate__animated animate__fadeIn" style="animation-delay: 0.3s;">
+          <div class="h-3 bg-gradient-to-r from-[#010839] to-[#6f0992]"></div>
+          <div class="p-6">
+            <div class="w-16 h-16 bg-[#010839] text-white rounded-full flex items-center justify-center mb-4 shadow-lg">
+              <i class="fas fa-tools text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3 text-[#010839]">Marketing Resources</h3>
+            <p class="text-[#3a3a3a] mb-4">Access promotional materials, banners, unique tracking links, and other tools to maximize your marketing effectiveness.</p>
+            <div class="bg-[#f5f5f5] p-3 rounded-lg">
+              <p class="font-bold text-[#6f0992]">Complete marketing toolkit</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Benefit 5 -->
+        <div class="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 animate__animated animate__fadeIn" style="animation-delay: 0.4s;">
+          <div class="h-3 bg-gradient-to-r from-[#bb0000] to-[#6f0992]"></div>
+          <div class="p-6">
+            <div class="w-16 h-16 bg-[#010839] text-white rounded-full flex items-center justify-center mb-4 shadow-lg">
+              <i class="fas fa-shield-alt text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3 text-[#010839]">Military Community Impact</h3>
+            <p class="text-[#3a3a3a] mb-4">Make a difference while earning income by supporting a platform that serves the military and veteran community.</p>
+            <div class="bg-[#f5f5f5] p-3 rounded-lg">
+              <p class="font-bold text-[#6f0992]">Support those who serve</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Benefit 6 -->
+        <div class="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:transform hover:scale-105 animate__animated animate__fadeIn" style="animation-delay: 0.5s;">
+          <div class="h-3 bg-gradient-to-r from-[#ffa500] to-[#1f7b19]"></div>
+          <div class="p-6">
+            <div class="w-16 h-16 bg-[#010839] text-white rounded-full flex items-center justify-center mb-4 shadow-lg">
+              <i class="fas fa-headset text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3 text-[#010839]">Dedicated Support</h3>
+            <p class="text-[#3a3a3a] mb-4">Receive personalized assistance and guidance from our affiliate management team whenever you need help.</p>
+            <div class="bg-[#f5f5f5] p-3 rounded-lg">
+              <p class="font-bold text-[#6f0992]">Direct access to our team</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Special Ambassador Benefits -->
+      <div class="bg-gradient-to-r from-[#010839] to-[#6f0992] rounded-xl p-8 shadow-2xl mb-16">
+        <div class="flex flex-col md:flex-row items-start md:items-center mb-8">
+          <div class="w-16 h-16 bg-[#ffa500] text-[#010839] rounded-full flex items-center justify-center mb-4 md:mb-0 md:mr-6 flex-shrink-0 shadow-lg">
+            <i class="fas fa-star text-2xl"></i>
+          </div>
+          <div>
+            <h3 class="text-2xl md:text-3xl font-bold text-white font-['Playfair_Display',_serif] mb-2">Exclusive Ambassador Benefits</h3>
+            <p class="text-[#e5e5e5]">Our invite-only Ambassador Program offers additional perks for influencers and content creators.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white bg-opacity-10 p-5 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10 hover:bg-opacity-20 transition-all duration-300">
+            <h4 class="text-xl font-bold mb-3 text-[#6cd4ff]">Higher Commission Rates</h4>
+            <p class="text-white">Start at 30% commission and earn up to 50% on each sale</p>
+          </div>
+
+          <div class="bg-white bg-opacity-10 p-5 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10 hover:bg-opacity-20 transition-all duration-300">
+            <h4 class="text-xl font-bold mb-3 text-[#6cd4ff]">Premium Marketing Materials</h4>
+            <p class="text-white">Access exclusive, customized promotional assets tailored for your audience</p>
+          </div>
+
+          <div class="bg-white bg-opacity-10 p-5 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10 hover:bg-opacity-20 transition-all duration-300">
+            <h4 class="text-xl font-bold mb-3 text-[#6cd4ff]">Priority Support</h4>
+            <p class="text-white">Receive dedicated account management and expedited assistance</p>
+          </div>
+
+          <div class="bg-white bg-opacity-10 p-5 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10 hover:bg-opacity-20 transition-all duration-300">
+            <h4 class="text-xl font-bold mb-3 text-[#6cd4ff]">Strategic Partnerships</h4>
+            <p class="text-white">Opportunities for deeper collaboration and co-marketing initiatives</p>
+          </div>
+
+          <div class="bg-white bg-opacity-10 p-5 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10 hover:bg-opacity-20 transition-all duration-300">
+            <h4 class="text-xl font-bold mb-3 text-[#6cd4ff]">Advanced Reporting</h4>
+            <p class="text-white">Gain insights with detailed performance analytics and conversion data</p>
+          </div>
+
+          <div class="bg-white bg-opacity-10 p-5 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10 hover:bg-opacity-20 transition-all duration-300">
+            <h4 class="text-xl font-bold mb-3 text-[#6cd4ff]">Early Access</h4>
+            <p class="text-white">Preview new features and products before they're publicly available</p>
+          </div>
+        </div>
+
+        <div class="mt-8 text-center">
+          <a href="mailto:affiliates@militaryallies.com" class="inline-block px-8 py-3 bg-[#ffa500] hover:bg-[#ffb733] text-[#010839] font-bold rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+            <i class="fas fa-envelope mr-2"></i>
+            Contact Us About Ambassador Program
+          </a>
+        </div>
+      </div>
+
+      <!-- Testimonial/Success Stories -->
+      <div class="relative bg-white rounded-xl p-8 shadow-xl">
+        <h3 class="text-2xl md:text-3xl font-bold mb-8 text-[#010839] font-['Montserrat',_sans-serif] text-center">Success Stories</h3>
+        
+        <div class="testimonial-slider overflow-hidden">
+          <div class="testimonial-track flex transition-transform duration-500" id="testimonialTrack">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-slide w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-4">
+              <div class="bg-[#f5f5f5] p-6 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                  <div class="w-12 h-12 bg-[#6f0992] text-white rounded-full flex items-center justify-center mr-4">
+                    <i class="fas fa-user text-xl"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-[#010839]">Michael S.</h4>
+                    <p class="text-sm text-[#3a3a3a]">Veteran &amp; Standard Affiliate</p>
+                  </div>
+                </div>
+                <p class="italic text-[#3a3a3a] mb-4">"As a veteran, I've been able to connect fellow service members with valuable resources while earning a steady income. Within three months, I advanced to Tier 3 commissions, nearly doubling my initial earnings."</p>
+                <div class="flex items-center">
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Testimonial 2 -->
+            <div class="testimonial-slide w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-4">
+              <div class="bg-[#f5f5f5] p-6 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                  <div class="w-12 h-12 bg-[#bb0000] text-white rounded-full flex items-center justify-center mr-4">
+                    <i class="fas fa-user text-xl"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-[#010839]">Jennifer W.</h4>
+                    <p class="text-sm text-[#3a3a3a]">Military Spouse &amp; Ambassador</p>
+                  </div>
+                </div>
+                <p class="italic text-[#3a3a3a] mb-4">"The Ambassador Program has been a game-changer for my military spouse blog. The high commission rates and marketing support have allowed me to monetize my content while helping military families access valuable resources."</p>
+                <div class="flex items-center">
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Testimonial 3 -->
+            <div class="testimonial-slide w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-4">
+              <div class="bg-[#f5f5f5] p-6 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                  <div class="w-12 h-12 bg-[#1f7b19] text-white rounded-full flex items-center justify-center mr-4">
+                    <i class="fas fa-user text-xl"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-[#010839]">Robert K.</h4>
+                    <p class="text-sm text-[#3a3a3a]">Veterans Organization Leader</p>
+                  </div>
+                </div>
+                <p class="italic text-[#3a3a3a] mb-4">"Our veterans support group has generated additional funding through the affiliate program while connecting our members with valuable services. The tiered structure has been particularly rewarding as our referrals have grown."</p>
+                <div class="flex items-center">
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                  <i class="fas fa-star text-[#ffa500]"></i>
+                  <i class="fas fa-star-half-alt text-[#ffa500]"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex justify-center mt-6">
+          <button id="prevButton" class="w-10 h-10 rounded-full bg-[#010839] text-white flex items-center justify-center mr-4 hover:bg-[#6f0992] transition-colors duration-300" aria-label="Previous testimonial">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button id="nextButton" class="w-10 h-10 rounded-full bg-[#010839] text-white flex items-center justify-center hover:bg-[#6f0992] transition-colors duration-300" aria-label="Next testimonial">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Call to action -->
+      <div class="mt-16 text-center">
+        <a href="#cta" class="inline-block px-10 py-5 bg-gradient-to-r from-[#bb0000] to-[#ffa500] rounded-lg text-white font-bold text-xl shadow-lg hover:shadow-[0_0_25px_rgba(255,165,0,0.5)] transition-all duration-300 transform hover:-translate-y-1 animate__animated animate__pulse animate__infinite animate__slow">
+          <i class="fas fa-rocket mr-2"></i>
+          Start Earning Today
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const track = document.getElementById('testimonialTrack');
+      const slides = document.querySelectorAll('.testimonial-slide');
+      const prevButton = document.getElementById('prevButton');
+      const nextButton = document.getElementById('nextButton');
+      
+      let currentIndex = 0;
+      const slideWidth = 100; // percentage
+      const slidesPerView = window.innerWidth < 768 ? 1 : window.innerWidth < 1024 ? 2 : 3;
+      const totalSlides = slides.length;
+      
+      function updateSlidePosition() {
+        const offset = -currentIndex * (slideWidth / slidesPerView);
+        track.style.transform = `translateX(${offset}%)`;
+      }
+      
+      function nextSlide() {
+        currentIndex = (currentIndex + 1) % (totalSlides - slidesPerView + 1);
+        updateSlidePosition();
+      }
+      
+      function prevSlide() {
+        currentIndex = (currentIndex - 1 + (totalSlides - slidesPerView + 1)) % (totalSlides - slidesPerView + 1);
+        updateSlidePosition();
+      }
+      
+      nextButton.addEventListener('click', nextSlide);
+      prevButton.addEventListener('click', prevSlide);
+      
+      // Auto-slide every 5 seconds
+      const autoSlideInterval = setInterval(nextSlide, 5000);
+      
+      // Pause auto-slide on hover
+      const slider = document.querySelector('.testimonial-slider');
+      slider.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
+      
+      // Responsive adjustment
+      window.addEventListener('resize', function() {
+        const newSlidesPerView = window.innerWidth < 768 ? 1 : window.innerWidth < 1024 ? 2 : 3;
+        if (newSlidesPerView !== slidesPerView) {
+          // Reset to first slide on viewport change
+          currentIndex = 0;
+          updateSlidePosition();
+        }
+      });
+      
+      // Initialize position
+      updateSlidePosition();
+    });
+  </script>
+</div>
+</section>
+<section id="section-406c3ade-ffb7-4955-8e76-848441b86a63">
+<div id="root">
+  <section id="how-it-works" class="py-20 bg-[#010839] text-white relative overflow-hidden">
+    <!-- Decorative elements -->
+    <div class="absolute top-0 left-0 w-64 h-64 bg-[#6f0992] opacity-10 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#bb0000] opacity-10 rounded-full blur-3xl"></div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white font-['Montserrat',_sans-serif]">
+          How It Works
+        </h2>
+        <div class="w-24 h-1 bg-[#ffa500] mx-auto mb-6"></div>
+        <p class="text-xl text-[#e5e5e5] max-w-3xl mx-auto font-['Montserrat',_sans-serif]">
+          Our affiliate program is designed to be simple, transparent, and rewarding. Follow these steps to start earning commissions.
+        </p>
+      </div>
+
+      <!-- Process Steps -->
+      <div class="relative">
+        <!-- Process timeline line -->
+        <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-[#bb0000] via-[#ffa500] to-[#6cd4ff] transform -translate-x-1/2 z-0"></div>
+        
+        <div class="space-y-8 md:space-y-0 relative z-10">
+          <!-- Step 1 -->
+          <div class="md:flex items-center">
+            <div class="md:w-1/2 md:pr-12 text-right hidden md:block">
+              <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-filter backdrop-blur-sm inline-block animate__animated animate__fadeInLeft">
+                <h3 class="text-2xl font-bold mb-3 text-[#ffa500]">Apply Online</h3>
+                <p class="text-[#e5e5e5]">
+                  Submit your application through our website. The process is quick and straightforward, requiring basic information about you and your promotional channels.
+                </p>
+                <a href="https://www.militaryallies.com/affiliateapplication" class="inline-block mt-4 px-6 py-2 bg-[#bb0000] hover:bg-[#ffa500] rounded-md text-white font-semibold transition-colors duration-300">
+                  <i class="fas fa-user-plus mr-2"></i>
+                  Apply Now
+                </a>
+              </div>
+            </div>
+            
+            <div class="md:w-12 mx-auto md:mx-0 flex items-center justify-center">
+              <div class="w-12 h-12 rounded-full bg-[#bb0000] border-4 border-[#010839] text-white flex items-center justify-center text-xl font-bold shadow-lg">1</div>
+            </div>
+            
+            <div class="md:w-1/2 md:pl-12 md:hidden mt-4">
+              <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-filter backdrop-blur-sm">
+                <h3 class="text-2xl font-bold mb-3 text-[#ffa500]">Apply Online</h3>
+                <p class="text-[#e5e5e5]">
+                  Submit your application through our website. The process is quick and straightforward, requiring basic information about you and your promotional channels.
+                </p>
+                <a href="https://www.militaryallies.com/affiliateapplication" class="inline-block mt-4 px-6 py-2 bg-[#bb0000] hover:bg-[#ffa500] rounded-md text-white font-semibold transition-colors duration-300">
+                  <i class="fas fa-user-plus mr-2"></i>
+                  Apply Now
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Step 2 -->
+          <div class="md:flex items-center">
+            <div class="md:w-1/2 md:pr-12 hidden md:block">
+              <div class="w-12 h-12 rounded-full bg-[#ffa500] border-4 border-[#010839] text-white flex items-center justify-center text-xl font-bold shadow-lg ml-auto">2</div>
+            </div>
+            
+            <div class="md:w-12 mx-auto md:mx-0 md:hidden flex items-center justify-center">
+              <div class="w-12 h-12 rounded-full bg-[#ffa500] border-4 border-[#010839] text-white flex items-center justify-center text-xl font-bold shadow-lg">2</div>
+            </div>
+            
+            <div class="md:w-1/2 md:pl-12">
+              <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-filter backdrop-blur-sm animate__animated animate__fadeInRight">
+                <h3 class="text-2xl font-bold mb-3 text-[#ffa500]">Application Review</h3>
+                <p class="text-[#e5e5e5]">
+                  Our team reviews your application within 3-5 business days. We assess your eligibility based on our requirements and program standards.
+                </p>
+                <div class="mt-4 bg-[#010839] bg-opacity-60 p-3 rounded-lg border border-[#6f0992]">
+                  <p class="text-sm flex items-start">
+                    <i class="fas fa-info-circle text-[#6cd4ff] mt-1 mr-2"></i>
+                    <span>We prioritize applicants with connections to the military community, but all applications are welcome.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Step 3 -->
+          <div class="md:flex items-center">
+            <div class="md:w-1/2 md:pr-12 text-right hidden md:block">
+              <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-filter backdrop-blur-sm inline-block animate__animated animate__fadeInLeft">
+                <h3 class="text-2xl font-bold mb-3 text-[#ffa500]">Approval &amp; Onboarding</h3>
+                <p class="text-[#e5e5e5]">
+                  Successful applicants receive an onboarding email with access credentials to our affiliate portal. We provide all the tools and resources you need to succeed.
+                </p>
+                <div class="mt-4 bg-[#010839] bg-opacity-60 p-3 rounded-lg border border-[#6f0992]">
+                  <p class="text-sm flex items-start">
+                    <i class="fas fa-check-circle text-[#1f7b19] mt-1 mr-2"></i>
+                    <span>You'll gain access to marketing materials, tracking links, and your personalized dashboard.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="md:w-12 mx-auto md:mx-0 flex items-center justify-center">
+              <div class="w-12 h-12 rounded-full bg-[#6f0992] border-4 border-[#010839] text-white flex items-center justify-center text-xl font-bold shadow-lg">3</div>
+            </div>
+            
+            <div class="md:w-1/2 md:pl-12 md:hidden mt-4">
+              <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-filter backdrop-blur-sm">
+                <h3 class="text-2xl font-bold mb-3 text-[#ffa500]">Approval &amp; Onboarding</h3>
+                <p class="text-[#e5e5e5]">
+                  Successful applicants receive an onboarding email with access credentials to our affiliate portal. We provide all the tools and resources you need to succeed.
+                </p>
+                <div class="mt-4 bg-[#010839] bg-opacity-60 p-3 rounded-lg border border-[#6f0992]">
+                  <p class="text-sm flex items-start">
+                    <i class="fas fa-check-circle text-[#1f7b19] mt-1 mr-2"></i>
+                    <span>You'll gain access to marketing materials, tracking links, and your personalized dashboard.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Step 4 -->
+          <div class="md:flex items-center">
+            <div class="md:w-1/2 md:pr-12 hidden md:block">
+              <div class="w-12 h-12 rounded-full bg-[#6cd4ff] border-4 border-[#010839] text-[#010839] flex items-center justify-center text-xl font-bold shadow-lg ml-auto">4</div>
+            </div>
+            
+            <div class="md:w-12 mx-auto md:mx-0 md:hidden flex items-center justify-center">
+              <div class="w-12 h-12 rounded-full bg-[#6cd4ff] border-4 border-[#010839] text-[#010839] flex items-center justify-center text-xl font-bold shadow-lg">4</div>
+            </div>
+            
+            <div class="md:w-1/2 md:pl-12">
+              <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-filter backdrop-blur-sm animate__animated animate__fadeInRight">
+                <h3 class="text-2xl font-bold mb-3 text-[#ffa500]">Promote &amp; Earn</h3>
+                <p class="text-[#e5e5e5]">
+                  Start promoting Military Allies through your unique tracking link across your channels. Every time someone makes a purchase through your link, you earn a commission.
+                </p>
+                <div class="mt-4 p-3 bg-[#010839] bg-opacity-60 rounded-lg border border-[#6f0992]">
+                  <div class="flex justify-between items-center">
+                    <span class="text-[#6cd4ff] font-bold">Track your performance</span>
+                    <span class="text-[#ffa500] font-bold">Get paid monthly</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Step 5 -->
+          <div class="md:flex items-center">
+            <div class="md:w-1/2 md:pr-12 text-right hidden md:block">
+              <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-filter backdrop-blur-sm inline-block animate__animated animate__fadeInLeft">
+                <h3 class="text-2xl font-bold mb-3 text-[#ffa500]">Grow &amp; Advance</h3>
+                <p class="text-[#e5e5e5]">
+                  As your sales volume increases, you'll progress through our tier system, earning higher commission rates. We provide ongoing support to help you maximize your earnings.
+                </p>
+                <div class="flex items-center justify-end mt-4">
+                  <div class="px-3 py-1 bg-[#bb0000] text-white rounded-l-md">
+                    <span class="font-bold">20%</span>
+                  </div>
+                  <div class="w-6 h-px bg-white"></div>
+                  <div class="px-3 py-1 bg-[#ffa500] text-white">
+                    <span class="font-bold">25%</span>
+                  </div>
+                  <div class="w-6 h-px bg-white"></div>
+                  <div class="px-3 py-1 bg-[#6f0992] text-white">
+                    <span class="font-bold">30%</span>
+                  </div>
+                  <div class="w-6 h-px bg-white"></div>
+                  <div class="px-3 py-1 bg-[#1f7b19] text-white rounded-r-md">
+                    <span class="font-bold">40-50%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="md:w-12 mx-auto md:mx-0 flex items-center justify-center">
+              <div class="w-12 h-12 rounded-full bg-[#1f7b19] border-4 border-[#010839] text-white flex items-center justify-center text-xl font-bold shadow-lg">5</div>
+            </div>
+            
+            <div class="md:w-1/2 md:pl-12 md:hidden mt-4">
+              <div class="bg-white bg-opacity-10 p-6 rounded-lg backdrop-filter backdrop-blur-sm">
+                <h3 class="text-2xl font-bold mb-3 text-[#ffa500]">Grow &amp; Advance</h3>
+                <p class="text-[#e5e5e5]">
+                  As your sales volume increases, you'll progress through our tier system, earning higher commission rates. We provide ongoing support to help you maximize your earnings.
+                </p>
+                <div class="flex flex-wrap items-center gap-2 mt-4">
+                  <div class="px-3 py-1 bg-[#bb0000] text-white rounded-md">
+                    <span class="font-bold">20%</span>
+                  </div>
+                  <i class="fas fa-arrow-right text-[#e5e5e5]"></i>
+                  <div class="px-3 py-1 bg-[#ffa500] text-white rounded-md">
+                    <span class="font-bold">25%</span>
+                  </div>
+                  <i class="fas fa-arrow-right text-[#e5e5e5]"></i>
+                  <div class="px-3 py-1 bg-[#6f0992] text-white rounded-md">
+                    <span class="font-bold">30%</span>
+                  </div>
+                  <i class="fas fa-arrow-right text-[#e5e5e5]"></i>
+                  <div class="px-3 py-1 bg-[#1f7b19] text-white rounded-md">
+                    <span class="font-bold">40-50%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Ambassador Note -->
+      <div class="mt-16 bg-gradient-to-r from-[#6f0992] to-[#010839] p-8 rounded-xl shadow-2xl relative overflow-hidden">
+        <div class="absolute top-0 right-0 -mt-4 -mr-4 bg-[#ffa500] text-[#010839] px-4 py-1 transform rotate-12 shadow-lg font-bold z-20">
+          INVITE ONLY
+        </div>
+        
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/4 flex justify-center mb-6 md:mb-0">
+            <div class="w-24 h-24 bg-[#ffa500] rounded-full flex items-center justify-center text-[#010839]">
+              <i class="fas fa-crown text-4xl"></i>
+            </div>
+          </div>
+          
+          <div class="md:w-3/4 md:pl-8">
+            <h3 class="text-2xl font-bold mb-4 text-white font-['Playfair_Display',_serif]">Ambassador Program Note</h3>
+            <p class="text-[#e5e5e5] mb-4">
+              The Ambassador Program follows the same process but is invite-only for influencers and content creators with a robust social media presence. If you meet these criteria and are interested in the enhanced commission structure (30%-50%) and additional benefits, please contact us directly.
+            </p>
+            <a href="mailto:affiliates@militaryallies.com" class="inline-block px-6 py-3 bg-white text-[#010839] rounded-lg font-bold hover:bg-[#6cd4ff] transition-colors duration-300">
+              <i class="fas fa-envelope mr-2"></i>
+              Contact About Ambassador Program
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Additional Information -->
+      <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Box 1 -->
+        <div class="bg-white bg-opacity-5 p-6 rounded-lg backdrop-filter backdrop-blur-sm animate__animated animate__fadeInUp">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-[#bb0000] rounded-full flex items-center justify-center mr-4">
+              <i class="fas fa-link text-white text-xl"></i>
+            </div>
+            <h4 class="text-xl font-bold text-white">Tracking System</h4>
+          </div>
+          <p class="text-[#e5e5e5]">
+            Our advanced tracking system ensures that every referral is accurately attributed to your account, with detailed analytics to help you optimize your campaigns.
+          </p>
+        </div>
+        
+        <!-- Box 2 -->
+        <div class="bg-white bg-opacity-5 p-6 rounded-lg backdrop-filter backdrop-blur-sm animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-[#6f0992] rounded-full flex items-center justify-center mr-4">
+              <i class="fas fa-money-check-alt text-white text-xl"></i>
+            </div>
+            <h4 class="text-xl font-bold text-white">Payment Process</h4>
+          </div>
+          <p class="text-[#e5e5e5]">
+            Once your earnings reach the $20 minimum threshold, payments are processed on the 15th of each month after a 15-day hold period for fraud protection.
+          </p>
+        </div>
+        
+        <!-- Box 3 -->
+        <div class="bg-white bg-opacity-5 p-6 rounded-lg backdrop-filter backdrop-blur-sm animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-[#1f7b19] rounded-full flex items-center justify-center mr-4">
+              <i class="fas fa-headset text-white text-xl"></i>
+            </div>
+            <h4 class="text-xl font-bold text-white">Ongoing Support</h4>
+          </div>
+          <p class="text-[#e5e5e5]">
+            Our dedicated affiliate management team is available to assist you with any questions, provide marketing advice, and help you maximize your earning potential.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Call to Action -->
+      <div class="mt-16 text-center">
+        <a href="#cta" class="inline-block px-10 py-4 bg-gradient-to-r from-[#bb0000] to-[#ffa500] rounded-lg text-white font-bold text-xl shadow-lg hover:shadow-[0_0_25px_rgba(255,165,0,0.5)] transition-all duration-300 transform hover:-translate-y-1">
+          <i class="fas fa-rocket mr-2"></i>
+          Join Our Affiliate Program
+        </a>
+      </div>
+    </div>
+    
+    <!-- Wave separator -->
+    <div class="absolute bottom-0 left-0 w-full overflow-hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" class="w-full h-auto">
+        <path fill="#f5f5f5" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,53.3C384,53,480,43,576,42.7C672,43,768,53,864,58.7C960,64,1056,64,1152,58.7C1248,53,1344,43,1392,37.3L1440,32L1440,100L1392,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z"></path>
+      </svg>
+    </div>
+  </section>
+</div>
+</section>
+<section id="section-ca126552-c3de-4a1e-b130-084aed841854">
+<div id="root">
+  <section id="eligibility" class="py-20 bg-[#f5f5f5]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#010839] font-['Montserrat',_sans-serif]">
+          Eligibility Requirements
+        </h2>
+        <div class="w-24 h-1 bg-[#ffa500] mx-auto mb-6"></div>
+        <p class="text-xl text-[#3a3a3a] max-w-3xl mx-auto font-['Montserrat',_sans-serif]">
+          We welcome affiliates who are committed to ethical marketing practices and have connections to the military community.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="animate__animated animate__fadeInLeft">
+          <div class="bg-white rounded-xl shadow-xl overflow-hidden">
+            <div class="bg-gradient-to-r from-[#010839] to-[#6f0992] p-6">
+              <h3 class="text-2xl font-bold text-white font-['Montserrat',_sans-serif]">Who Can Join?</h3>
+            </div>
+            
+            <div class="p-6">
+              <div class="space-y-4">
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#1f7b19] flex items-center justify-center text-white mr-3 mt-0.5">
+                    <i class="fas fa-check text-sm"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-[#010839] mb-1">Veterans &amp; Military Community</h4>
+                    <p class="text-[#3a3a3a]">Veterans, active duty personnel, military spouses, and family members.</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#1f7b19] flex items-center justify-center text-white mr-3 mt-0.5">
+                    <i class="fas fa-check text-sm"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-[#010839] mb-1">Military Support Organizations</h4>
+                    <p class="text-[#3a3a3a]">Non-profits, community groups, and businesses that serve the military community.</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#1f7b19] flex items-center justify-center text-white mr-3 mt-0.5">
+                    <i class="fas fa-check text-sm"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-[#010839] mb-1">Bloggers &amp; Content Creators</h4>
+                    <p class="text-[#3a3a3a]">Publishers who create content relevant to military life, veterans affairs, or military families.</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 w-6 h-6 rounded-full bg-[#1f7b19] flex items-center justify-center text-white mr-3 mt-0.5">
+                    <i class="fas fa-check text-sm"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-[#010839] mb-1">Influencers &amp; Network Marketers</h4>
+                    <p class="text-[#3a3a3a]">Social media personalities and networkers with access to military-connected audiences.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="mt-8 bg-[#f5f5f5] p-4 rounded-lg border-l-4 border-[#6f0992]">
+                <p class="text-[#3a3a3a] italic">
+                  <i class="fas fa-info-circle text-[#6f0992] mr-2"></i>
+                  While we prioritize those with military connections, we welcome all ethical marketers who can reach relevant audiences.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-8 bg-[#010839] text-white rounded-xl shadow-xl p-6">
+            <h3 class="text-2xl font-bold mb-4 font-['Montserrat',_sans-serif]">Ambassador Program Eligibility</h3>
+            <p class="mb-4">Our invite-only Ambassador Program has additional requirements:</p>
+            
+            <div class="space-y-3">
+              <div class="flex items-center">
+                <div class="flex-shrink-0 w-8 h-8 rounded-full bg-[#ffa500] flex items-center justify-center text-[#010839] mr-3">
+                  <i class="fas fa-users"></i>
+                </div>
+                <p>Significant social media following (typically 10,000+ followers)</p>
+              </div>
+              
+              <div class="flex items-center">
+                <div class="flex-shrink-0 w-8 h-8 rounded-full bg-[#ffa500] flex items-center justify-center text-[#010839] mr-3">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <p>Demonstrated high engagement rates with your audience</p>
+              </div>
+              
+              <div class="flex items-center">
+                <div class="flex-shrink-0 w-8 h-8 rounded-full bg-[#ffa500] flex items-center justify-center text-[#010839] mr-3">
+                  <i class="fas fa-bullhorn"></i>
+                </div>
+                <p>Experience with content-driven marketing strategies</p>
+              </div>
+              
+              <div class="flex items-center">
+                <div class="flex-shrink-0 w-8 h-8 rounded-full bg-[#ffa500] flex items-center justify-center text-[#010839] mr-3">
+                  <i class="fas fa-handshake"></i>
+                </div>
+                <p>Track record of successful brand partnerships</p>
+              </div>
+            </div>
+            
+            <div class="mt-6">
+              <a href="mailto:affiliates@militaryallies.com" class="inline-block px-6 py-2 bg-[#ffa500] hover:bg-[#6cd4ff] text-[#010839] font-bold rounded-md transition-colors duration-300">
+                <i class="fas fa-envelope mr-2"></i>
+                Inquire About Ambassador Program
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="animate__animated animate__fadeInRight">
+          <div class="bg-white rounded-xl shadow-xl overflow-hidden">
+            <div class="bg-gradient-to-r from-[#bb0000] to-[#ffa500] p-6">
+              <h3 class="text-2xl font-bold text-white font-['Montserrat',_sans-serif]">Official Requirements</h3>
+            </div>
+            
+            <div class="p-6">
+              <div class="space-y-6">
+                <div class="bg-[#f5f5f5] p-4 rounded-lg hover:shadow-md transition-shadow duration-300">
+                  <div class="flex items-center mb-2">
+                    <div class="w-10 h-10 rounded-full bg-[#010839] text-white flex items-center justify-center mr-3">
+                      <i class="fas fa-id-card"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-[#010839]">Age Requirement</h4>
+                  </div>
+                  <p class="text-[#3a3a3a] ml-13">Must be at least 18 years old to participate in the program.</p>
+                </div>
+                
+                <div class="bg-[#f5f5f5] p-4 rounded-lg hover:shadow-md transition-shadow duration-300">
+                  <div class="flex items-center mb-2">
+                    <div class="w-10 h-10 rounded-full bg-[#010839] text-white flex items-center justify-center mr-3">
+                      <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-[#010839]">Program Agreement</h4>
+                  </div>
+                  <p class="text-[#3a3a3a] ml-13">Must agree to the Military Allies Affiliate Program Terms &amp; Conditions.</p>
+                </div>
+                
+                <div class="bg-[#f5f5f5] p-4 rounded-lg hover:shadow-md transition-shadow duration-300">
+                  <div class="flex items-center mb-2">
+                    <div class="w-10 h-10 rounded-full bg-[#010839] text-white flex items-center justify-center mr-3">
+                      <i class="fas fa-file-invoice"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-[#010839]">Tax Information</h4>
+                  </div>
+                  <p class="text-[#3a3a3a] ml-13">Possess a valid Social Security Number (SSN), Employer Identification Number (EIN), or equivalent tax ID.</p>
+                </div>
+                
+                <div class="bg-[#f5f5f5] p-4 rounded-lg hover:shadow-md transition-shadow duration-300">
+                  <div class="flex items-center mb-2">
+                    <div class="w-10 h-10 rounded-full bg-[#010839] text-white flex items-center justify-center mr-3">
+                      <i class="fas fa-gavel"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-[#010839]">Regulatory Compliance</h4>
+                  </div>
+                  <p class="text-[#3a3a3a] ml-13">Comply with FTC disclosure regulations and maintain ethical marketing practices.</p>
+                </div>
+                
+                <div class="bg-[#f5f5f5] p-4 rounded-lg hover:shadow-md transition-shadow duration-300">
+                  <div class="flex items-center mb-2">
+                    <div class="w-10 h-10 rounded-full bg-[#010839] text-white flex items-center justify-center mr-3">
+                      <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-[#010839]">Payment Information</h4>
+                  </div>
+                  <p class="text-[#3a3a3a] ml-13">Provide accurate tax and payment information (including your legal name and address) before commissions are issued.</p>
+                </div>
+                
+                <div class="bg-[#f5f5f5] p-4 rounded-lg hover:shadow-md transition-shadow duration-300">
+                  <div class="flex items-center mb-2">
+                    <div class="w-10 h-10 rounded-full bg-[#010839] text-white flex items-center justify-center mr-3">
+                      <i class="fas fa-history"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-[#010839]">Clean Record</h4>
+                  </div>
+                  <p class="text-[#3a3a3a] ml-13">No history of affiliate fraud, policy violations, or unethical promotions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Tax Reporting Notice -->
+          <div class="mt-8 bg-[#1f7b19] text-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start space-x-4">
+              <div class="flex-shrink-0">
+                <i class="fas fa-exclamation-triangle text-4xl text-[#ffa500]"></i>
+              </div>
+              <div>
+                <h4 class="text-xl font-bold mb-2">Important Tax Reporting Notice</h4>
+                <p class="mb-3">Military Allies is required to report affiliate payouts to the IRS. You must provide your legal name and address as part of your invoice information.</p>
+                <p class="text-sm">Affiliates are responsible for paying their own taxes on all earned commissions. We recommend consulting with a tax professional regarding your tax obligations.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Apply Now Button -->
+          <div class="mt-8 text-center">
+            <a href="https://www.militaryallies.com/affiliateapplication" class="inline-block px-8 py-4 bg-gradient-to-r from-[#bb0000] to-[#ffa500] rounded-lg text-white font-bold text-xl shadow-lg hover:shadow-[0_0_20px_rgba(255,165,0,0.5)] transition-all duration-300 transform hover:-translate-y-1">
+              <i class="fas fa-user-plus mr-2"></i>
+              Apply Now
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Application Process -->
+      <div class="mt-20">
+        <h3 class="text-3xl font-bold mb-10 text-center text-[#010839] font-['Montserrat',_sans-serif]">Application Process</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <!-- Step 1 -->
+          <div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105">
+            <div class="h-2 bg-[#bb0000]"></div>
+            <div class="p-6">
+              <div class="w-14 h-14 rounded-full bg-[#010839] text-white flex items-center justify-center text-xl font-bold mb-4">1</div>
+              <h4 class="text-xl font-bold mb-3 text-[#010839]">Online Application</h4>
+              <p class="text-[#3a3a3a]">
+                Submit your application through our website with your personal and promotional details.
+              </p>
+              <div class="mt-4 text-center">
+                <a href="https://www.militaryallies.com/affiliateapplication" class="text-[#6f0992] hover:text-[#6cd4ff] transition-colors duration-300 font-semibold">
+                  Go to Application Form
+                  <i class="fas fa-arrow-right ml-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Step 2 -->
+          <div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105">
+            <div class="h-2 bg-[#ffa500]"></div>
+            <div class="p-6">
+              <div class="w-14 h-14 rounded-full bg-[#010839] text-white flex items-center justify-center text-xl font-bold mb-4">2</div>
+              <h4 class="text-xl font-bold mb-3 text-[#010839]">Application Review</h4>
+              <p class="text-[#3a3a3a]">
+                Our team reviews your eligibility within 3-5 business days based on our requirements.
+              </p>
+              <div class="mt-4 flex items-center justify-center text-[#3a3a3a]">
+                <i class="fas fa-hourglass-half text-[#ffa500] mr-2"></i>
+                <span>3-5 Business Days</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Step 3 -->
+          <div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105">
+            <div class="h-2 bg-[#6f0992]"></div>
+            <div class="p-6">
+              <div class="w-14 h-14 rounded-full bg-[#010839] text-white flex items-center justify-center text-xl font-bold mb-4">3</div>
+              <h4 class="text-xl font-bold mb-3 text-[#010839]">Approval &amp; Onboarding</h4>
+              <p class="text-[#3a3a3a]">
+                Successful applicants receive access to the affiliate portal and marketing resources.
+              </p>
+              <div class="mt-4 flex items-center justify-center text-[#1f7b19] font-semibold">
+                <i class="fas fa-check-circle mr-2"></i>
+                <span>Welcome Email with Access Details</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Step 4 -->
+          <div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105">
+            <div class="h-2 bg-[#6cd4ff]"></div>
+            <div class="p-6">
+              <div class="w-14 h-14 rounded-full bg-[#010839] text-white flex items-center justify-center text-xl font-bold mb-4">4</div>
+              <h4 class="text-xl font-bold mb-3 text-[#010839]">Start Promoting</h4>
+              <p class="text-[#3a3a3a]">
+                Begin promoting Military Allies immediately using your unique tracking link and marketing materials.
+              </p>
+              <div class="mt-4 flex items-center justify-center text-[#bb0000] font-semibold">
+                <i class="fas fa-rocket mr-2"></i>
+                <span>Launch Your Promotions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- FAQ -->
+      <div class="mt-16 bg-white rounded-xl shadow-xl p-8">
+        <h3 class="text-2xl font-bold mb-6 text-[#010839] font-['Montserrat',_sans-serif]">Frequently Asked Questions About Eligibility</h3>
+        
+        <div class="space-y-4" id="eligibilityFaqs">
+          <!-- FAQ Item 1 -->
+          <div class="border border-[#e5e5e5] rounded-lg overflow-hidden">
+            <button class="faq-toggle w-full flex items-center justify-between p-4 text-left bg-[#f5f5f5] hover:bg-[#e5e5e5] transition-colors duration-300 focus:outline-none" aria-expanded="false">
+              <span class="font-bold text-[#010839]">Do I need a military background to join?</span>
+              <i class="fas fa-plus text-[#6f0992] transition-transform duration-300"></i>
+            </button>
+            <div class="faq-content hidden p-4 border-t border-[#e5e5e5]">
+              <p class="text-[#3a3a3a]">
+                While we prioritize applicants with military connections, our program is open to anyone who can effectively promote to relevant audiences. Having a military background or connection is beneficial but not mandatory.
+              </p>
+            </div>
+          </div>
+          
+          <!-- FAQ Item 2 -->
+          <div class="border border-[#e5e5e5] rounded-lg overflow-hidden">
+            <button class="faq-toggle w-full flex items-center justify-between p-4 text-left bg-[#f5f5f5] hover:bg-[#e5e5e5] transition-colors duration-300 focus:outline-none" aria-expanded="false">
+              <span class="font-bold text-[#010839]">What information is required for the application?</span>
+              <i class="fas fa-plus text-[#6f0992] transition-transform duration-300"></i>
+            </button>
+            <div class="faq-content hidden p-4 border-t border-[#e5e5e5]">
+              <p class="text-[#3a3a3a]">
+                Our application requires basic personal information, details about your promotional channels (website, social media, etc.), audience demographics, and your marketing approach. You'll also need to provide tax information before receiving commissions.
+              </p>
+            </div>
+          </div>
+          
+          <!-- FAQ Item 3 -->
+          <div class="border border-[#e5e5e5] rounded-lg overflow-hidden">
+            <button class="faq-toggle w-full flex items-center justify-between p-4 text-left bg-[#f5f5f5] hover:bg-[#e5e5e5] transition-colors duration-300 focus:outline-none" aria-expanded="false">
+              <span class="font-bold text-[#010839]">Can international applicants join the program?</span>
+              <i class="fas fa-plus text-[#6f0992] transition-transform duration-300"></i>
+            </button>
+            <div class="faq-content hidden p-4 border-t border-[#e5e5e5]">
+              <p class="text-[#3a3a3a]">
+                Yes, we accept international affiliates, but you must still provide appropriate tax documentation and comply with both U.S. and your local regulations. International payments are made via PayPal or Wise.
+              </p>
+            </div>
+          </div>
+          
+          <!-- FAQ Item 4 -->
+          <div class="border border-[#e5e5e5] rounded-lg overflow-hidden">
+            <button class="faq-toggle w-full flex items-center justify-between p-4 text-left bg-[#f5f5f5] hover:bg-[#e5e5e5] transition-colors duration-300 focus:outline-none" aria-expanded="false">
+              <span class="font-bold text-[#010839]">Why might an application be rejected?</span>
+              <i class="fas fa-plus text-[#6f0992] transition-transform duration-300"></i>
+            </button>
+            <div class="faq-content hidden p-4 border-t border-[#e5e5e5]">
+              <p class="text-[#3a3a3a]">
+                Applications may be rejected if there's a history of unethical marketing practices, if the promotional channels are inappropriate for our brand, or if the application contains incomplete or inaccurate information. We also review for alignment with our military community values.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- CTA -->
+      <div class="mt-16 text-center">
+        <h3 class="text-2xl font-bold mb-6 text-[#010839] font-['Montserrat',_sans-serif]">Ready to Join Our Mission?</h3>
+        <a href="https://www.militaryallies.com/affiliateapplication" class="inline-block px-10 py-5 bg-gradient-to-r from-[#bb0000] to-[#ffa500] rounded-lg text-white font-bold text-xl shadow-lg hover:shadow-[0_0_25px_rgba(255,165,0,0.5)] transition-all duration-300 transform hover:-translate-y-1 animate__animated animate__pulse animate__infinite animate__slow">
+          <i class="fas fa-flag mr-2"></i>
+          Apply to the Affiliate Program
+        </a>
+        <p class="mt-4 text-[#3a3a3a]">
+          Questions about eligibility? Contact us at <a href="mailto:affiliates@militaryallies.com" class="text-[#6f0992] hover:text-[#6cd4ff] transition-colors duration-300">affiliates@militaryallies.com</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const faqToggles = document.querySelectorAll('.faq-toggle');
+      
+      faqToggles.forEach(toggle => {
+        toggle.addEventListener('click', function() {
+          const content = this.nextElementSibling;
+          const icon = this.querySelector('i');
+          
+          // Toggle the content visibility
+          content.classList.toggle('hidden');
+          
+          // Update the icon and aria-expanded attribute
+          if (content.classList.contains('hidden')) {
+            icon.classList.remove('fa-minus');
+            icon.classList.add('fa-plus');
+            this.setAttribute('aria-expanded', 'false');
+          } else {
+            icon.classList.remove('fa-plus');
+            icon.classList.add('fa-minus');
+            this.setAttribute('aria-expanded', 'true');
+          }
+          
+          // Hide other open FAQs
+          faqToggles.forEach(otherToggle => {
+            if (otherToggle !== toggle) {
+              const otherContent = otherToggle.nextElementSibling;
+              const otherIcon = otherToggle.querySelector('i');
+              
+              otherContent.classList.add('hidden');
+              otherIcon.classList.remove('fa-minus');
+              otherIcon.classList.add('fa-plus');
+              otherToggle.setAttribute('aria-expanded', 'false');
+            }
+          });
+        });
+      });
+    });
+  </script>
+</div>
+</section>
+<section id="section-f9b7d4d1-8ae6-476c-ba78-14e73af43424">
+<div id="root">
+  <section id="code-of-conduct" class="py-20 bg-[#010839] text-white relative overflow-hidden">
+    <!-- Decorative elements -->
+    <div class="absolute top-0 right-0 w-64 h-64 bg-[#6f0992] opacity-20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-[#bb0000] opacity-10 rounded-full blur-3xl"></div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white font-['Montserrat',_sans-serif]">
+          Affiliate Program Code of Conduct
+        </h2>
+        <div class="w-24 h-1 bg-[#ffa500] mx-auto mb-6"></div>
+        <p class="text-xl text-[#e5e5e5] max-w-3xl mx-auto font-['Montserrat',_sans-serif]">
+          We expect all affiliates to adhere to high standards of professionalism and ethical marketing practices.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div class="animate__animated animate__fadeInLeft">
+          <div class="bg-white bg-opacity-5 p-8 rounded-xl border border-[#6f0992] backdrop-filter backdrop-blur-sm">
+            <h3 class="text-2xl font-bold mb-6 text-white font-['Montserrat',_sans-serif] flex items-center">
+              <span class="w-10 h-10 bg-[#bb0000] rounded-full flex items-center justify-center mr-3 text-white">
+                <i class="fas fa-handshake"></i>
+              </span>
+              Core Principles
+            </h3>
+            
+            <div class="space-y-6">
+              <div class="bg-white bg-opacity-10 p-5 rounded-lg hover:bg-opacity-15 transition-all duration-300">
+                <h4 class="text-xl font-bold mb-3 text-[#6cd4ff]">Professional Conduct</h4>
+                <p class="text-[#e5e5e5]">
+                  Maintain integrity and transparency in all communications and promotional activities. Treat customers, fellow affiliates, and staff with respect.
+                </p>
+              </div>
+              
+              <div class="bg-white bg-opacity-10 p-5 rounded-lg hover:bg-opacity-15 transition-all duration-300">
+                <h4 class="text-xl font-bold mb-3 text-[#6cd4ff]">Compliance with Laws</h4>
+                <p class="text-[#e5e5e5]">
+                  Ensure that all promotional efforts adhere to relevant laws and FTC guidelines, including proper disclosure of affiliate links.
+                </p>
+              </div>
+              
+              <div class="bg-white bg-opacity-10 p-5 rounded-lg hover:bg-opacity-15 transition-all duration-300">
+                <h4 class="text-xl font-bold mb-3 text-[#6cd4ff]">Advertising and Promotion</h4>
+                <p class="text-[#e5e5e5]">
+                  Base endorsements on verified experiences and clearly disclose all affiliate relationships.
+                </p>
+              </div>
+              
+              <div class="bg-white bg-opacity-10 p-5 rounded-lg hover:bg-opacity-15 transition-all duration-300">
+                <h4 class="text-xl font-bold mb-3 text-[#6cd4ff]">Data Privacy and Security</h4>
+                <p class="text-[#e5e5e5]">
+                  Manage all personal and sensitive information securely and responsibly.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-8 bg-gradient-to-r from-[#bb0000] to-[#6f0992] p-6 rounded-xl">
+            <h4 class="text-xl font-bold mb-3 text-white">
+              <i class="fas fa-exclamation-triangle mr-2"></i>
+              Monitoring and Enforcement
+            </h4>
+            <p class="text-white mb-4">
+              We regularly monitor affiliate activities; violations may result in suspension or legal action.
+            </p>
+            <p class="text-sm text-white">
+              Our team conducts routine audits of promotional materials and sales patterns to ensure compliance with our code of conduct and to protect the integrity of our program.
+            </p>
+          </div>
+        </div>
+        
+        <div class="animate__animated animate__fadeInRight">
+          <div class="bg-white bg-opacity-5 p-8 rounded-xl border border-[#6f0992] backdrop-filter backdrop-blur-sm">
+            <h3 class="text-2xl font-bold mb-6 text-white font-['Montserrat',_sans-serif] flex items-center">
+              <span class="w-10 h-10 bg-[#ffa500] rounded-full flex items-center justify-center mr-3 text-[#010839]">
+                <i class="fas fa-shield-alt"></i>
+              </span>
+              Specific Guidelines
+            </h3>
+            
+            <div class="space-y-6">
+              <div class="bg-white bg-opacity-10 p-5 rounded-lg hover:bg-opacity-15 transition-all duration-300">
+                <h4 class="text-xl font-bold mb-3 text-[#ffa500]">Intellectual Property and Brand Guidelines</h4>
+                <ul class="text-[#e5e5e5] list-disc list-inside space-y-2">
+                  <li>Use only approved marketing materials</li>
+                  <li>Follow established branding guidelines for consistency</li>
+                  <li>Do not modify logos or official imagery without permission</li>
+                  <li>Request approval for custom promotional materials</li>
+                </ul>
+              </div>
+              
+              <div class="bg-white bg-opacity-10 p-5 rounded-lg hover:bg-opacity-15 transition-all duration-300">
+                <h4 class="text-xl font-bold mb-3 text-[#ffa500]">Conflict of Interest</h4>
+                <ul class="text-[#e5e5e5] list-disc list-inside space-y-2">
+                  <li>Disclose any potential conflicts that could affect your promotional activities</li>
+                  <li>Avoid promoting direct competitors simultaneously</li>
+                  <li>Maintain transparency with your audience about relationships</li>
+                </ul>
+              </div>
+              
+              <div class="bg-white bg-opacity-10 p-5 rounded-lg hover:bg-opacity-15 transition-all duration-300">
+                <h4 class="text-xl font-bold mb-3 text-[#ffa500]">FTC Disclosure Requirements</h4>
+                <div class="text-[#e5e5e5]">
+                  <p class="mb-3">All affiliates must comply with Federal Trade Commission (FTC) guidelines for disclosures:</p>
+                  <div class="bg-[#010839] p-3 rounded-lg border border-[#6cd4ff] text-sm">
+                    <p class="mb-2">Example disclosure statement:</p>
+                    <p class="italic">"This post contains affiliate links. If you make a purchase through these links, I may receive a commission at no extra cost to you."</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-8 bg-white bg-opacity-5 p-6 rounded-xl border border-[#1f7b19]">
+            <h4 class="text-xl font-bold mb-3 text-white flex items-center">
+              <i class="fas fa-file-alt text-[#1f7b19] mr-2"></i>
+              Reporting and Grievance
+            </h4>
+            <p class="text-[#e5e5e5] mb-4">
+              Any concerns or unethical behavior should be reported to <a href="mailto:affiliates@militaryallies.com" class="text-[#6cd4ff] hover:text-[#ffa500] transition-colors duration-300">affiliates@militaryallies.com</a>. Grievances will be reviewed within 10-30 days.
+            </p>
+            <div class="flex items-center justify-between bg-[#010839] p-3 rounded-lg">
+              <span class="text-[#e5e5e5]">Need to report an issue?</span>
+              <a href="mailto:affiliates@militaryallies.com" class="px-4 py-2 bg-[#1f7b19] hover:bg-[#6cd4ff] text-white hover:text-[#010839] rounded-md transition-colors duration-300 text-sm font-bold">
+                Contact Support
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Best Practices -->
+      <div class="mt-16">
+        <h3 class="text-2xl font-bold mb-8 text-white text-center font-['Montserrat',_sans-serif]">
+          Best Practices for Ethical Promotion
+        </h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Practice 1 -->
+          <div class="bg-white bg-opacity-5 p-6 rounded-lg hover:bg-opacity-10 transition-all duration-300 transform hover:-translate-y-1 backdrop-filter backdrop-blur-sm">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 bg-[#bb0000] rounded-full flex items-center justify-center mr-4 text-white">
+                <i class="fas fa-bullhorn"></i>
+              </div>
+              <h4 class="text-xl font-bold text-white">Authentic Promotion</h4>
+            </div>
+            <p class="text-[#e5e5e5]">
+              Promote products and services in a way that aligns with your authentic voice and experience. Your audience trusts your recommendations.
+            </p>
+          </div>
+          
+          <!-- Practice 2 -->
+          <div class="bg-white bg-opacity-5 p-6 rounded-lg hover:bg-opacity-10 transition-all duration-300 transform hover:-translate-y-1 backdrop-filter backdrop-blur-sm">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 bg-[#ffa500] rounded-full flex items-center justify-center mr-4 text-[#010839]">
+                <i class="fas fa-eye"></i>
+              </div>
+              <h4 class="text-xl font-bold text-white">Clear Disclosures</h4>
+            </div>
+            <p class="text-[#e5e5e5]">
+              Always clearly disclose your affiliate relationship in a prominent location that's easy for users to see before they click on affiliate links.
+            </p>
+          </div>
+          
+          <!-- Practice 3 -->
+          <div class="bg-white bg-opacity-5 p-6 rounded-lg hover:bg-opacity-10 transition-all duration-300 transform hover:-translate-y-1 backdrop-filter backdrop-blur-sm">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 bg-[#6f0992] rounded-full flex items-center justify-center mr-4 text-white">
+                <i class="fas fa-balance-scale"></i>
+              </div>
+              <h4 class="text-xl font-bold text-white">Balanced Information</h4>
+            </div>
+            <p class="text-[#e5e5e5]">
+              Provide balanced information about products, including benefits and limitations, to help your audience make informed decisions.
+            </p>
+          </div>
+          
+          <!-- Practice 4 -->
+          <div class="bg-white bg-opacity-5 p-6 rounded-lg hover:bg-opacity-10 transition-all duration-300 transform hover:-translate-y-1 backdrop-filter backdrop-blur-sm">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 bg-[#6cd4ff] rounded-full flex items-center justify-center mr-4 text-[#010839]">
+                <i class="fas fa-user-shield"></i>
+              </div>
+              <h4 class="text-xl font-bold text-white">Privacy Protection</h4>
+            </div>
+            <p class="text-[#e5e5e5]">
+              Respect user privacy and handle any data you collect with care. Never share personal information of users without proper consent.
+            </p>
+          </div>
+          
+          <!-- Practice 5 -->
+          <div class="bg-white bg-opacity-5 p-6 rounded-lg hover:bg-opacity-10 transition-all duration-300 transform hover:-translate-y-1 backdrop-filter backdrop-blur-sm">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 bg-[#1f7b19] rounded-full flex items-center justify-center mr-4 text-white">
+                <i class="fas fa-comments"></i>
+              </div>
+              <h4 class="text-xl font-bold text-white">Responsive Communication</h4>
+            </div>
+            <p class="text-[#e5e5e5]">
+              Respond promptly and professionally to questions about products you're promoting, and direct technical or detailed inquiries to our support team.
+            </p>
+          </div>
+          
+          <!-- Practice 6 -->
+          <div class="bg-white bg-opacity-5 p-6 rounded-lg hover:bg-opacity-10 transition-all duration-300 transform hover:-translate-y-1 backdrop-filter backdrop-blur-sm">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4 text-[#010839]">
+                <i class="fas fa-file-signature"></i>
+              </div>
+              <h4 class="text-xl font-bold text-white">Documentation</h4>
+            </div>
+            <p class="text-[#e5e5e5]">
+              Keep records of your promotional activities and communications. Good documentation protects both you and our program in case of disputes.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Code of Conduct Compliance -->
+      <div class="mt-16 bg-gradient-to-r from-[#010839] to-[#6f0992] p-8 rounded-xl shadow-2xl animate__animated animate__fadeInUp">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/3 flex justify-center mb-6 md:mb-0">
+            <div class="w-32 h-32 bg-white rounded-full flex items-center justify-center text-[#010839]">
+              <i class="fas fa-check-circle text-6xl text-[#1f7b19]"></i>
+            </div>
+          </div>
+          
+          <div class="md:w-2/3 md:pl-8">
+            <h3 class="text-2xl font-bold mb-4 text-white font-['Playfair_Display',_serif]">Commitment to Ethical Standards</h3>
+            <p class="text-[#e5e5e5] mb-6">
+              By joining the Military Allies Affiliate Program, you're committing to upholding these ethical standards. Our code of conduct isn't just about rules—it's about building trust with our military community and creating a sustainable, mutually beneficial relationship.
+            </p>
+            <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+              <a href="https://www.militaryallies.com/affiliateapplication" class="px-6 py-3 bg-gradient-to-r from-[#bb0000] to-[#ffa500] rounded-md text-white font-bold hover:shadow-lg hover:shadow-[#ffa500]/20 transition-all duration-300 text-center">
+                <i class="fas fa-user-plus mr-2"></i>
+                Apply Now
+              </a>
+              <a href="#faq" class="px-6 py-3 bg-white text-[#010839] rounded-md font-bold hover:bg-[#6cd4ff] transition-colors duration-300 text-center">
+                <i class="fas fa-question-circle mr-2"></i>
+                View FAQs
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Wave separator -->
+    <div class="absolute bottom-0 left-0 w-full overflow-hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" class="w-full h-auto">
+        <path fill="#f5f5f5" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,53.3C384,53,480,43,576,42.7C672,43,768,53,864,58.7C960,64,1056,64,1152,58.7C1248,53,1344,43,1392,37.3L1440,32L1440,100L1392,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z"></path>
+      </svg>
+    </div>
+  </section>
+</div>
+</section>
+<section id="section-49de71c4-6dc6-4e40-8170-43d02965c837">
+<div id="root">
+  <section id="faq" class="py-20 bg-[#f5f5f5]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#010839] font-['Montserrat',_sans-serif]">
+          Frequently Asked Questions
+        </h2>
+        <div class="w-24 h-1 bg-[#ffa500] mx-auto mb-6"></div>
+        <p class="text-xl text-[#3a3a3a] max-w-3xl mx-auto font-['Montserrat',_sans-serif]">
+          Find answers to common questions about the Military Allies Affiliate Program.
+        </p>
+      </div>
+
+      <div class="max-w-4xl mx-auto">
+        <!-- FAQ Tabs -->
+        <div class="mb-10">
+          <div class="flex flex-wrap justify-center gap-2" id="faqTabs" role="tablist">
+            <button class="faq-tab px-6 py-3 bg-[#010839] text-white rounded-md font-bold active" id="tab-general" role="tab" aria-selected="true" aria-controls="panel-general">
+              General
+            </button>
+            <button class="faq-tab px-6 py-3 bg-[#e5e5e5] text-[#3a3a3a] rounded-md font-bold" id="tab-payments" role="tab" aria-selected="false" aria-controls="panel-payments">
+              Payments
+            </button>
+            <button class="faq-tab px-6 py-3 bg-[#e5e5e5] text-[#3a3a3a] rounded-md font-bold" id="tab-program" role="tab" aria-selected="false" aria-controls="panel-program">
+              Program Structure
+            </button>
+            <button class="faq-tab px-6 py-3 bg-[#e5e5e5] text-[#3a3a3a] rounded-md font-bold" id="tab-technical" role="tab" aria-selected="false" aria-controls="panel-technical">
+              Technical
+            </button>
+          </div>
+        </div>
+        
+        <!-- FAQ Panels -->
+        <div class="bg-white rounded-xl shadow-xl overflow-hidden">
+          <!-- Panel 1: General -->
+          <div class="faq-panel active" id="panel-general" role="tabpanel" aria-labelledby="tab-general">
+            <div class="divide-y divide-[#e5e5e5]">
+              <!-- Question 1 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">What is the Military Allies Affiliate Program?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a]">
+                    It is a performance-based, Pay-Per-Sale (PPS) program where you earn commissions on sales generated through your referral links. You'll receive a percentage of each sale made through your unique affiliate link, with rates ranging from 20% to 50% depending on your program tier.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Question 2 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">Who is eligible to join the program?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a]">
+                    The program is open to veterans, military spouses, service members, and individuals connected to the military community. We also welcome bloggers, content creators, and businesses that serve military audiences. For the Ambassador Program, a significant social media following and high engagement are required.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Question 3 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">How do I get started?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a] mb-4">
+                    Apply online through our website. The application process is simple:
+                  </p>
+                  <ol class="list-decimal list-inside space-y-2 text-[#3a3a3a]">
+                    <li>Submit your application at <a href="https://www.militaryallies.com/affiliateapplication" class="text-[#6f0992] hover:text-[#6cd4ff] transition-colors duration-300">our application page</a></li>
+                    <li>Our team will review your application within 3-5 business days</li>
+                    <li>If approved, you'll receive an onboarding email with access to our affiliate portal and marketing tools</li>
+                    <li>Start promoting using your unique tracking link</li>
+                  </ol>
+                </div>
+              </div>
+              
+              <!-- Question 4 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">What is the difference between the Standard Affiliate and Ambassador Programs?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-[#f5f5f5] p-4 rounded-lg">
+                      <h4 class="font-bold text-[#010839] mb-2">Standard Affiliate Program:</h4>
+                      <ul class="list-disc list-inside space-y-1 text-[#3a3a3a]">
+                        <li>Open to anyone leveraging personal referrals and community networks</li>
+                        <li>Commission range: 20% to 40%</li>
+                        <li>Lower volume expectations</li>
+                        <li>Ideal for individuals with direct connections to military community</li>
+                      </ul>
+                    </div>
+                    <div class="bg-[#f5f5f5] p-4 rounded-lg">
+                      <h4 class="font-bold text-[#010839] mb-2">Ambassador Program (Invite-Only):</h4>
+                      <ul class="list-disc list-inside space-y-1 text-[#3a3a3a]">
+                        <li>Targeting influencers and content creators with a strong social media presence</li>
+                        <li>Commission range: 30% to 50%</li>
+                        <li>Higher volume expectations (approx. 100 sales/week)</li>
+                        <li>Additional perks and premium marketing materials</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Panel 2: Payments -->
+          <div class="faq-panel hidden" id="panel-payments" role="tabpanel" aria-labelledby="tab-payments">
+            <div class="divide-y divide-[#e5e5e5]">
+              <!-- Question 1 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">How often are payouts made?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a]">
+                    Payouts are processed monthly on the 15th, after a 15-day hold period to manage fraud, cancellations, and refunds. This hold period helps ensure the integrity of our program and protects against fraudulent activities.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Question 2 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">What is the minimum payout threshold?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a]">
+                    You must earn at least $20 before a payout is issued. Any earnings below this threshold will roll over to the next payment cycle until the minimum is reached.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Question 3 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">How are payouts made?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a] mb-4">
+                    Payouts are issued via the following methods:
+                  </p>
+                  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-[#f5f5f5] p-3 rounded-lg text-center">
+                      <i class="fab fa-paypal text-[#6f0992] text-2xl mb-2"></i>
+                      <p class="text-[#3a3a3a] font-bold">PayPal</p>
+                    </div>
+                    <div class="bg-[#f5f5f5] p-3 rounded-lg text-center">
+                      <i class="fas fa-university text-[#6f0992] text-2xl mb-2"></i>
+                      <p class="text-[#3a3a3a] font-bold">Wise</p>
+                    </div>
+                    <div class="bg-[#f5f5f5] p-3 rounded-lg text-center">
+                      <i class="fas fa-money-check text-[#6f0992] text-2xl mb-2"></i>
+                      <p class="text-[#3a3a3a] font-bold">Direct Bank Transfer</p>
+                    </div>
+                  </div>
+                  <p class="mt-4 text-[#3a3a3a]">
+                    <strong>Note:</strong> We do not use Cashapp, Venmo, or Zelle for payouts.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Question 4 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">Why is my legal name and address required?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a]">
+                    Military Allies must report affiliate payouts to the IRS. Therefore, your legal name and address are required for invoice purposes. This information is necessary for tax reporting compliance. Affiliates are responsible for paying their own taxes on all earned commissions.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Question 5 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">How do promotional coupons and membership sales affect my commission?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a]">
+                    Discounts or special pricing offered through coupons and the structure of membership sales may alter the total sale value on which your commission is calculated, thereby affecting your earnings. Your commission is based on the final purchase amount after any discounts have been applied.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Panel 3: Program Structure -->
+          <div class="faq-panel hidden" id="panel-program" role="tabpanel" aria-labelledby="tab-program">
+            <div class="divide-y divide-[#e5e5e5]">
+              <!-- Question 1 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">How does the tiered commission structure work?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a] mb-4">
+                    Both the Standard and Ambassador Programs have four tiers. As your total sales increase, your commission percentage—and consequently your per-sale dollar earnings—increase.
+                  </p>
+                  <div class="bg-[#f5f5f5] p-4 rounded-lg mb-4">
+                    <h4 class="font-bold text-[#010839] mb-2">Standard Program Example:</h4>
+                    <p class="text-[#3a3a3a]">
+                      You start at 20% (approximately $19.80 per $99 sale) and can progress up to 40% (approximately $39.60 per $99 sale) as your sales volume increases, nearly doubling your revenue per sale.
+                    </p>
+                  </div>
+                  <div class="bg-[#f5f5f5] p-4 rounded-lg">
+                    <h4 class="font-bold text-[#010839] mb-2">Ambassador Program Example:</h4>
+                    <p class="text-[#3a3a3a]">
+                      You start at 30% (approximately $29.70 per $99 sale) and can earn up to 50% (approximately $49.50 per $99 sale) at the highest tier.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Question 2 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">What are the sales projections for each program?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-[#f5f5f5] p-4 rounded-lg">
+                      <h4 class="font-bold text-[#010839] mb-2">Standard Affiliates:</h4>
+                      <p class="text-[#3a3a3a]">
+                        Projections are based on an average of 20 sales per week. As you progress through the tiers, your increased commission percentage translates directly into higher overall earnings.
+                      </p>
+                    </div>
+                    <div class="bg-[#f5f5f5] p-4 rounded-lg">
+                      <h4 class="font-bold text-[#010839] mb-2">Ambassadors:</h4>
+                      <p class="text-[#3a3a3a]">
+                        With a higher volume expectation of around 100 sales per week, the tiered structure rewards your digital influence. Your earnings can multiply significantly over time as you reach higher tiers.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Question 3 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">How do I qualify for the Ambassador Program?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a] mb-4">
+                    The Ambassador Program is invite-only and typically requires:
+                  </p>
+                  <ul class="list-disc list-inside space-y-2 text-[#3a3a3a]">
+                    <li>A significant social media following (typically 10,000+ followers)</li>
+                    <li>High engagement rates with your audience</li>
+                    <li>Content focused on military, veteran, or related topics</li>
+                    <li>Demonstrated experience with content-driven marketing</li>
+                    <li>A track record of successful brand partnerships</li>
+                  </ul>
+                  <p class="mt-4 text-[#3a3a3a]">
+                    If you meet these criteria and are interested in higher exposure and additional benefits, please contact us at <a href="mailto:affiliates@militaryallies.com" class="text-[#6f0992] hover:text-[#6cd4ff] transition-colors duration-300">affiliates@militaryallies.com</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Panel 4: Technical -->
+          <div class="faq-panel hidden" id="panel-technical" role="tabpanel" aria-labelledby="tab-technical">
+            <div class="divide-y divide-[#e5e5e5]">
+              <!-- Question 1 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">How does the tracking system work?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a]">
+                    Our system uses cookie-based tracking to accurately attribute sales to your affiliate account. When someone clicks your unique affiliate link, a cookie is placed on their device that lasts for 30 days. If they make a purchase within that timeframe, you'll receive credit for the sale. The affiliate dashboard provides real-time tracking of clicks, conversions, and earnings.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Question 2 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">What marketing materials are provided?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a] mb-4">
+                    Upon approval, you'll receive access to a variety of marketing materials including:
+                  </p>
+                  <ul class="list-disc list-inside space-y-2 text-[#3a3a3a]">
+                    <li>Banner ads in various sizes</li>
+                    <li>Product images and descriptions</li>
+                    <li>Email templates</li>
+                    <li>Social media post templates</li>
+                    <li>Promotional copy and text links</li>
+                    <li>Video assets (for Ambassador Program)</li>
+                  </ul>
+                  <p class="mt-4 text-[#3a3a3a]">
+                    All materials are regularly updated to ensure they remain current and effective.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Question 3 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">What measures are in place to manage fraud and cancellations?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a]">
+                    We apply a 15-day hold period on all payouts to protect against fraud and to accommodate cancellations or refunds. This allows us to verify the legitimacy of sales and ensure that commissions are paid only on completed, non-refunded transactions. We also employ advanced monitoring systems to detect suspicious patterns and protect the integrity of our program.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Question 4 -->
+              <div class="faq-item">
+                <button class="faq-question w-full flex items-center justify-between p-6 text-left hover:bg-[#f9f9f9] transition-colors duration-200" aria-expanded="false">
+                  <h3 class="text-lg font-bold text-[#010839]">Is there a dashboard to track my performance?</h3>
+                  <span class="faq-icon ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-[#6f0992] flex items-center justify-center text-white transition-transform duration-300">
+                    <i class="fas fa-plus"></i>
+                  </span>
+                </button>
+                <div class="faq-answer hidden px-6 pb-6">
+                  <p class="text-[#3a3a3a]">
+                    Yes, upon approval, you'll receive access to a comprehensive affiliate dashboard where you can track clicks, conversions, earnings, and commission tier status in real-time. The dashboard also provides access to marketing materials, performance reports, and payment history. Ambassador Program members receive enhanced analytics with additional metrics and insights.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Still Have Questions -->
+      <div class="mt-16 bg-gradient-to-r from-[#010839] to-[#6f0992] rounded-xl p-8 shadow-xl max-w-4xl mx-auto text-white">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-2/3">
+            <h3 class="text-2xl font-bold mb-4 font-['Montserrat',_sans-serif]">Still Have Questions?</h3>
+            <p class="mb-6">
+              If you couldn't find the answer you were looking for, our dedicated affiliate support team is ready to help. Contact us directly and we'll respond promptly.
+            </p>
+            <a href="mailto:affiliates@militaryallies.com" class="inline-flex items-center px-6 py-3 bg-white text-[#010839] rounded-md font-bold hover:bg-[#ffa500] transition-colors duration-300">
+              <i class="fas fa-envelope mr-2"></i>
+              Contact Affiliate Support
+            </a>
+          </div>
+          <div class="md:w-1/3 mt-8 md:mt-0 flex justify-center">
+            <div class="w-32 h-32 bg-white rounded-full flex items-center justify-center">
+              <i class="fas fa-headset text-6xl text-[#6f0992]"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Apply Now -->
+      <div class="mt-16 text-center">
+        <h3 class="text-2xl font-bold mb-6 text-[#010839] font-['Montserrat',_sans-serif]">Ready to Join Our Affiliate Program?</h3>
+        <a href="https://www.militaryallies.com/affiliateapplication" class="inline-block px-10 py-5 bg-gradient-to-r from-[#bb0000] to-[#ffa500] rounded-lg text-white font-bold text-xl shadow-lg hover:shadow-[0_0_25px_rgba(255,165,0,0.5)] transition-all duration-300 transform hover:-translate-y-1 animate__animated animate__pulse animate__infinite animate__slow">
+          <i class="fas fa-rocket mr-2"></i>
+          Apply Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Tab functionality
+      const tabs = document.querySelectorAll('.faq-tab');
+      const panels = document.querySelectorAll('.faq-panel');
+      
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          // Deactivate all tabs
+          tabs.forEach(t => {
+            t.classList.remove('active');
+            t.classList.remove('bg-[#010839]');
+            t.classList.add('bg-[#e5e5e5]');
+            t.classList.remove('text-white');
+            t.classList.add('text-[#3a3a3a]');
+            t.setAttribute('aria-selected', 'false');
+          });
+          
+          // Activate clicked tab
+          tab.classList.add('active');
+          tab.classList.add('bg-[#010839]');
+          tab.classList.remove('bg-[#e5e5e5]');
+          tab.classList.add('text-white');
+          tab.classList.remove('text-[#3a3a3a]');
+          tab.setAttribute('aria-selected', 'true');
+          
+          // Hide all panels
+          panels.forEach(panel => {
+            panel.classList.add('hidden');
+            panel.classList.remove('active');
+          });
+          
+          // Show corresponding panel
+          const panelId = tab.getAttribute('aria-controls');
+          const activePanel = document.getElementById(panelId);
+          activePanel.classList.remove('hidden');
+          activePanel.classList.add('active');
+        });
+      });
+      
+      // Accordion functionality
+      const questionButtons = document.querySelectorAll('.faq-question');
+      
+      questionButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const answer = button.nextElementSibling;
+          const icon = button.querySelector('.faq-icon i');
+          const isExpanded = button.getAttribute('aria-expanded') === 'true';
+          
+          // Toggle current item
+          answer.classList.toggle('hidden');
+          button.setAttribute('aria-expanded', !isExpanded);
+          
+          if (isExpanded) {
+            icon.classList.remove('fa-minus');
+            icon.classList.add('fa-plus');
+            button.querySelector('.faq-icon').classList.remove('transform', 'rotate-45');
+          } else {
+            icon.classList.remove('fa-plus');
+            icon.classList.add('fa-minus');
+            button.querySelector('.faq-icon').classList.add('transform', 'rotate-45');
+          }
+          
+          // Close other items in the same panel
+          const panel = button.closest('.faq-panel');
+          const otherButtons = panel.querySelectorAll('.faq-question');
+          
+          otherButtons.forEach(otherButton => {
+            if (otherButton !== button) {
+              const otherAnswer = otherButton.nextElementSibling;
+              const otherIcon = otherButton.querySelector('.faq-icon i');
+              
+              otherAnswer.classList.add('hidden');
+              otherButton.setAttribute('aria-expanded', 'false');
+              otherIcon.classList.remove('fa-minus');
+              otherIcon.classList.add('fa-plus');
+              otherButton.querySelector('.faq-icon').classList.remove('transform', 'rotate-45');
+            }
+          });
+        });
+      });
+      
+      // Open first question in active panel by default
+      const activePanel = document.querySelector('.faq-panel.active');
+      if (activePanel) {
+        const firstQuestion = activePanel.querySelector('.faq-question');
+        if (firstQuestion) {
+          firstQuestion.click();
+        }
+      }
+    });
+  </script>
+</div>
+</section>
+<section id="section-8753d6f8-e471-4119-bd0d-cc14804ffb7a">
+<div id="root">
+  <section id="cta" class="py-20 bg-gradient-to-br from-[#010839] to-[#6f0992] text-white relative overflow-hidden">
+    <!-- Decorative elements -->
+    <div class="absolute top-0 right-0 w-96 h-96 bg-[#bb0000] opacity-10 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-64 h-64 bg-[#ffa500] opacity-10 rounded-full blur-3xl"></div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="max-w-5xl mx-auto">
+        <!-- Main CTA content -->
+        <div class="text-center mb-16 animate__animated animate__fadeIn">
+          <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-['Bebas_Neue',_sans-serif] text-transparent bg-clip-text bg-gradient-to-r from-white to-[#e5e5e5] drop-shadow-[0_2px_2px_rgba(255,165,0,0.3)]">
+            JOIN OUR AFFILIATE PROGRAM TODAY
+          </h2>
+          <div class="w-32 h-1 bg-[#ffa500] mx-auto mb-6"></div>
+          <p class="text-xl lg:text-2xl mb-10 max-w-3xl mx-auto font-['Montserrat',_sans-serif]">
+            Start earning competitive commissions while supporting the military community. Our tiered structure rewards your success and growth.
+          </p>
+        </div>
+        
+        <!-- Value proposition boxes -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+          <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm rounded-xl p-6 transform transition-all duration-300 hover:scale-105 hover:bg-opacity-15 border border-white border-opacity-10">
+            <div class="text-center">
+              <div class="w-16 h-16 bg-[#bb0000] rounded-full flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-dollar-sign text-2xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold mb-3 font-['Montserrat',_sans-serif]">Earn Up To 50%</h3>
+              <p>Generous commission structure that increases as you grow, rewarding your success.</p>
+            </div>
+          </div>
+          
+          <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm rounded-xl p-6 transform transition-all duration-300 hover:scale-105 hover:bg-opacity-15 border border-white border-opacity-10">
+            <div class="text-center">
+              <div class="w-16 h-16 bg-[#ffa500] rounded-full flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-calendar-check text-2xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold mb-3 font-['Montserrat',_sans-serif]">Monthly Payouts</h3>
+              <p>Reliable monthly payments with a low $20 minimum threshold.</p>
+            </div>
+          </div>
+          
+          <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm rounded-xl p-6 transform transition-all duration-300 hover:scale-105 hover:bg-opacity-15 border border-white border-opacity-10">
+            <div class="text-center">
+              <div class="w-16 h-16 bg-[#1f7b19] rounded-full flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-tools text-2xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold mb-3 font-['Montserrat',_sans-serif]">Complete Toolkit</h3>
+              <p>Access to marketing materials, tracking tools, and affiliate support.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Application container -->
+        <div class="bg-white text-[#3a3a3a] rounded-xl shadow-2xl overflow-hidden">
+          <div class="grid grid-cols-1 lg:grid-cols-2">
+            <!-- Left side - Testimonial -->
+            <div class="bg-gradient-to-br from-[#010839] to-[#6f0992] p-8 text-white">
+              <h3 class="text-2xl font-bold mb-6 font-['Playfair_Display',_serif]">Join Our Growing Network</h3>
+              
+              <div class="mb-8">
+                <div class="flex items-center mb-4">
+                  <div class="w-12 h-12 bg-[#ffa500] rounded-full flex items-center justify-center text-[#010839] mr-4">
+                    <i class="fas fa-user"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-bold">Amanda K.</h4>
+                    <p class="text-sm">Military Spouse &amp; Affiliate</p>
+                  </div>
+                </div>
+                <div class="bg-white bg-opacity-10 p-4 rounded-lg backdrop-filter backdrop-blur-sm border border-white border-opacity-10">
+                  <p class="italic mb-2">
+                    "Joining the Military Allies Affiliate Program has been incredibly rewarding. Not only am I earning a meaningful income, but I'm also helping connect the military community with valuable resources."
+                  </p>
+                  <div class="flex">
+                    <i class="fas fa-star text-[#ffa500]"></i>
+                    <i class="fas fa-star text-[#ffa500]"></i>
+                    <i class="fas fa-star text-[#ffa500]"></i>
+                    <i class="fas fa-star text-[#ffa500]"></i>
+                    <i class="fas fa-star text-[#ffa500]"></i>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="space-y-4">
+                <div class="flex items-center">
+                  <i class="fas fa-check-circle text-[#6cd4ff] mr-3"></i>
+                  <span>Quick application process</span>
+                </div>
+                <div class="flex items-center">
+                  <i class="fas fa-check-circle text-[#6cd4ff] mr-3"></i>
+                  <span>3-5 business day approval time</span>
+                </div>
+                <div class="flex items-center">
+                  <i class="fas fa-check-circle text-[#6cd4ff] mr-3"></i>
+                  <span>Dedicated support team</span>
+                </div>
+                <div class="flex items-center">
+                  <i class="fas fa-check-circle text-[#6cd4ff] mr-3"></i>
+                  <span>Comprehensive marketing resources</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Right side - CTA -->
+            <div class="p-8">
+              <h3 class="text-3xl font-bold mb-2 text-[#010839] font-['Montserrat',_sans-serif]">Apply Now</h3>
+              <p class="mb-6 text-[#3a3a3a]">Complete your application in just a few minutes. Our team will review it within 3-5 business days.</p>
+              
+              <div class="p-6 bg-[#f5f5f5] rounded-lg mb-6">
+                <h4 class="text-xl font-bold mb-4 text-[#010839]">Choose Your Path:</h4>
+                
+                <div class="space-y-4">
+                  <div class="bg-white p-4 rounded-lg border-l-4 border-[#bb0000] shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="flex items-center mb-2">
+                      <i class="fas fa-users text-[#bb0000] mr-2"></i>
+                      <h5 class="font-bold text-[#010839]">Standard Affiliate Program</h5>
+                    </div>
+                    <p class="text-sm text-[#3a3a3a] mb-2">For networked professionals, veterans, military spouses, and community members</p>
+                    <div class="flex justify-between">
+                      <span class="text-[#6f0992] font-bold">20% - 40% Commission</span>
+                      <a href="https://www.militaryallies.com/affiliateapplication" class="text-[#bb0000] hover:text-[#ffa500] font-bold transition-colors duration-300">Apply</a>
+                    </div>
+                  </div>
+                  
+                  <div class="bg-white p-4 rounded-lg border-l-4 border-[#6f0992] shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="flex items-center mb-2">
+                      <i class="fas fa-crown text-[#6f0992] mr-2"></i>
+                      <h5 class="font-bold text-[#010839]">Ambassador Program</h5>
+                      <span class="ml-2 px-2 py-1 bg-[#ffa500] text-xs text-white rounded">Invite Only</span>
+                    </div>
+                    <p class="text-sm text-[#3a3a3a] mb-2">For influencers and content creators with strong social media presence</p>
+                    <div class="flex justify-between">
+                      <span class="text-[#6f0992] font-bold">30% - 50% Commission</span>
+                      <a href="mailto:affiliates@militaryallies.com" class="text-[#6f0992] hover:text-[#6cd4ff] font-bold transition-colors duration-300">Inquire</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <a href="https://www.militaryallies.com/affiliateapplication" class="block w-full py-4 px-6 bg-gradient-to-r from-[#bb0000] to-[#ffa500] text-white text-center font-bold text-xl rounded-lg shadow-lg hover:shadow-[0_0_25px_rgba(255,165,0,0.5)] transition-all duration-300 transform hover:-translate-y-1 animate__animated animate__pulse animate__infinite animate__slow">
+                <i class="fas fa-rocket mr-2"></i>
+                Submit Your Application
+              </a>
+              
+              <p class="mt-4 text-sm text-center text-[#3a3a3a]">
+                By applying, you agree to our <a href="#" class="text-[#6f0992] hover:text-[#6cd4ff] transition-colors duration-300">Terms &amp; Conditions</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Additional info -->
+        <div class="mt-16 bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm rounded-lg p-6 border border-white border-opacity-10">
+          <div class="text-center">
+            <h3 class="text-2xl font-bold mb-4 font-['Montserrat',_sans-serif]">Questions About Our Affiliate Program?</h3>
+            <p class="mb-6">Our team is ready to help you with any inquiries you might have.</p>
+            <a href="mailto:affiliates@militaryallies.com" class="inline-flex items-center px-6 py-3 bg-white text-[#010839] hover:bg-[#6cd4ff] rounded-md font-bold transition-colors duration-300">
+              <i class="fas fa-envelope mr-2"></i>
+              Contact Us Today
+            </a>
+          </div>
+        </div>
+        
+        <!-- Stats counter -->
+        <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+          <div class="p-6 bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm rounded-lg border border-white border-opacity-10">
+            <div>
+              <h4 class="text-3xl md:text-4xl font-bold mb-2 font-['Bebas_Neue',_sans-serif] text-[#ffa500]" id="affiliateCount">500+</h4>
+              <p>Active Affiliates</p>
+            </div>
+          </div>
+          
+          <div class="p-6 bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm rounded-lg border border-white border-opacity-10">
+            <div>
+              <h4 class="text-3xl md:text-4xl font-bold mb-2 font-['Bebas_Neue',_sans-serif] text-[#ffa500]" id="commissionValue">$100K+</h4>
+              <p>Commissions Paid</p>
+            </div>
+          </div>
+          
+          <div class="p-6 bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm rounded-lg border border-white border-opacity-10">
+            <div>
+              <h4 class="text-3xl md:text-4xl font-bold mb-2 font-['Bebas_Neue',_sans-serif] text-[#ffa500]" id="approvalRate">95%</h4>
+              <p>Application Approval Rate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer wave -->
+    <div class="absolute bottom-0 left-0 w-full">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" class="w-full h-auto">
+        <path fill="#f5f5f5" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,53.3C384,53,480,43,576,42.7C672,43,768,53,864,58.7C960,64,1056,64,1152,58.7C1248,53,1344,43,1392,37.3L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Simple counter animation for statistics
+      function animateCounter(elementId, targetValue) {
+        const element = document.getElementById(elementId);
+        if (!element) return;
+        
+        let prefix = '';
+        let suffix = '';
+        
+        if (elementId === 'commissionValue') {
+          prefix = '$';
+          suffix = 'K+';
+        } else if (elementId === 'approvalRate') {
+          suffix = '%';
+        } else if (elementId === 'affiliateCount') {
+          suffix = '+';
+        }
+        
+        const duration = 2000; // ms
+        const frameRate = 60;
+        const frames = duration / 1000 * frameRate;
+        
+        let value = 0;
+        const increment = targetValue / frames;
+        
+        const counter = setInterval(() => {
+          value += increment;
+          if (value >= targetValue) {
+            value = targetValue;
+            clearInterval(counter);
+          }
+          
+          // Format based on which counter we're updating
+          let displayValue;
+          if (elementId === 'approvalRate') {
+            displayValue = Math.floor(value);
+          } else {
+            displayValue = Math.floor(value);
+          }
+          
+          element.textContent = prefix + displayValue + suffix;
+        }, duration / frames);
+      }
+      
+      // Function to check if element is in viewport
+      function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+      
+      // Animate counters when they come into view
+      const counterElements = ['affiliateCount', 'commissionValue', 'approvalRate'];
+      const targetValues = [500, 100, 95];
+      
+      function checkCounters() {
+        counterElements.forEach((id, index) => {
+          const element = document.getElementById(id);
+          if (element && isInViewport(element) && !element.classList.contains('animated')) {
+            element.classList.add('animated');
+            animateCounter(id, targetValues[index]);
+          }
+        });
+      }
+      
+      // Initial check
+      checkCounters();
+      
+      // Check when scrolling
+      window.addEventListener('scroll', checkCounters);
+      
+      // Handle accessibility preference for reduced motion
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      if (prefersReducedMotion.matches) {
+        // Immediately set values without animation for users who prefer reduced motion
+        counterElements.forEach((id, index) => {
+          const element = document.getElementById(id);
+          if (element) {
+            let prefix = id === 'commissionValue' ? '$' : '';
+            let suffix = id === 'commissionValue' ? 'K+' : (id === 'approvalRate' ? '%' : '+');
+            element.textContent = prefix + targetValues[index] + suffix;
+          }
+        });
+      }
+    });
+  </script>
+</div>
+</section>
+<section id="section-93ec4b88-fff3-47ae-bae5-af3cac6b8cd7">
+<div id="root">
+  <section id="footer" class="bg-[#010839] text-white pt-16 pb-8">
+    <div class="container mx-auto px-4">
+      <!-- Footer Top Section -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <!-- Column 1: Logo and Description -->
+        <div>
+          <div class="mb-6">
+            <img src="https://www.militaryallies.com/images/W---Full-Color-Logo-4.png" alt="Military Allies Logo" class="h-16 w-auto mb-4">
+            <p class="text-[#e5e5e5] text-sm">
+              Military Allies is dedicated to serving the military community by providing valuable resources and connections while empowering our affiliates to earn meaningful income.
+            </p>
+          </div>
+          <div class="flex space-x-4">
+            <a href="#" aria-label="Facebook" class="w-8 h-8 rounded-full bg-white bg-opacity-10 flex items-center justify-center hover:bg-[#6cd4ff] transition-colors duration-300">
+              <img src="https://uploads.commoninja.com/others/Facebook.svg" alt="Facebook" class="w-4 h-4">
+            </a>
+            <a href="#" aria-label="Instagram" class="w-8 h-8 rounded-full bg-white bg-opacity-10 flex items-center justify-center hover:bg-[#6cd4ff] transition-colors duration-300">
+              <img src="https://uploads.commoninja.com/others/Instagram.svg" alt="Instagram" class="w-4 h-4">
+            </a>
+            <a href="#" aria-label="LinkedIn" class="w-8 h-8 rounded-full bg-white bg-opacity-10 flex items-center justify-center hover:bg-[#6cd4ff] transition-colors duration-300">
+              <img src="https://website-assets.commoninja.com/distribution/1685283924026_linkedin-icon.svg" alt="LinkedIn" class="w-4 h-4">
+            </a>
+            <a href="#" aria-label="YouTube" class="w-8 h-8 rounded-full bg-white bg-opacity-10 flex items-center justify-center hover:bg-[#6cd4ff] transition-colors duration-300">
+              <img src="https://uploads.commoninja.com/others/Youtube.svg" alt="YouTube" class="w-4 h-4">
+            </a>
+          </div>
+        </div>
+        
+        <!-- Column 2: Quick Links -->
+        <div>
+          <h3 class="text-xl font-bold mb-4 text-white">Program Links</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="#program-overview" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300 flex items-center">
+                <i class="fas fa-chevron-right text-xs mr-2 text-[#bb0000]"></i>
+                Program Overview
+              </a>
+            </li>
+            <li>
+              <a href="#commission-structure" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300 flex items-center">
+                <i class="fas fa-chevron-right text-xs mr-2 text-[#bb0000]"></i>
+                Commission Structure
+              </a>
+            </li>
+            <li>
+              <a href="#benefits" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300 flex items-center">
+                <i class="fas fa-chevron-right text-xs mr-2 text-[#bb0000]"></i>
+                Program Benefits
+              </a>
+            </li>
+            <li>
+              <a href="#how-it-works" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300 flex items-center">
+                <i class="fas fa-chevron-right text-xs mr-2 text-[#bb0000]"></i>
+                How It Works
+              </a>
+            </li>
+            <li>
+              <a href="#eligibility" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300 flex items-center">
+                <i class="fas fa-chevron-right text-xs mr-2 text-[#bb0000]"></i>
+                Eligibility Requirements
+              </a>
+            </li>
+            <li>
+              <a href="#code-of-conduct" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300 flex items-center">
+                <i class="fas fa-chevron-right text-xs mr-2 text-[#bb0000]"></i>
+                Code of Conduct
+              </a>
+            </li>
+            <li>
+              <a href="#faq" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300 flex items-center">
+                <i class="fas fa-chevron-right text-xs mr-2 text-[#bb0000]"></i>
+                Frequently Asked Questions
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Column 3: Useful Resources -->
+        <div>
+          <h3 class="text-xl font-bold mb-4 text-white">Resources</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="#" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300 flex items-center">
+                <i class="fas fa-file-alt text-xs mr-2 text-[#ffa500]"></i>
+                Affiliate Terms &amp; Conditions
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300 flex items-center">
+                <i class="fas fa-file-alt text-xs mr-2 text-[#ffa500]"></i>
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300 flex items-center">
+                <i class="fas fa-file-alt text-xs mr-2 text-[#ffa500]"></i>
+                Marketing Guidelines
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300 flex items-center">
+                <i class="fas fa-file-alt text-xs mr-2 text-[#ffa500]"></i>
+                FTC Disclosure Requirements
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300 flex items-center">
+                <i class="fas fa-file-alt text-xs mr-2 text-[#ffa500]"></i>
+                Affiliate Login
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Column 4: Contact Info -->
+        <div>
+          <h3 class="text-xl font-bold mb-4 text-white">Contact Us</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <div class="mt-1 mr-3 w-6 h-6 rounded-full bg-[#6f0992] flex items-center justify-center flex-shrink-0">
+                <img src="https://uploads.commoninja.com/others/Email.svg" alt="Email" class="w-3 h-3">
+              </div>
+              <div>
+                <p class="font-bold text-white">Email:</p>
+                <a href="mailto:affiliates@militaryallies.com" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300">affiliates@militaryallies.com</a>
+              </div>
+            </li>
+            <li class="flex items-start">
+              <div class="mt-1 mr-3 w-6 h-6 rounded-full bg-[#6f0992] flex items-center justify-center flex-shrink-0">
+                <i class="fas fa-globe text-white text-xs"></i>
+              </div>
+              <div>
+                <p class="font-bold text-white">Website:</p>
+                <a href="https://www.militaryallies.com" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300">www.militaryallies.com</a>
+              </div>
+            </li>
+            <li class="flex items-start">
+              <div class="mt-1 mr-3 w-6 h-6 rounded-full bg-[#6f0992] flex items-center justify-center flex-shrink-0">
+                <i class="fas fa-clock text-white text-xs"></i>
+              </div>
+              <div>
+                <p class="font-bold text-white">Support Hours:</p>
+                <p class="text-[#e5e5e5]">Monday-Friday: 9AM-5PM EST</p>
+              </div>
+            </li>
+          </ul>
+          
+          <div class="mt-6">
+            <a href="#cta" class="inline-block px-5 py-2 bg-gradient-to-r from-[#bb0000] to-[#ffa500] text-white rounded-md font-bold hover:shadow-lg transition-all duration-300">
+              Apply Now
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Newsletter Signup -->
+      <div class="bg-gradient-to-r from-[#010839] to-[#6f0992] p-6 rounded-lg mb-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+          <div class="md:col-span-1">
+            <h3 class="text-xl font-bold text-white">Stay Updated</h3>
+            <p class="text-[#e5e5e5] text-sm">Subscribe to our affiliate newsletter for program updates, tips, and exclusive offers.</p>
+          </div>
+          <div class="md:col-span-2 flex flex-col sm:flex-row gap-3">
+            <span class="flex-grow relative">
+              <i class="fas fa-envelope absolute left-3 top-1/2 transform -translate-y-1/2 text-[#3a3a3a]"></i>
+              <input type="email" placeholder="Your email address" aria-label="Email for newsletter" class="w-full px-10 py-2 rounded-md text-[#3a3a3a] focus:outline-none focus:ring-2 focus:ring-[#6cd4ff]">
+            </span>
+            <button type="button" class="px-6 py-2 bg-[#ffa500] hover:bg-[#ff8c00] text-white font-bold rounded-md transition-colors duration-300 whitespace-nowrap">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Bottom Footer -->
+      <div class="border-t border-[#6f0992] pt-8">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <!-- Copyright -->
+          <div class="text-[#e5e5e5] text-sm mb-4 md:mb-0">
+            © 2023 Military Allies. All rights reserved.
+          </div>
+          
+          <!-- Bottom Links -->
+          <div class="flex flex-wrap justify-center gap-4 text-sm">
+            {{#each footerNav}}
+              <a href="{{this.link}}" class="text-[#e5e5e5] hover:text-[#6cd4ff] transition-colors duration-300">{{this.label}}</a>
+            {{/each}}
+          </div>
+        </div>
+        
+        <div class="mt-6 text-xs text-center text-[#e5e5e5] max-w-4xl mx-auto">
+          <p class="mb-2">
+            Military Allies is not affiliated with the Department of Defense or any government agency. This is not an official military website.
+          </p>
+          <p>
+            The Military Allies Affiliate Program is subject to our terms and conditions. Commission rates and program details may change. Please refer to the current program agreement for the most up-to-date information.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Back to top button -->
+    <button id="backToTop" aria-label="Back to top" class="fixed bottom-8 right-8 bg-[#bb0000] hover:bg-[#ffa500] text-white w-10 h-10 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 opacity-0 invisible">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const backToTopButton = document.getElementById('backToTop');
+      
+      // Show/hide back to top button based on scroll position
+      window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 300) {
+          backToTopButton.classList.remove('opacity-0', 'invisible');
+          backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+          backToTopButton.classList.remove('opacity-100', 'visible');
+          backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+      });
+      
+      // Scroll to top when button is clicked
+      backToTopButton.addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+      
+      // Handle newsletter form submission (prevent default for demo)
+      const newsletterForm = document.querySelector('input[type="email"]').closest('div').parentElement;
+      const subscribeButton = newsletterForm.querySelector('button');
+      
+      subscribeButton.addEventListener('click', function(e) {
+        e.preventDefault();
+        const emailInput = newsletterForm.querySelector('input[type="email"]');
+        
+        if (emailInput.value.trim() !== '' && isValidEmail(emailInput.value)) {
+          // Just for demo - in real implementation, you would send this to your backend
+          alert('Thank you for subscribing to our newsletter!');
+          emailInput.value = '';
+        } else {
+          alert('Please enter a valid email address.');
+          emailInput.focus();
+        }
+      });
+      
+      // Simple email validation
+      function isValidEmail(email) {
+        const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
+      }
+      
+      // Check for reduced motion preference
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      if (prefersReducedMotion.matches) {
+        // Use instant scrolling instead of smooth for users who prefer reduced motion
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+              // Use instant scroll instead of smooth
+              window.scrollTo(0, targetElement.offsetTop);
+            }
+          });
+        });
+      }
+    });
+  </script>
+</div>
+</section>
+          </div>
+        </body>
+      </html>
+    
