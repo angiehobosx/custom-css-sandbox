@@ -1,0 +1,44 @@
+<!-- Affiliate tracker script: tracks affiliate data asynchronously -->
+<script
+  src="https://pushlapgrowth.com/affiliate-tracker.js"
+  data-affiliate
+  data-program-id="c13c73fe-e93d-4d25-9291-8d2cf7b3f307"
+  async>
+</script>
+
+<!-- Font Awesome (keep only ONE version) - here we keep v6.4.2 -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+<!-- Tailwind CSS via CDN (not recommended for production, but if you can’t compile, use this) -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Animate.css library for adding animations -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+<!-- Swiper.js: styles and script for slider functionality -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Alpine.js for lightweight reactive components (loaded with defer for non-blocking) -->
+<script
+  src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js"
+  defer>
+</script>
+
+
+<!-- jQuery UI CSS -->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<!-- jQuery UI JS -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+
+<!-- Fix for "global is not defined" error (twemoji or other scripts may expect 'global') -->
+<script>
+  window.global = window;
+</script>

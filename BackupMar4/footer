@@ -1,0 +1,30 @@
+<!-- Load Common Ninja SDK -->
+<script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+<!-- This script loads the Common Ninja SDK, used for embedding Common Ninja components -->
+
+<!-- Common Ninja Component -->
+<div class="commonninja_component pid-678beaf3-a8df-48bb-9242-fd4035491feb"></div>
+
+<!-- Twemoji: load once, parse after DOM load -->
+<script
+  src="https://cdn.jsdelivr.net/npm/twemoji@latest/dist/twemoji.min.js"
+  crossorigin="anonymous">
+</script>
+<script>
+  // Wait for the DOM to be fully loaded before parsing emojis
+  document.addEventListener("DOMContentLoaded", function () {
+    twemoji.parse(document.body, { folder: "svg", ext: ".svg" });
+  });
+
+  // Function to check if the browser supports native emoji rendering
+  function supportsEmoji() {
+    const ctx = document.createElement("canvas").getContext("2d");
+    ctx.font = "32px Arial";
+    ctx.fillText("?", 0, 32);
+    return ctx.getImageData(0, 0, 32, 32).data.some(channel => channel !== 0);
+  }
+
+  // If the browser does not support emojis, apply a fallback font
+  if (!supportsEmoji()) {
+    document.body.style.fontFamily = '"Noto Color Emoji", "Twemoji", sans-serif';
+  } </script>
